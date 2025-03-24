@@ -1,6 +1,7 @@
 package com.xworkz.Today.Methods;
 
 public class Mango {
+    mango();
 
     void yellow(){
 

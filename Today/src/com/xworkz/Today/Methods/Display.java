@@ -10,7 +10,7 @@ public class Display {
 
         System.out.println("The is class display");
     }
-
+//constructor
     public Display() {
         System.out.println("Default constructor");
     }
