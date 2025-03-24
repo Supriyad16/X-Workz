@@ -1,7 +1,7 @@
 package xworkz.Friday;
 
 
-import com.xworkz.Assign.Personnel;
+import xworkz.Assign.Personnel;
 
 public class Security {
     String securityType;

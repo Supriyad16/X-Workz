@@ -1,6 +1,7 @@
 package xworkz.Friday;
 
-import com.xworkz.Assign.Room;
+
+import xworkz.Assign.Room;
 
 public class House {
     String houseName;
