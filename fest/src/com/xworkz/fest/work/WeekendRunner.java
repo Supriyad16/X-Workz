@@ -12,10 +12,10 @@ public class WeekendRunner {
 
 
         Movies movies = new Movies();
-        movies.watchMovie();
-        movies.eatPopcorn();
-        movies.reviewMovie();
-        movies.buyTickets();
-        movies.inviteFriends();
+        movies.relax();
+        movies.goOut();
+        movies.sleepMore();
+        movies.playSports();
+        movies.relax();
     }
 }

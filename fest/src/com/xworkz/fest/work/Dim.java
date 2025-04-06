@@ -6,23 +6,28 @@ class Dim extends Bulb {
         System.out.println("Dim class");
     }
 
-    public void reduceBrightness() {
-        System.out.println("A dim bulb reduces its brightness.");
+    @Override
+    public void light() {
+        System.out.println("The bulb produces.");
     }
 
-    public void savesEnergy() {
-        System.out.println("Dim lighting helps save energy consumption.");
+    @Override
+    public void consumeElectricity() {
+        System.out.println("Bulbs consume electricity.");
     }
 
-    public void createsSoftAmbiance() {
-        System.out.println("Dim lighting creates a soft and cozy ambiance.");
+    @Override
+    public void colours() {
+        System.out.println("Bulbs are available in different colours.");
     }
 
-    public void usedForDecorativePurposes() {
-        System.out.println("Dim lights are often used for decorative purposes.");
+    @Override
+    public void shapes() {
+        System.out.println("Bulbs are available in different types.");
     }
 
-    public void preferredForRelaxation() {
-        System.out.println("Dim lighting is preferred for relaxation and sleep.");
+    @Override
+    public void brightness() {
+        System.out.println("Bulbs have different brightness levels..");
     }
 }

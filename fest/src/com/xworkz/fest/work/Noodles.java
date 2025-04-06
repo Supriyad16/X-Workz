@@ -6,23 +6,28 @@ class Noodles extends Chinese {
         System.out.println("Noodles class");
     }
 
-    public void madeFromWheatOrRice() {
-        System.out.println("Noodles can be made from wheat or rice flour.");
+    @Override
+    public void popularCuisine() {
+        System.out.println("Chinese cuisine is cuisines.");
     }
 
-    public void cookedInDifferentWays() {
-        System.out.println("Noodles can be stir-fried, boiled, or served in soup.");
+    @Override
+    public void richInFlavors() {
+        System.out.println("Chinese food is known for its rich flavors.");
     }
 
-    public void servedWithVegetablesOrMeat() {
-        System.out.println("Noodles are often served with vegetables, chicken, or seafood.");
+    @Override
+    public void chopsticks() {
+        System.out.println("Noodles eaten using chopsticks.");
     }
 
-    public void availableInDifferentTypes() {
-        System.out.println("There are different types of noodles like ramen, chow mein, and udon.");
+    @Override
+    public void varietyOfDishes() {
+        System.out.println("Chinese cuisine includes a variety of dishes.");
     }
 
-    public void widelyLoved() {
-        System.out.println("Noodles are loved by people of all ages around the world.");
+    @Override
+    public void spices() {
+        System.out.println("Chinese food often includes a mix of spices.");
     }
 }

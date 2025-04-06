@@ -11,14 +11,12 @@ public class ApplianceRunner {
         appliance.warranty();
         appliance.maintenance();
 
-
-
         WashingMachine washingMachine = new WashingMachine();
-        washingMachine.washClothes();
-        washingMachine.rinse();
-        washingMachine.spinDry();
-        washingMachine.detergentUsage();
-        washingMachine.setTimer();
+        washingMachine.turnOff();
+        washingMachine.turnOff();
+        washingMachine.consumePower();
+        washingMachine.warranty();
+        washingMachine.maintenance();
     }
 }
 

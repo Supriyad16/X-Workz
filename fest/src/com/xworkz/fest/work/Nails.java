@@ -6,23 +6,28 @@ class Nails extends Finger {
         System.out.println("Nails class");
     }
 
-    public void protectFingers() {
-        System.out.println("Nails protect the fingertips.");
+    @Override
+    public void hold() {
+        System.out.println("Fingers help to hold objects.");
     }
 
-    public void canBeColored() {
-        System.out.println("Nails can be colored using nail polish.");
+    @Override
+    public void type() {
+        System.out.println("Fingers are used to type");
     }
 
-    public void growOverTime() {
-        System.out.println("Nails grow over time and need trimming.");
+    @Override
+    public void touch() {
+        System.out.println("Fingers helps to sense tke object.");
     }
 
-    public void addBeauty() {
-        System.out.println("Well-maintained nails enhance beauty.");
+    @Override
+    public void write() {
+        System.out.println("Fingers assist in writing.");
     }
 
-    public void madeOfKeratin() {
-        System.out.println("Nails are made of a protein called keratin.");
+    @Override
+    public void gesture() {
+        System.out.println("Fingers are used to create hand gestures.");
     }
 }

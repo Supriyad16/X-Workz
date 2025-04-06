@@ -7,22 +7,23 @@ public class Book {
     }
 
     public void read() {
-        System.out.println("Reading a book");
+        System.out.println("Reading a book.");
     }
 
     public void open() {
-        System.out.println("Opening a book");
+        System.out.println("Opening a book.");
     }
 
     public void close() {
-        System.out.println("Closing a book");
+        System.out.println("Closing a book.");
     }
 
     public void bookmark() {
-        System.out.println("Bookmarking a page");
+        System.out.println("Bookmarking a page.");
     }
 
     public void turnPage() {
-        System.out.println("Turning a page");
+        System.out.println("Turning a page.");
     }
+
 }

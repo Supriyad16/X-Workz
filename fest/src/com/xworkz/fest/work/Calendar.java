@@ -5,23 +5,23 @@ class Calendar {
         System.out.println("Calendar class");
     }
 
-    public void showMonth() {
+    public void month() {
         System.out.println("Displaying the current month.");
     }
 
-    public void showYear() {
+    public void year() {
         System.out.println("Displaying the current year.");
     }
 
-    public void markHoliday() {
+    public void holiday() {
         System.out.println("Marking a holiday on the calendar.");
     }
 
-    public void checkLeapYear() {
+    public void leapYear() {
         System.out.println("Checking if the year is a leap year.");
     }
 
-    public void displayWeekDays() {
+    public void weekDays() {
         System.out.println("Displaying the days of the week.");
     }
 }

@@ -4,21 +4,19 @@ public class TimeRunner {
 
     public static void main(String[] args) {
 
-        Time timeMachine = new Watch();
-        timeMachine.travelToPast();
-        timeMachine.travelToFuture();
-        timeMachine.createTimeParadox();
-        timeMachine.meetHistoricalFigures();
-        timeMachine.breakLawsOfPhysics();
-
-
+        Time time = new Watch();
+        time.travelToPast();
+        time.travelToFuture();
+        time.createTimeParadox();
+        time.countDown();
+        time.seconds();
 
         Watch watch = new Watch();
-        watch.seeTheEndOfTheUniverse();
-        watch.glitchInTime();
-        watch.duplicateYourself();
-        watch.fixBrokenTimeline();
-        watch.talkToYourFutureSelf();
+        watch.travelToFuture();
+        watch.travelToPast();
+        watch.countDown();
+        watch.createTimeParadox();
+        watch.seconds();
     }
 }
 

@@ -6,23 +6,29 @@ class Pillow extends Bed {
         System.out.println("Pillow class");
     }
 
-    public void providesNeckSupport() {
-        System.out.println("Pillows provide support to the neck while sleeping.");
+    @Override
+    public void comfort() {
+        System.out.println("The bed provides comfort.");
     }
 
-    public void availableInDifferentMaterials() {
-        System.out.println("Pillows are made of cotton, foam, or memory foam.");
+    @Override
+    public void differentSizes() {
+        System.out.println("Beds come in different sizes.");
     }
 
-    public void improvesSleepQuality() {
-        System.out.println("Using the right pillow improves sleep quality.");
+    @Override
+    public void differentMaterials() {
+        System.out.println("Beds can be made of differentMaterials.");
     }
 
-    public void comesInVariousShapes() {
-        System.out.println("Pillows come in various shapes like square, rectangular, and cylindrical.");
+    @Override
+    public void sleep() {
+        System.out.println("A good bed supports body posture.");
     }
 
-    public void usedForDecoration() {
-        System.out.println("Decorative pillows enhance the beauty of a bed and sofa.");
+    @Override
+    public void study() {
+        System.out.println("Study on bed.");
     }
+
 }

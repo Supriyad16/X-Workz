@@ -25,6 +25,7 @@ class Advertisement {
     public void publishAd() {
         System.out.println("Publishing the advertisement.");
     }
+
 }
 
 

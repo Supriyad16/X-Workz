@@ -10,19 +10,19 @@ class Freedom {
         System.out.println("Freedom allows people to exercise their rights and express opinions.");
     }
 
-    public void ensuresEquality() {
+    public void equality() {
         System.out.println("Freedom ensures equality among people regardless of their background.");
     }
 
-    public void bringsIndependence() {
+    public void independence() {
         System.out.println("Freedom leads to the independence of a country or an individual.");
     }
 
-    public void promotesDemocracy() {
+    public void democracy() {
         System.out.println("Freedom plays a vital role in the functioning of a democratic society.");
     }
 
-    public void encouragesDevelopment() {
+    public void development() {
         System.out.println("Freedom fosters creativity, innovation, and economic growth.");
     }
 }

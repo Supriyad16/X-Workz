@@ -12,10 +12,10 @@ public class TwoWheelerRunner {
 
 
         Bike bike = new Bike();
-        bike.twoWheels();
-        bike.handlebar();
-        bike.kickStart();
-        bike.fuelEfficiency();
-        bike.lightweight();
+        bike.start();
+        bike.stop();
+        bike.fuel();
+        bike.horn();
+        bike.accelerate();
     }
 }

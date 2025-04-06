@@ -18,7 +18,7 @@ public class Game {
         System.out.println("Game allows scoring points");
     }
 
-    public void setDifficulty() {
+    public void difficulty() {
         System.out.println("Game has difficulty settings");
     }
 

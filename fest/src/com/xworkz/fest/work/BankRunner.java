@@ -2,7 +2,6 @@ package com.xworkz.fest.work;
 
 public class BankRunner {
 
-
     public static void main(String[] args) {
 
         Bank bank = new SavingsAccount();
@@ -12,15 +11,13 @@ public class BankRunner {
         bank.provideLoan();
         bank.generateStatement();
 
-
-
         SavingsAccount savingsAccount = new SavingsAccount();
-        savingsAccount.earnInterest();
-        savingsAccount.maintainMinimumBalance();
-        savingsAccount.withdrawLimit();
-        savingsAccount.onlineBanking();
-        savingsAccount.issueDebitCard();
+        savingsAccount.openAccount();
+        savingsAccount.depositMoney();
+        savingsAccount.withdrawMoney();
+        savingsAccount.provideLoan();
+        savingsAccount.generateStatement();
+
     }
 
 }
-

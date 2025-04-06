@@ -10,7 +10,7 @@ class Nylon {
         System.out.println("Nylon is a synthetic fiber made from petrochemicals.");
     }
 
-    public void strongAndDurable() {
+    public void durable() {
         System.out.println("Nylon is known for its strength and durability.");
     }
 
@@ -25,6 +25,7 @@ class Nylon {
     public void widelyUsedInTextiles() {
         System.out.println("Nylon is widely used in the textile industry for making clothing and accessories.");
     }
+
 }
 
 

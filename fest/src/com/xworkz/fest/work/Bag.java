@@ -25,6 +25,7 @@ class Bag {
     public void adjustStrap() {
         System.out.println("Adjusting the bag strap.");
     }
+
 }
 
 

@@ -6,23 +6,23 @@ class Classroom {
         System.out.println("Classroom class");
     }
 
-    public void placeForLearning() {
+    public void learning() {
         System.out.println("Classroom is a place where students learn.");
     }
 
-    public void hasBlackboardOrWhiteboard() {
+    public void blackboard() {
         System.out.println("Classroom has a blackboard or whiteboard for teaching.");
     }
 
-    public void containsBenchesAndChairs() {
+    public void benches() {
         System.out.println("Classroom contains benches and chairs for students.");
     }
 
-    public void hasTeachersAndStudents() {
+    public void teacher() {
         System.out.println("Classroom has teachers and students engaging in learning activities.");
     }
 
-    public void providesEducation() {
+    public void student() {
         System.out.println("Classroom provides education and knowledge.");
     }
 }

@@ -3,19 +3,18 @@ package com.xworkz.fest.work;
 public class EmojiRunner {
     public static void main(String[] args) {
 
-
         Emoji emoji = new Smile();
-        emoji.expressEmotion();
+        emoji.emotion();
         emoji.usedInChats();
-        emoji.availableInDifferentTypes();
-        emoji.enhanceTextCommunication();
+        emoji.differentTypes();
+        emoji.communication();
         emoji.universalLanguage();
 
         Smile smile = new Smile();
-        smile.representsHappiness();
-        smile.spreadsPositivity();
-        smile.commonlyUsed();
-        smile.usedToShowFriendliness();
-        smile.makesMessagesLighter();
+        smile.emotion();
+        smile.universalLanguage();
+        smile.usedInChats();
+        smile.communication();
+        smile.universalLanguage();
     }
 }

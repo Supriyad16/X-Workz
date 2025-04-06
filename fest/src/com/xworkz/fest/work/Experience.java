@@ -7,24 +7,30 @@ public class Experience extends Company {
         super();
         System.out.println("Gaining work experience");
     }
-    public void learning() {
 
-        System.out.println("Learning new technologies");
+    @Override
+    public void work() {
+        System.out.println("Employees work daily for experience.");
     }
-    public void challenges() {
 
-        System.out.println("Facing workplace challenges");
+    @Override
+    public void meeting() {
+        System.out.println("Meetings are scheduled.");
     }
-    public void teamwork() {
 
-        System.out.println("Collaborating with teams");
+    @Override
+    public void projects() {
+        System.out.println("Done various projects.");
     }
-    public void promotions() {
 
-        System.out.println("Getting promoted based on experience");
+    @Override
+    public void salary() {
+        System.out.println("Employees receive salaries.");
     }
-    public void networking() {
 
-        System.out.println("Building professional network");
+    @Override
+    public void benefits() {
+        System.out.println("Company provides benefits.");
     }
+
 }

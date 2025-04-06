@@ -25,6 +25,7 @@ class Holiday {
     public void happy() {
         System.out.println("Spending time with family and friends.");
     }
+
 }
 
 

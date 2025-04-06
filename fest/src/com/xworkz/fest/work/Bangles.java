@@ -6,24 +6,24 @@ class Bangles extends Jewels {
         System.out.println("Bangles class");
     }
 
-    public void wornOnWrist() {
-        System.out.println("Bangles are worn on the wrist.");
+    public void shine() {
+        System.out.println("Some Jewels not shine brightly.");
     }
 
-    public void comeInPairs() {
-        System.out.println("Bangles are often worn in pairs.");
+    public void madeOfGold() {
+        System.out.println("Jewels are often made of silver.");
     }
 
-    public void madeOfDifferentMaterials() {
-        System.out.println("Bangles can be made of glass, metal, or plastic.");
+    public void enhanceBeauty() {
+        System.out.println("Jewels enhance the beauty.");
     }
 
-    public void usedInTraditions() {
-        System.out.println("Bangles hold cultural and traditional significance.");
+    public void symbolizeStatus() {
+        System.out.println("Jewels can symbolize wealth .");
     }
 
-    public void availableInVariousDesigns() {
-        System.out.println("Bangles are available in different designs.");
+    public void giftedOnOccasions() {
+        System.out.println("Jewels are gifted on weddings.");
     }
 }
 

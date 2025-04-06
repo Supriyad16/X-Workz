@@ -6,23 +6,28 @@ class Bench extends Classroom {
         System.out.println("Bench class");
     }
 
-    public void usedForSitting() {
-        System.out.println("Bench is used for sitting.");
+    @Override
+    public void learning() {
+        System.out.println("Learning hub.");
     }
 
-    public void madeOfWoodOrMetal() {
-        System.out.println("Benches are made of wood or metal.");
+    @Override
+    public void blackboard() {
+        System.out.println("Now a days they use projector.");
     }
 
-    public void accommodatesMultiplePeople() {
-        System.out.println("Benches can accommodate multiple students.");
+    @Override
+    public void benches() {
+        System.out.println("Classroom contains benches for students.");
     }
 
-    public void foundInClassrooms() {
-        System.out.println("Benches are commonly found in classrooms.");
+    @Override
+    public void teacher() {
+        System.out.println("Classroom has teachers .");
     }
 
-    public void providesComfort() {
-        System.out.println("Benches provide comfort for students to sit and study.");
+    @Override
+    public void student() {
+        System.out.println("Classroom provides education and knowledge for students.");
     }
 }

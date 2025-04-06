@@ -5,19 +5,17 @@ public class ResortRunner {
     public static void main(String[] args) {
 
         Resort resort = new Vacation();
-
         resort.bookRoom();
         resort.checkIn();
         resort.checkOut();
         resort.enjoyFacilities();
-        resort.bookRoom();
+        resort.orderFood();
 
         Vacation vacation = new Vacation();
-
-        vacation.activities();
-        vacation.holiday();
-        vacation.relax();
-        vacation.trip();
-        vacation.tourists();
+        vacation.bookRoom();
+        vacation.checkIn();
+        vacation.checkOut();
+        vacation.enjoyFacilities();
+        vacation.orderFood();
     }
 }

@@ -12,11 +12,11 @@ class Wood {
         System.out.println("Wood is a strong and durable material.");
     }
 
-    public void usedForFurniture() {
+    public void furniture() {
         System.out.println("Wood is widely used for making furniture.");
     }
 
-    public void comesInDifferentTypes() {
+    public void types() {
         System.out.println("Wood comes in different types like teak, oak, and pine.");
     }
 
@@ -24,7 +24,7 @@ class Wood {
         System.out.println("Wood is a natural resource obtained from trees.");
     }
 
-    public void canBePolished() {
+    public void polish() {
         System.out.println("Wood can be polished for a better finish and durability.");
     }
 }

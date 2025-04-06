@@ -6,17 +6,16 @@ public class RestaurantRunner {
         Restaurant restaurant = new FastFoodRestaurant();
         restaurant.serveFood();
         restaurant.takeOrder();
-        restaurant.acceptPayment();
+        restaurant.payment();
         restaurant.cleanTables();
-        restaurant.provideMenu();
-
+        restaurant.menu();
 
 
         FastFoodRestaurant fastFood = new FastFoodRestaurant();
-        fastFood.prepareBurger();
-        fastFood.serveSoftDrinks();
-        fastFood.offerTakeaway();
-        fastFood.provideDriveThru();
-        fastFood.giveDiscounts();
+        fastFood.serveFood();
+        fastFood.takeOrder();
+        fastFood.payment();
+        fastFood.cleanTables();
+        fastFood.menu();
     }
 }

@@ -6,11 +6,11 @@ class Campus {
         System.out.println("Campus class");
     }
 
-    public void conductClasses() {
+    public void classes() {
         System.out.println("Campus conducts regular classes for students.");
     }
 
-    public void provideFacilities() {
+    public void facilities() {
         System.out.println("Campus provides various facilities like libraries and labs.");
     }
 
@@ -18,11 +18,11 @@ class Campus {
         System.out.println("Campus organizes cultural and technical events.");
     }
 
-    public void encourageResearch() {
+    public void research() {
         System.out.println("Campus encourages students to participate in research activities.");
     }
 
-    public void offerInternships() {
+    public void internships() {
         System.out.println("Campus provides internship opportunities to students.");
     }
 }

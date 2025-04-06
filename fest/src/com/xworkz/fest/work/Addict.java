@@ -6,23 +6,30 @@ class Addict extends SocialMedia {
         System.out.println("Addict class");
     }
 
-    public void scrollEndlessly() {
-        System.out.println("Scrolling through social media endlessly.");
+    @Override
+    public void createAccount() {
+        System.out.println("Create another account.");
     }
 
-    public void checkNotificationsFrequently() {
-        System.out.println("Checking notifications every few minutes.");
+    @Override
+
+    public void postContent() {
+        System.out.println("never post anything.");
     }
 
-    public void postEveryHour() {
-        System.out.println("Posting updates every hour.");
+    @Override
+
+    public void likePosts() {
+        System.out.println("Like the video.");
     }
 
-    public void spendTooMuchTime() {
-        System.out.println("Spending too much time on social media.");
+    @Override
+    public void followPeople() {
+        System.out.println("Following good people.");
     }
 
-    public void loseTrackOfTime() {
-        System.out.println("Losing track of time while using social media.");
+    @Override
+    public void sendMessage() {
+        System.out.println("never send messages.");
     }
 }

@@ -1,10 +1,12 @@
 package com.xworkz.fest.work;
 
-// Parent class Music
+
 public class Music {
     Music() {
         System.out.println("Music is an art");
+
     }
+
     public void play() {
 
         System.out.println("Playing music");
@@ -27,5 +29,5 @@ public class Music {
     }
 }
 
-// Child class Guitar extending Music
+
 

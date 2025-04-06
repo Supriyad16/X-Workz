@@ -5,19 +5,17 @@ public class AddressRunner {
     public static void main(String[] args) {
 
         Address address = new PinCode();
-
         address.displayAddress();
         address.updateAddress();
         address.validateAddress();
         address.getRegion();
-        address.locationInfo();
+        address.location();
 
         PinCode pinCode = new PinCode();
-
-        pinCode.getAreaCode();
-        pinCode.checkDeliveryAvailability();
-        pinCode.displayPincode();
-        pinCode.validatePincode();
+        pinCode.displayAddress();
         pinCode.updateAddress();
+        pinCode.validateAddress();
+        pinCode.getRegion();
+        pinCode.location();
     }
 }

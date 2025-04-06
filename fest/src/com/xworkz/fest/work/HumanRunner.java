@@ -1,7 +1,6 @@
 package com.xworkz.fest.work;
 
-public class PersonRunner {
-
+public class HumanRunner {
 
     public static void main(String[] args) {
 
@@ -12,14 +11,12 @@ public class PersonRunner {
         human.talk();
         human.think();
 
-
-
         Student student = new Student();
-        student.study();
-        student.attendClasses();
-        student.doHomework();
-        student.giveExams();
-        student.participateInActivities();
+        student.eat();
+        student.sleep();
+        student.talk();
+        student.walk();
+        student.think();
     }
 }
 

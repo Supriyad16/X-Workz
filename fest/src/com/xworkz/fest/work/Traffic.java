@@ -3,34 +3,27 @@ package com.xworkz.fest.work;
 public class Traffic {
 
     Traffic(){
-
         System.out.println("Follow the traffic");
     }
 
-    public void red(){
-
-        System.out.println("Red to stop");
+    public void right(){
+        System.out.println("Right rules");
     }
 
-    public void green(){
-
-        System.out.println("Green to wait");
+    public void wrong(){
+        System.out.println("wrong rules");
     }
 
-    public void yellow(){
-
-        System.out.println("yellow to be ready");
+    public void follow(){
+        System.out.println("Follow the rules.");
     }
 
-    public void zebra(){
-
-        System.out.println("to walk on that");
+    public void fine(){
+        System.out.println("Pay fine");
     }
 
-    public void signals(){
-
-        System.out.println("every signal have traffic signals");
+    public void police(){
+        System.out.println("Give amount");
     }
-
 
 }

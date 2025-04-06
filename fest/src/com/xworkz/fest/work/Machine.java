@@ -4,26 +4,31 @@ public class Machine extends Robot {
 
     Machine() {
         super();
-        System.out.println("AI Robot is learning...");
+        System.out.println("AI Robot is learning.");
     }
 
-    public void recognizeSpeech() {
-        System.out.println("AI Robot is recognizing speech...");
+    @Override
+    public void move() {
+        System.out.println("Machine is moving.");
     }
 
-    public void processData() {
-        System.out.println("Processing large data...");
+    @Override
+    public void stop() {
+        System.out.println("Machine stopped.");
     }
 
-    public void makeDecisions() {
-        System.out.println("AI Robot is making decisions...");
+    @Override
+    public void recharge() {
+        System.out.println("Machine is recharging.");
     }
 
-    public void performFacialRecognition() {
-        System.out.println("Performing facial recognition...");
+    @Override
+    public void scanArea() {
+        System.out.println("Machine the surroundings.");
     }
 
-    public void automateTasks() {
-        System.out.println("AI Robot is automating tasks...");
+    @Override
+    public void pickObjects() {
+        System.out.println("Machine up objects.");
     }
 }

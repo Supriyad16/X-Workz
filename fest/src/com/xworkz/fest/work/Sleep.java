@@ -6,24 +6,29 @@ class Sleep extends Rest {
         System.out.println("Sleep class");
     }
 
-    public void deepSleep() {
-        System.out.println("Having a deep and peaceful sleep.");
+    @Override
+    public void takeBreak() {
+        System.out.println("Taking a short break.");
     }
 
-    public void dream() {
-        System.out.println("Dreaming while sleeping.");
+    @Override
+    public void meditate() {
+        System.out.println("Meditate for relaxation.");
     }
 
-    public void snore() {
-        System.out.println("Snoring while in deep sleep.");
+    @Override
+    public void listenToMusic() {
+        System.out.println("Listen to soothing music.");
     }
 
-    public void nap() {
-        System.out.println("Taking a short power nap.");
+    @Override
+    public void drinkTea() {
+        System.out.println("Drinking tea to relax.");
     }
 
-    public void wakeUpFresh() {
-        System.out.println("Waking up feeling fresh and energized.");
+    @Override
+    public void sitQuietly() {
+        System.out.println("Sit quietly and enjoying.");
     }
+
 }
-

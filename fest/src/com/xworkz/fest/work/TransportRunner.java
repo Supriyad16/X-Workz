@@ -12,10 +12,10 @@ public class TransportRunner {
 
 
         Bus bus = new Bus();
-        bus.collectFare();
-        bus.fixedStops();
-        bus.driverAndConductor();
-        bus.publicTransport();
-        bus.luggageSpace();
+        bus.move();
+        bus.stop();
+        bus.fuel();
+        bus.capacity();
+        bus.route();
     }
 }

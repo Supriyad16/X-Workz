@@ -6,24 +6,24 @@ class Hand {
         System.out.println("Hand class");
     }
 
-    public void grip() {
-        System.out.println("Hand helps in gripping objects.");
+    public void wear() {
+        System.out.println("Bracelet is worn on the hand.");
     }
 
-    public void write() {
-        System.out.println("Hand helps in writing.");
+    public void style() {
+        System.out.println("Bracelet enhances personal style.");
     }
 
-    public void hold() {
-        System.out.println("Hand is used to hold things.");
+    public void materials() {
+        System.out.println("Bracelets are made of silver.");
     }
 
-    public void wave() {
-        System.out.println("Hand is used for waving.");
+    public void gift() {
+        System.out.println("Bracelets are often gifted.");
     }
 
-    public void lift() {
-        System.out.println("Hand helps in lifting objects.");
+    public void designs() {
+        System.out.println("Bracelets come in various designs and patterns.");
     }
 }
 

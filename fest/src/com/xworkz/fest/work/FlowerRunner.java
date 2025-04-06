@@ -12,10 +12,10 @@ public class FlowerRunner {
 
 
         Smell smell = new Smell();
-        smell.releaseFragrance();
-        smell.attractPeople();
-        smell.changeIntensity();
-        smell.spreadThroughAir();
-        smell.combineWithOtherScents();
+        smell.bloom();
+        smell.absorbSunlight();
+        smell.attractBees();
+        smell.produceSeeds();
+        smell.displayColor();
     }
 }

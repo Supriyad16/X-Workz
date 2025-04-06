@@ -4,18 +4,18 @@ public class HandRunner {
     public static void main(String[] args) {
 
         Hand hand = new Bracelet();
-        hand.grip();
-        hand.write();
-        hand.hold();
-        hand.wave();
-        hand.lift();
+        hand.wear();
+        hand.style();
+        hand.gift();
+        hand.designs();
+        hand.materials();
 
 
         Bracelet bracelet = new Bracelet();
         bracelet.wear();
-        bracelet.enhanceStyle();
-        bracelet.madeOfDifferentMaterials();
-        bracelet.giftedAsJewelry();
-        bracelet.availableInVariousDesigns();
+        bracelet.style();
+        bracelet.gift();
+        bracelet.designs();
+        bracelet.materials();
     }
 }

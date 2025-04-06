@@ -7,24 +7,29 @@ public class Kitten extends Cat {
         System.out.println("HackerCat has entered the system!");
     }
 
-    public void hackWiFi() {
-        System.out.println("HackerCat has cracked the neighbor's WiFi password");
+    @Override
+    public void meow() {
+        System.out.println("The cat Sounds cutely.");
     }
 
-    public void stealPasswords() {
-        System.out.println("HackerCat is stealing passwords while you sleep");
+    @Override
+    public void sleep() {
+        System.out.println("The cat sleeps for 20 hours a day.");
     }
 
-    public void writeCode() {
-        System.out.println("HackerCat is coding a virus");
+    @Override
+    public void eat() {
+        System.out.println("The cat is eatisthe food.");
     }
 
-    public void bypassFirewall() {
-        System.out.println("HackerCat just bypassed a firewall");
+    @Override
+    public void play() {
+        System.out.println("The cat is playing with a ball.");
     }
 
-    public void deleteInternet() {
-        System.out.println("HackerCat has accidentally deleted the entire internet!");
+    @Override
+    public void scratchFurniture() {
+        System.out.println("The cat scratches the furniture.");
     }
 }
 

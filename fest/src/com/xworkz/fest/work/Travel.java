@@ -6,23 +6,28 @@ class Travel extends Lift {
         System.out.println("Travel class");
     }
 
-    public void startJourney() {
-        System.out.println("Travel starts from one place to another.");
+    @Override
+    public void moveUp() {
+        System.out.println("Lift moves up while travelling.");
     }
 
-    public void reachDestination() {
-        System.out.println("Travel helps to reach a destination.");
+    @Override
+    public void moveDown() {
+        System.out.println("Lift moves down while travelling.");
     }
 
-    public void exploreNewPlaces() {
-        System.out.println("Travel allows people to explore new places.");
+    @Override
+    public void stop() {
+        System.out.println("Lift stops.");
     }
 
-    public void requireTransport() {
-        System.out.println("Travel requires a mode of transport.");
+    @Override
+    public void carryPeople() {
+        System.out.println("Lift carries people.");
     }
 
-    public void createMemories() {
-        System.out.println("Travel helps in creating lifelong memories.");
+    @Override
+    public void indicateDirection() {
+        System.out.println("Lift shows the direction.");
     }
 }

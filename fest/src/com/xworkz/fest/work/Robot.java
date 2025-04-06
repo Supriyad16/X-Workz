@@ -7,23 +7,23 @@ public class Robot {
     }
 
     public void move() {
-        System.out.println("Robot is moving...");
+        System.out.println("Robot is moving.");
     }
 
     public void stop() {
-        System.out.println("Robot stopped...");
+        System.out.println("Robot stopped.");
     }
 
     public void recharge() {
-        System.out.println("Robot is recharging...");
+        System.out.println("Robot is recharging.");
     }
 
     public void scanArea() {
-        System.out.println("Scanning the surroundings...");
+        System.out.println("Scanning the surroundings.");
     }
 
     public void pickObjects() {
-        System.out.println("Picking up objects...");
+        System.out.println("Picking up objects.");
     }
 }
 

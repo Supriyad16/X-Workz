@@ -6,25 +6,23 @@ public class Vehicle {
         System.out.println("Vehicle class");
     }
 
-    public void start() {
-        System.out.println("Vehicle is starting");
+    public void accelerate() {
+        System.out.println("Vehicle is accelerating");
     }
 
-    public void stop() {
-        System.out.println("Vehicle is stopping");
+    public void brake() {
+        System.out.println("Vehicle is braking");
     }
 
-    public void fuel() {
-        System.out.println("Vehicle needs fuel");
+    public void airConditioning() {
+        System.out.println("Vehicle has air conditioning");
     }
 
-    public void moves() {
-
-        System.out.println("Vehicles move");
+    public void musicSystem() {
+        System.out.println("Vehicle has a music system");
     }
 
-    public void carry() {
-
-        System.out.println("Vehicle carry luggage");
+    public void sunroof() {
+        System.out.println("Vehicle has a sunroof");
     }
 }

@@ -25,4 +25,5 @@ public class Appliance {
     public void maintenance() {
         System.out.println("Appliance requires maintenance");
     }
+
 }

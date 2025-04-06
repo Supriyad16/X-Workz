@@ -14,7 +14,7 @@ class Chinese {
         System.out.println("Chinese food is known for its rich and diverse flavors.");
     }
 
-    public void usesChopsticks() {
+    public void chopsticks() {
         System.out.println("Traditional Chinese food is eaten using chopsticks.");
     }
 
@@ -22,7 +22,8 @@ class Chinese {
         System.out.println("Chinese cuisine includes a variety of dishes like fried rice, noodles, and dumplings.");
     }
 
-    public void includesSpices() {
+    public void spices() {
         System.out.println("Chinese food often includes a mix of spices and sauces for a unique taste.");
     }
+
 }

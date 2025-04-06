@@ -22,8 +22,8 @@ class Group {
         System.out.println("Changing the group name.");
     }
 
-    public void setGroupPrivacy() {
-        System.out.println("Setting group privacy to public or private.");
+    public void deleteGroup() {
+        System.out.println("Delete the group when unnecessary.");
     }
 }
 

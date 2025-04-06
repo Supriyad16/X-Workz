@@ -5,23 +5,18 @@ public class ProjectorRunner {
     public static void main(String[] args) {
 
         Projector projector = new Pannel();
-
-        projector.adjustFocus();
-        projector.changeBrightness();
+        projector.focus();
+        projector.brightness();
         projector.powerOff();
-        projector.changeBrightness();
+        projector.displayResolution();
         projector.powerOn();
 
         Pannel pannel = new Pannel();
-
-        pannel.adjustVolume();
-        pannel.changeSource();
-        pannel.displayMenu();
-        pannel.enableSmartMode();
-        pannel.touchInput();
-
+        pannel.focus();
+        pannel.brightness();
+        pannel.powerOff();
+        pannel.displayResolution();
+        pannel.powerOff();
 
     }
-
-
 }

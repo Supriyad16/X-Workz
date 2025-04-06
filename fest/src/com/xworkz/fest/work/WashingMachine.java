@@ -1,6 +1,5 @@
 package com.xworkz.fest.work;
 
-
 public class WashingMachine extends Appliance {
 
     WashingMachine() {
@@ -8,24 +7,29 @@ public class WashingMachine extends Appliance {
         System.out.println("Washing Machine class");
     }
 
-    public void washClothes() {
-        System.out.println("Washing machine washes clothes");
+    @Override
+    public void turnOn() {
+        System.out.println("WashingMachine is turned on");
     }
 
-    public void rinse() {
-        System.out.println("Washing machine rinses clothes");
+    @Override
+    public void turnOff() {
+        System.out.println("WashingMachine is turned off");
     }
 
-    public void spinDry() {
-        System.out.println("Washing machine dries clothes");
+    @Override
+    public void consumePower() {
+        System.out.println("WashingMachine consumes power");
     }
 
-    public void detergentUsage() {
-        System.out.println("Washing machine uses detergent");
+    @Override
+    public void warranty() {
+        System.out.println("WashingMachine has a warranty");
     }
 
-    public void setTimer() {
-        System.out.println("Washing machine has a timer setting");
+    @Override
+    public void maintenance() {
+        System.out.println("WashingMachine requires maintenance");
     }
 }
 

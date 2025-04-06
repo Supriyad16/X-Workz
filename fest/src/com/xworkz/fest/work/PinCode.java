@@ -2,35 +2,33 @@ package com.xworkz.fest.work;
 
 public class PinCode extends Address {
 
-
-
     PinCode() {
         super();
         System.out.println("Pincode initialized");
     }
 
-    public void displayPincode() {
-
-        System.out.println(" Display Pincode: "  );
+    @Override
+    public void displayAddress() {
+        System.out.println("Deliver to this PinCode");
     }
 
-    public void validatePincode() {
-
-        System.out.println("Checking if pincode is correct...");
+    @Override
+    public void location() {
+        System.out.println("This is a office address.");
     }
 
-    public void updatePincode() {
-
-        System.out.println("Pincode updated successfully");
+    @Override
+    public void updateAddress() {
+        System.out.println("Address update failed. ");
     }
 
-    public void checkDeliveryAvailability() {
-
-        System.out.println("Checking if delivery is available for pincode " );
+    @Override
+    public void validateAddress() {
+        System.out.println("Validating address.");
     }
 
-    public void getAreaCode() {
-
-        System.out.println("Retrieving area code for pincode: " );
+    @Override
+    public void getRegion() {
+        System.out.println("Get the Region." );
     }
 }

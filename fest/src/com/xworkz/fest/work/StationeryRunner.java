@@ -13,10 +13,10 @@ public class StationeryRunner {
 
 
         Items items = new Items();
-        items.listItems();
-        items.sharpen();
-        items.erase();
-        items.measure();
-        items.staple();
+        items.write();
+        items.draw();
+        items.store();
+        items.organize();
+        items.use();
     }
 }

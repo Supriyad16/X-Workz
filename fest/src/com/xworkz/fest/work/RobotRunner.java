@@ -10,13 +10,11 @@ public class RobotRunner {
         robot.recharge();
         robot.stop();
 
-
-
         Machine machine = new Machine();
-        machine.recognizeSpeech();
-        machine.processData();
-        machine.makeDecisions();
-        machine.performFacialRecognition();
-        machine.automateTasks();
+        machine.move();
+        machine.stop();
+        machine.scanArea();
+        machine.recharge();
+        machine.pickObjects();
     }
 }

@@ -10,20 +10,21 @@ public class Potato {
             System.out.println("Potato is growing underground");
         }
 
-        public void beBoiled() {
+        public void boiled() {
             System.out.println("Potato is getting boiled");
         }
 
-        public void beFried() {
+        public void fried() {
             System.out.println("Potato is now delicious fries!");
         }
 
-        public void beMashed() {
+        public void mashed() {
             System.out.println("Potato is mashed into a soft texture");
         }
 
-        public void beEaten() {
+        public void eaten() {
             System.out.println("Potato has been eaten");
         }
+
     }
 

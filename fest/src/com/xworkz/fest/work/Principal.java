@@ -6,23 +6,28 @@ class Principal extends Head {
         System.out.println("Principal class");
     }
 
-    public void managesSchool() {
-        System.out.println("The principal is responsible for managing the school.");
+    @Override
+    public void leadsOrganization() {
+        System.out.println("The Principal leads an organization or institution.");
     }
 
-    public void guidesTeachers() {
-        System.out.println("The principal guides teachers in their responsibilities.");
+    @Override
+    public void makesDecisions() {
+        System.out.println("The Principal is responsible for making important decisions.");
     }
 
-    public void maintainsSchoolRules() {
-        System.out.println("The principal enforces school rules and regulations.");
+    @Override
+    public void managesOperations() {
+        System.out.println("The Principal manages daily operations and activities.");
     }
 
-    public void interactsWithStudents() {
-        System.out.println("The principal interacts with students to address concerns.");
+    @Override
+    public void representsAuthority() {
+        System.out.println("The Principal represents authority in an organization.");
     }
 
-    public void overseesAcademics() {
-        System.out.println("The principal oversees academic performance and progress.");
+    @Override
+    public void ensuresDiscipline() {
+        System.out.println("The Principal ensures discipline and order.");
     }
 }

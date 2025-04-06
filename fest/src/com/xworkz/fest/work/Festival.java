@@ -8,28 +8,23 @@ public class Festival {
     }
 
     public void happy() {
-
-        System.out.println("celebrate the festival happily");
+        System.out.println("celebrate the festival happily.");
     }
 
     public void sweets(){
-
-        System.out.println("Sweets are made in festivals");
+        System.out.println("Sweets are made in festivals.");
     }
 
     public void food(){
-
-        System.out.println("varieties of food");
+        System.out.println("varieties of food.");
     }
 
     public void clothes(){
-
-        System.out.println("wear new clothes");
+        System.out.println("wear new clothes.");
     }
 
     public void share(){
-
-        System.out.println("share food to others");
+        System.out.println("share food to others.");
     }
 }
 

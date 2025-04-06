@@ -5,20 +5,19 @@ public class CountryRunner {
     public static void main(String[] args) {
 
         Country country = new PrimeMinister();
-
         country.independenceYear();
         country.name();
         country.currency();
         country.population();
         country.nationalAnthem();
 
-        PrimeMinister primeMinister = new PrimeMinister();
 
-        primeMinister.leaderName();
-        primeMinister.policies();
-        primeMinister.termYears();
-        primeMinister.work();
-        primeMinister.responsibilities();
+        PrimeMinister primeMinister = new PrimeMinister();
+        primeMinister.name();
+        primeMinister.currency();
+        primeMinister.nationalAnthem();
+        primeMinister.population();
+        primeMinister.independenceYear();
 
     }
 }

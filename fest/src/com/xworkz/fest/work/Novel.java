@@ -7,23 +7,28 @@ public class Novel extends Book {
         System.out.println("Novel class");
     }
 
-    public void genre() {
-        System.out.println("Novel has different genres");
+    @Override
+    public void read() {
+        System.out.println("Reading a Novel.");
     }
 
-    public void author() {
-        System.out.println("Novel has an author");
+    @Override
+    public void open() {
+        System.out.println("Opening a Novel.");
     }
 
-    public void storyline() {
-        System.out.println("Novel has a storyline");
+    @Override
+    public void close() {
+        System.out.println("Closing a Novel.");
     }
 
-    public void characters() {
-        System.out.println("Novel has many characters");
+    @Override
+    public void bookmark() {
+        System.out.println("Bookmarking a Novel.");
     }
 
-    public void chapters() {
-        System.out.println("Novel is divided into chapters");
+    @Override
+    public void turnPage() {
+        System.out.println("Turning a page of Novel.");
     }
 }

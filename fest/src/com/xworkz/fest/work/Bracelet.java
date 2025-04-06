@@ -6,23 +6,28 @@ class Bracelet extends Hand {
         System.out.println("Bracelet class");
     }
 
+    @Override
     public void wear() {
         System.out.println("Bracelet is worn on the wrist.");
     }
 
-    public void enhanceStyle() {
-        System.out.println("Bracelet enhances personal style.");
+    @Override
+    public void style() {
+        System.out.println("Bracelet enhances style.");
     }
 
-    public void madeOfDifferentMaterials() {
-        System.out.println("Bracelets are made of gold, silver, or beads.");
+    @Override
+    public void materials() {
+        System.out.println("Bracelets are made of gold or beads.");
     }
 
-    public void giftedAsJewelry() {
+    @Override
+    public void gift() {
         System.out.println("Bracelets are often gifted as jewelry.");
     }
 
-    public void availableInVariousDesigns() {
-        System.out.println("Bracelets come in various designs and patterns.");
+    @Override
+    public void designs() {
+        System.out.println("Bracelets come in various designs.");
     }
 }

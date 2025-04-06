@@ -10,15 +10,15 @@ public class Hospital {
         System.out.println("Admitting patient in hospital");
     }
 
-    public void provideTreatment() {
+    public void treatment() {
         System.out.println("Providing treatment to patients");
     }
 
-    public void performSurgery() {
+    public void surgery() {
         System.out.println("Performing surgery");
     }
 
-    public void generateBill() {
+    public void bill() {
         System.out.println("Generating hospital bill");
     }
 

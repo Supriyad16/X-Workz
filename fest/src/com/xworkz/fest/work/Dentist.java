@@ -7,23 +7,28 @@ public class Dentist extends Hospital {
         System.out.println("Dentist class");
     }
 
-    public void cleanTeeth() {
-        System.out.println("Cleaning patient's teeth");
+    @Override
+    public void admitPatient() {
+        System.out.println("Admits the  patient.");
     }
 
-    public void fillCavities() {
-        System.out.println("Filling dental cavities");
+    @Override
+    public void treatment() {
+        System.out.println("Provides the treatment.");
     }
 
-    public void extractTooth() {
-        System.out.println("Extracting a tooth");
+    @Override
+    public void surgery() {
+        System.out.println("Performs the  surgery");
     }
 
-    public void provideBraces() {
-        System.out.println("Providing braces treatment");
+    @Override
+    public void bill() {
+        System.out.println("Gives bill to the patient.");
     }
 
-    public void performRootCanal() {
-        System.out.println("Performing a root canal");
+    @Override
+    public void dischargePatient() {
+        System.out.println("Discharges the patient.");
     }
 }

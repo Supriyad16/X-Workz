@@ -1,28 +1,33 @@
 package com.xworkz.fest.work;
 
 class Movies extends Weekend {
-    Movies() {
+        Movies() {
         super();
         System.out.println("Movies class");
     }
 
-    public void watchMovie() {
-        System.out.println("Watching a new movie in the theater!");
+    @Override
+    public void relax() {
+        System.out.println("Relaxing on the weekend by watching movies.");
     }
 
-    public void eatPopcorn() {
-        System.out.println("Eating popcorn while watching the movie.");
+    @Override
+    public void goOut() {
+        System.out.println("Going out to watch movies.");
     }
 
-    public void reviewMovie() {
-        System.out.println("Writing a review after watching the movie.");
+    @Override
+    public void sleepMore() {
+        System.out.println("Sleeping extra hours without watching movies.");
     }
 
-    public void buyTickets() {
-        System.out.println("Buying movie tickets online.");
+    @Override
+    public void playSports() {
+        System.out.println("Playing sports during the weekend without watching movies.");
     }
 
-    public void inviteFriends() {
-        System.out.println("Inviting friends to watch the movie together.");
+    @Override
+    public void readBook() {
+        System.out.println("Reading a book on weekend.");
     }
 }

@@ -1,9 +1,7 @@
 package com.xworkz.fest.work;
 
-
 public class TimepassRunner {
     public static void main(String[] args) {
-
 
         Timepass timepass = new Talk();
         timepass.watchTV();
@@ -14,10 +12,11 @@ public class TimepassRunner {
 
 
         Talk talk = new Talk();
-        talk.chatWithFriends();
-        talk.discussTopics();
-        talk.gossip();
-        talk.debate();
-        talk.storytelling();
+        talk.watchTV();
+        talk.playGames();
+        talk.scrollSocialMedia();
+        talk.listenToMusic();
+        talk.readRandomStuff();
     }
+
 }

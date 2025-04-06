@@ -25,6 +25,7 @@ class Lift {
     public void indicateDirection() {
         System.out.println("Lift shows the direction of movement.");
     }
+
 }
 
 

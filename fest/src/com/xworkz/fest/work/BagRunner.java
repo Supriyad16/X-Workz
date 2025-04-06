@@ -12,10 +12,10 @@ public class BagRunner {
 
 
         Cosmetics cosmetics = new Cosmetics();
-        cosmetics.applyMakeup();
-        cosmetics.storeLipstick();
-        cosmetics.carryPerfume();
-        cosmetics.organizeBrushes();
-        cosmetics.checkMirror();
+        cosmetics.carryItems();
+        cosmetics.openBag();
+        cosmetics.closeBag();
+        cosmetics.checkCapacity();
+        cosmetics.adjustStrap();
     }
 }

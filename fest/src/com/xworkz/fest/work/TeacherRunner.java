@@ -11,12 +11,11 @@ public class TeacherRunner {
         teacher.provideFeedback();
 
 
-
         MathTeacher mathTeacher = new MathTeacher();
-        mathTeacher.solveEquations();
-        mathTeacher.teachAlgebra();
-        mathTeacher.conductMathQuiz();
-        mathTeacher.explainGeometry();
-        mathTeacher.checkHomework();
+        mathTeacher.teach();
+        mathTeacher.giveAssignment();
+        mathTeacher.takeAttendance();
+        mathTeacher.evaluatePapers();
+        mathTeacher.provideFeedback();
     }
 }

@@ -7,23 +7,28 @@ public class Device extends Computer {
         System.out.println("Laptop class");
     }
 
-    public void batteryBackup() {
-        System.out.println("Laptop has a battery backup");
+    @Override
+    public void boot() {
+        System.out.println("Device is booting up");
     }
 
-    public void portability() {
-        System.out.println("Laptop is portable");
+    @Override
+    public void shutdown() {
+        System.out.println("Device is shutting down");
     }
 
-    public void webcam() {
-        System.out.println("Laptop has a webcam");
+    @Override
+    public void process() {
+        System.out.println("Device is processing data");
     }
 
-    public void touchpad() {
-        System.out.println("Laptop has a touchpad");
+    @Override
+    public void ports() {
+        System.out.println("Device have many ports");
     }
 
-    public void keyboardLight() {
-        System.out.println("Laptop has a backlit keyboard");
+    @Override
+    public void storeData() {
+        System.out.println("Device is storing data");
     }
 }

@@ -4,26 +4,31 @@ public class ElectricTrain extends Electricity {
 
     ElectricTrain() {
         super();
-        System.out.println("An electric train runs on tracks, powered by electricity!");
+        System.out.println("ElectricTrain constructor invoked: Runs on electricity via tracks.");
     }
 
-    public void startJourney() {
-        System.out.println("The electric train is starting its journey...");
+    @Override
+    public void generate() {
+        System.out.println("Generating electricity to power the electric train.");
     }
 
-    public void increaseSpeed() {
-        System.out.println("The electric train is increasing its speed...");
+    @Override
+    public void transmit() {
+        System.out.println("Transmitting electricity to the train through overhead lines or rails.");
     }
 
-    public void honk() {
-        System.out.println("Electric train is honking loudly: Beep Beep!");
+    @Override
+    public void store() {
+        System.out.println("Storing electricity in onboard batteries or external power grids.");
     }
 
-    public void stop() {
-        System.out.println("Electric train is slowing down and coming to a stop...");
+    @Override
+    public void shock() {
+        System.out.println("Shock alert: Electric trains carry high voltage—stay safe!");
     }
 
-    public void transportPeople() {
-        System.out.println("Electric train is transporting passengers efficiently...");
+    @Override
+    public void powerDevices() {
+        System.out.println("Powering train systems and devices using electricity.");
     }
 }

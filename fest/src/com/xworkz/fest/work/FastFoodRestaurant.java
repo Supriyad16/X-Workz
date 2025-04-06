@@ -7,23 +7,23 @@ public class FastFoodRestaurant extends Restaurant {
         System.out.println("Welcome to our Fast Food Restaurant!");
     }
 
-    public void prepareBurger() {
-        System.out.println("Preparing a delicious burger");
+    public void serveFood() {
+        System.out.println("Serves junk food.");
     }
 
-    public void serveSoftDrinks() {
-        System.out.println("Serving soft drinks");
+    public void takeOrder() {
+        System.out.println("FastFoodRestaurant are self service.");
     }
 
-    public void offerTakeaway() {
-        System.out.println("Offering takeaway option");
+    public void payment() {
+        System.out.println("Accepts the payment.");
     }
 
-    public void provideDriveThru() {
-        System.out.println("Providing drive-thru service");
+    public void cleanTables() {
+        System.out.println("Cleans the table.");
     }
 
-    public void giveDiscounts() {
-        System.out.println("Offering discounts on combos");
+    public void menu() {
+        System.out.println("They hve variety of menu");
     }
 }

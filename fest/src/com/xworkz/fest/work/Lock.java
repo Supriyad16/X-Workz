@@ -7,22 +7,22 @@ public class Lock {
     }
 
     public void secure() {
-        System.out.println("The lock secures doors, safes, and lockers...");
+        System.out.println("The lock secures doors, safes, and lockers.");
     }
 
     public void open() {
-        System.out.println("The lock opens with the right key...");
+        System.out.println("The lock opens with the right key.");
     }
 
     public void close() {
-        System.out.println("The lock is now closed...");
+        System.out.println("The lock is now closed.");
     }
 
     public void rust() {
-        System.out.println("Locks can rust if not maintained...");
+        System.out.println("Locks can rust if not maintained.");
     }
 
     public void breakLock() {
-        System.out.println("A lock can be broken with force...");
+        System.out.println("A lock can be broken with force.");
     }
 }

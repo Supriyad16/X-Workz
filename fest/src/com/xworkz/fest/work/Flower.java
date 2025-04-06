@@ -24,5 +24,6 @@ class Flower {
     public void displayColor() {
         System.out.println("Flower is displaying beautiful colors.");
     }
+
 }
 

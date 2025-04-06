@@ -5,7 +5,6 @@ public class VegetableRunner {
     public static void main(String[] args) {
 
         Vegetable vegetable = new Shop();
-
         vegetable.cook();
         vegetable.grow();
         vegetable.harvest();
@@ -13,11 +12,11 @@ public class VegetableRunner {
         vegetable.sell();
 
         Shop shop = new Shop();
+        shop.cook();
+        shop.grow();
+        shop.harvest();
+        shop.nutrients();
+        shop.sell();
 
-        shop.bill();
-        shop.customerService();
-        shop.display();
-        shop.priceTag();
-        shop.weigh();
     }
 }

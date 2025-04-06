@@ -6,17 +6,17 @@ public class WoodRunner {
 
         Wood wood = new Cupboard();
         wood.strongMaterial();
-        wood.usedForFurniture();
-        wood.comesInDifferentTypes();
+        wood.furniture();
+        wood.types();
         wood.naturalResource();
-        wood.canBePolished();
+        wood.polish();
 
 
         Cupboard cupboard = new Cupboard();
-        cupboard.usedForStorage();
-        cupboard.availableInVariousSizes();
-        cupboard.canHaveLocks();
-        cupboard.comesWithShelves();
-        cupboard.enhancesInterior();
+        cupboard.strongMaterial();
+        cupboard.furniture();
+        cupboard.types();
+        cupboard.naturalResource();
+        cupboard.polish();
     }
 }

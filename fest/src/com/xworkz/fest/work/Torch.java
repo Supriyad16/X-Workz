@@ -25,5 +25,6 @@ class Torch {
     public void batteryOperated() {
         System.out.println("Torch usually runs on batteries.");
     }
+
 }
 

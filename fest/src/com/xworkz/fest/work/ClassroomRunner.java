@@ -4,19 +4,19 @@ public class ClassroomRunner {
     public static void main(String[] args) {
 
         Classroom classroom = new Bench();
-        classroom.placeForLearning();
-        classroom.hasBlackboardOrWhiteboard();
-        classroom.containsBenchesAndChairs();
-        classroom.hasTeachersAndStudents();
-        classroom.providesEducation();
+        classroom.learning();
+        classroom.blackboard();
+        classroom.benches();
+        classroom.teacher();
+        classroom.student();
 
 
         Bench bench = new Bench();
-        bench.usedForSitting();
-        bench.madeOfWoodOrMetal();
-        bench.accommodatesMultiplePeople();
-        bench.foundInClassrooms();
-        bench.providesComfort();
+        bench.learning();
+        bench.blackboard();
+        bench.benches();
+        bench.teacher();
+        bench.student();
     }
 }
 

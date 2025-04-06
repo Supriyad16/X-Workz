@@ -18,11 +18,11 @@ class Ice {
         System.out.println("Ice is floating on water.");
     }
 
-    public void maintainTemperature() {
+    public void temperature() {
         System.out.println("Ice is maintaining a low temperature.");
     }
 
-    public void formCrystals() {
+    public void crystals() {
         System.out.println("Ice is forming crystals.");
     }
 }

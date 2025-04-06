@@ -6,17 +6,16 @@ public class AlienRunner {
         Alien alien = new Martian();
         alien.communicate();
         alien.abductHumans();
-        alien.controlSpaceship();
+        alien.spaceship();
         alien.regenerate();
         alien.eatRocks();
 
 
-
         Martian martian = new Martian();
-        martian.growTentacles();
-        martian.camouflage();
-        martian.terraformPlanet();
-        martian.summonUFO();
-        martian.danceToEarthMusic();
+        martian.communicate();
+        martian.abductHumans();
+        martian.spaceship();
+        martian.regenerate();
+        martian.eatRocks();
     }
 }

@@ -7,15 +7,14 @@ public class IronBoxRunner {
         ironBox.pressClothes();
         ironBox.usesElectricity();
         ironBox.adjustableTemperature();
-        ironBox.availableInDifferentTypes();
-        ironBox.commonlyUsedInHomes();
-
+        ironBox.differentTypes();
+        ironBox.used();
 
         Heat heat = new Heat();
-        heat.generatedByIronBox();
-        heat.helpsRemoveWrinkles();
-        heat.variesWithTemperatureSetting();
-        heat.transfersThroughMetalPlate();
-        heat.requiredForEfficientIroning();
+        heat.pressClothes();
+        heat.usesElectricity();
+        heat.adjustableTemperature();
+        heat.differentTypes();
+        heat.used();
     }
 }

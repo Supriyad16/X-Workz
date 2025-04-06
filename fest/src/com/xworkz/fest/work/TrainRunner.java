@@ -5,7 +5,6 @@ public class TrainRunner {
     public static void main(String[] args) {
 
         Train train = new Train();
-
         train.announce();
         train.slowDown();
         train.speedUp();
@@ -13,12 +12,11 @@ public class TrainRunner {
         train.start();
 
         Ticket ticket = new Ticket();
-
-        ticket.bookTicket();
-        ticket.cancelTicket();
-        ticket.checkAvailability();
-        ticket.getFareDetails();
-        ticket.printTicket();
+        ticket.announce();
+        ticket.stop();
+        ticket.slowDown();
+        ticket.speedUp();
+        ticket.start();
 
     }
 }

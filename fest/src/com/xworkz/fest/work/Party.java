@@ -6,23 +6,29 @@ class Party extends Holiday {
         System.out.println("Party class");
     }
 
-    public void dance() {
-        System.out.println("Dancing at the party!");
+    @Override
+    public void relax() {
+        System.out.println("Relax the holiday by party");
     }
 
-    public void eat() {
-        System.out.println("Eating delicious food at the party.");
+    @Override
+    public void travel() {
+        System.out.println("Traveling during holiday.");
     }
 
-    public void playMusic() {
-        System.out.println("Playing loud music at the party.");
+    @Override
+    public void spendTimeWithFamily() {
+        System.out.println("Spending time with family and friends during holiday.");
     }
 
-    public void fun() {
-        System.out.println("Playing loud music at the party.");
+    @Override
+    public void enjoy() {
+        System.out.println("Enjoy the holiday.");
     }
 
-    public void memory() {
-        System.out.println("Playing loud music at the party.");
+    @Override
+    public void happy() {
+        System.out.println("Happy time with family and friends.");
     }
+
 }

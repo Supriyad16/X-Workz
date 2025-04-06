@@ -6,19 +6,19 @@ class Slipper {
         System.out.println("Slipper class");
     }
 
-    public void provideComfort() {
+    public void comfort() {
         System.out.println("Slippers provide comfort to the feet.");
     }
 
-    public void usedForWalking() {
+    public void walk() {
         System.out.println("Slippers are commonly used for walking indoors and outdoors.");
     }
 
-    public void comeInVariousSizes() {
+    public void variousSizes() {
         System.out.println("Slippers come in various sizes for different foot types.");
     }
 
-    public void madeOfDifferentMaterials() {
+    public void differentMaterials() {
         System.out.println("Slippers can be made of rubber, leather, or fabric.");
     }
 

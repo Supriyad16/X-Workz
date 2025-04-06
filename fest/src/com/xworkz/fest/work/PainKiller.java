@@ -7,24 +7,30 @@ public class PainKiller extends Medicine {
         System.out.println("Painkiller class");
     }
 
-    public void relievePain() {
-        System.out.println("Painkiller relieves pain");
+    @Override
+    public void cureIllness() {
+        System.out.println("PainKiller helps cure Pain in the body.");
     }
 
-    public void quickAction() {
-        System.out.println("Painkiller works quickly");
+    @Override
+    public void dosage() {
+        System.out.println("PainKiller has a prescribed dosage");
     }
 
-    public void overTheCounter() {
-        System.out.println("Painkiller is available over the counter");
+    @Override
+    public void sideEffects() {
+        System.out.println("PainKiller may have side effects");
     }
 
-    public void differentStrengths() {
-        System.out.println("Painkiller comes in different strengths");
+    @Override
+    public void expiryDate() {
+        System.out.println("PainKiller Medicine has an expiry date");
     }
 
-    public void suitableForHeadache() {
-        System.out.println("Painkiller is suitable for headaches");
+    @Override
+    public void taste() {
+        System.out.println("PainKiller tastes bitter.");
     }
+
 }
 

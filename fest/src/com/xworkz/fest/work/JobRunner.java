@@ -4,11 +4,11 @@ public class JobRunner {
     public static void main(String[] args) {
 
         Job job = new Engineer();
-        job.work();
-        job.attendMeetings();
-        job.receiveSalary();
-        job.getPromotion();
-        job.takeLeave();
+        job.writeCode();
+        job.debug();
+        job.testSoftware();
+        job.deployApplication();
+        job.collaborateWithTeam();
 
         Engineer engineer = new Engineer();
         engineer.writeCode();

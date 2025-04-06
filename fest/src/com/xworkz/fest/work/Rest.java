@@ -1,6 +1,5 @@
 package com.xworkz.fest.work;
 
-
 class Rest {
     Rest() {
         System.out.println("Rest class");
@@ -25,10 +24,5 @@ class Rest {
     public void sitQuietly() {
         System.out.println("Sitting quietly and enjoying the moment.");
     }
+
 }
-
-
-
-
-
-// Runner Class

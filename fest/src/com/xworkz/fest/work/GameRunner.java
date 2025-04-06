@@ -7,16 +7,15 @@ public class GameRunner {
         game.start();
         game.stop();
         game.scorePoints();
-        game.setDifficulty();
+        game.difficulty();
         game.reset();
 
-
-
         VideoGame videoGame = new VideoGame();
-        videoGame.loadGraphics();
-        videoGame.multiplayerMode();
-        videoGame.saveProgress();
-        videoGame.unlockLevels();
-        videoGame.playWithController();
+        videoGame.start();
+        videoGame.start();
+        videoGame.scorePoints();
+        videoGame.difficulty();
+        videoGame.reset();
+
     }
 }

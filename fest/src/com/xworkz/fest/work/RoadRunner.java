@@ -4,18 +4,18 @@ public class RoadRunner {
     public static void main(String[] args) {
 
         Road road = new Footpath();
-        road.usedForVehicles();
+        road.transportation();
         road.connectsPlaces();
-        road.madeOfDifferentMaterials();
-        road.haveTrafficRules();
-        road.maintainedByGovernment();
+        road.walk();
+        road.traffic();
+        road.construct();
 
 
         Footpath footpath = new Footpath();
-        footpath.usedByPedestrians();
-        footpath.provideSafety();
-        footpath.madeOfConcrete();
-        footpath.haveStreetVendors();
-        footpath.foundAlongRoads();
+        footpath.traffic();
+        footpath.transportation();
+        footpath.walk();
+        footpath.construct();
+        footpath.connectsPlaces();
     }
 }

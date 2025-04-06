@@ -6,26 +6,29 @@ class Light extends Torch {
         System.out.println("Light class");
     }
 
-    public void illuminate() {
-        System.out.println("Light helps to illuminate the surroundings.");
+    @Override
+    public void turnOn() {
+        System.out.println("Torch is turned on in light.");
     }
 
-    public void differentColors() {
-        System.out.println("Light comes in different colors.");
+    @Override
+    public void turnOff() {
+        System.out.println("Torch is turned off in light.");
     }
 
-    public void usedInDecorations() {
-        System.out.println("Light is used for decorative purposes.");
+    @Override
+    public void adjustBrightness() {
+        System.out.println("Torch have brightness.");
     }
 
-    public void requiresElectricity() {
-        System.out.println("Some lights require electricity to operate.");
+    @Override
+    public void portable() {
+        System.out.println("Torch is a portable electronic item.");
     }
 
-    public void enhancesVisibility() {
-        System.out.println("Light enhances visibility in the dark.");
+    @Override
+    public void batteryOperated() {
+        System.out.println("Torch usually runs on batteries or charger.");
     }
 }
-
-
 

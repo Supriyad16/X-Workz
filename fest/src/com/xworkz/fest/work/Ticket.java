@@ -1,30 +1,35 @@
 package com.xworkz.fest.work;
 
-
 public class Ticket extends Train {
 
     Ticket() {
         super();
         System.out.println("Ticket is issued");
     }
-    public void bookTicket() {
 
-        System.out.println("Ticket is booked");
+    @Override
+    public void start() {
+        System.out.println("Train get starts.");
     }
-    public void cancelTicket() {
 
-        System.out.println("Ticket is canceled");
+    @Override
+    public void stop() {
+        System.out.println("Train has been stopped.");
     }
-    public void checkAvailability() {
 
-        System.out.println("Checking ticket availability");
+    @Override
+    public void speedUp() {
+        System.out.println("Train is speeding up now.");
     }
-    public void printTicket() {
 
-        System.out.println("Printing ticket");
+    @Override
+    public void slowDown() {
+        System.out.println("Train slows down.");
     }
-    public void getFareDetails() {
 
-        System.out.println("Fetching ticket fare details");
+    @Override
+    public void announce() {
+        System.out.println("Train makes an announcement.");
     }
+
 }

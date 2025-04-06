@@ -7,22 +7,22 @@ public class Superhero {
     }
 
     public void fly() {
-        System.out.println("Superhero is flying...");
+        System.out.println("Superhero is flying.");
     }
 
-    public void fightVillains() {
-        System.out.println("Fighting villains...");
+    public void fight() {
+        System.out.println("Fighting villains.");
     }
 
-    public void useSuperStrength() {
-        System.out.println("Using super strength...");
+    public void superStrength() {
+        System.out.println("Using super strength.");
     }
 
     public void savePeople() {
-        System.out.println("Saving innocent people...");
+        System.out.println("Saving innocent people.");
     }
 
     public void disguiseIdentity() {
-        System.out.println("Hiding true identity...");
+        System.out.println("Hiding true identity.");
     }
 }

@@ -7,27 +7,29 @@ public class Veggies extends Potato {
         System.out.println("Potato has gained consciousness!");
     }
 
-    public void speak() {
-        System.out.println("Potato says: 'Why am I alive?'");
+    @Override
+    public void grow() {
+        System.out.println("Veggies is growing.");
     }
 
-    public void runAway() {
-        System.out.println("Potato is running for its life");
+    @Override
+    public void boiled() {
+        System.out.println("Veggies is getting boiled");
     }
 
-    public void startRebellion() {
-        System.out.println("Potato starts a rebellion against humans!");
+    @Override
+    public void fried() {
+        System.out.println("Veggies is now delicious fries!");
     }
 
-    public void becomeKing() {
-        System.out.println("Potato is now the King of Vegetables");
+    @Override
+    public void mashed() {
+        System.out.println("Veggies is mashed into a soft texture");
     }
 
-    public void takeOverTheWorld() {
-        System.out.println("Sentient Potato is now Earth's ruler!");
+    @Override
+    public void eaten() {
+        System.out.println("Veggies has been eaten");
     }
+
 }
-
-
-
-

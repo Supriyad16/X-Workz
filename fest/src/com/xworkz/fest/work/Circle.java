@@ -7,24 +7,29 @@ public class Circle extends Shape {
         System.out.println("Circle class");
     }
 
-    public void calculateDiameter() {
-        System.out.println("Calculating diameter of circle");
+    @Override
+    public void draw() {
+        System.out.println("Drawing the shape of circle.");
     }
 
-    public void calculateCircumference() {
-        System.out.println("Calculating circumference of circle");
+    @Override
+    public void area() {
+        System.out.println("Calculating area of circle");
     }
 
-    public void drawSmoothEdges() {
-        System.out.println("Drawing smooth edges of circle");
+    @Override
+    public void perimeter() {
+        System.out.println("Calculating perimeter of circle");
     }
 
-    public void rotate() {
-        System.out.println("Rotating the circle");
+    @Override
+    public void resize() {
+        System.out.println("Resizing the circle");
     }
 
-    public void fillColor() {
-        System.out.println("Filling color in the circle");
+    @Override
+    public void dimension() {
+        System.out.println("calculate the dimension of circle.");
     }
 }
 

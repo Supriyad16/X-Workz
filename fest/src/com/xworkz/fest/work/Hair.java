@@ -25,6 +25,7 @@ class Hair {
     public void protect() {
         System.out.println("Hair protects the scalp from sun and dust.");
     }
+
 }
 
 

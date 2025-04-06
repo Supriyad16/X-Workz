@@ -2,35 +2,34 @@ package com.xworkz.fest.work;
 
 public class Joy extends Festival {
 
-    Joy(){
-
+        Joy(){
         super();
         System.out.println("Joyous festival");
     }
 
-    public void children(){
 
-        System.out.println("children spread joy");
+    @Override
+    public void happy() {
+        System.out.println("Enjoy the festival happily.");
     }
 
-    public void games(){
-
-        System.out.println("traditiobal games during festival");
+    @Override
+    public void sweets(){
+        System.out.println("Sweets are made with love.");
     }
 
-    public void smile(){
-
-        System.out.println("everyone are happy");
+    @Override
+    public void food(){
+        System.out.println("varieties of foods are made in festivals.");
     }
 
-    public void enjoy(){
-
-        System.out.println("family enjoys ");
+    @Override
+    public void clothes(){
+        System.out.println("wear new clothes on festivals.");
     }
 
-    public void decorate(){
-
-        System.out.println("Decorate the house");
+    @Override
+    public void share(){
+        System.out.println("share food to others who are in need.");
     }
-
 }

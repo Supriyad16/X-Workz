@@ -1,27 +1,34 @@
 package com.xworkz.fest.work;
+
 public class Specs extends Glass {
-    Specs() {
+        Specs() {
         super();
         System.out.println("Specs are used for vision correction");
     }
-    public void lensType() {
 
-        System.out.println("Specs have different types of lenses like concave and convex");
+    @Override
+    public void material() {
+        System.out.println("Glass is made from silica.");
     }
-    public void frameMaterial() {
 
-        System.out.println("Specs frames can be made of metal or plastic");
+    @Override
+    public void transparency() {
+        System.out.println("Glass allows light to pass through it.");
     }
-    public void uvProtection() {
 
-        System.out.println("Some specs provide UV protection");
+    @Override
+    public void fragile() {
+        System.out.println("Glass is fragile.");
     }
-    public void antiGlare() {
 
-        System.out.println("Anti-glare coating helps reduce strain");
+    @Override
+    public void reflect() {
+        System.out.println("Glass reflect light.");
     }
-    public void stylish() {
 
-        System.out.println("Specs can be a fashion statement");
+    @Override
+    public void heatResistance() {
+        System.out.println("Some glass are heat-resistant.");
     }
+
 }

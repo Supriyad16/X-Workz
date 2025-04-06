@@ -1,29 +1,37 @@
 package com.xworkz.fest.work;
 
-
 class Towel extends Woolen {
     Towel() {
         super();
         System.out.println("Towel class");
     }
 
-    public void absorbsWater() {
-        System.out.println("Towels absorb water quickly and help in drying.");
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
     }
 
-    public void usedAfterBathing() {
-        System.out.println("Towels are used to dry the body after bathing.");
+    @Override
+    public void warmth() {
+        System.out.println("Woolen fabric provides warmth.");
     }
 
-    public void availableInVariousSizes() {
-        System.out.println("Towels come in different sizes for various purposes.");
+    @Override
+    public void soft() {
+        System.out.println("Woolen materials have a soft texture.");
     }
 
-    public void madeOfDifferentMaterials() {
-        System.out.println("Towels are made of cotton, wool, or microfiber.");
+    @Override
+    public void absorbsMoisture() {
+        System.out.println("Woolen fabrics can absorb moisture.");
     }
 
-    public void easyToWash() {
-        System.out.println("Towels are easy to wash and maintain.");
+    @Override
+    public void durable() {
+        System.out.println("Woolen materials are highly durable.");
+    }
+
+    public void usedInClothing() {
+        System.out.println("Woolen fabric is widely used for clothing.");
     }
 }

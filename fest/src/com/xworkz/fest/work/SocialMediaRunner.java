@@ -12,10 +12,11 @@ public class SocialMediaRunner {
         socialMedia.postContent();
 
         Addict addict = new Addict();
-        addict.checkNotificationsFrequently();
-        addict.loseTrackOfTime();
-        addict.postEveryHour();
-        addict.scrollEndlessly();
-        addict.spendTooMuchTime();
+        addict.createAccount();
+        addict.followPeople();
+        addict.likePosts();
+        addict.sendMessage();
+        addict.postContent();
+
     }
 }

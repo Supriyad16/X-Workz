@@ -6,23 +6,29 @@ class Pen extends Notebook {
         System.out.println("Pen class");
     }
 
+    @Override
+    public void open() {
+        System.out.println("Open the notebook.");
+    }
+
+    @Override
+    public void close() {
+        System.out.println("Close the notebook.");
+    }
+
+    @Override
     public void write() {
-        System.out.println("Writing with the pen.");
+        System.out.println("Write notes .");
     }
 
-    public void refillInk() {
-        System.out.println("Refilling the pen with ink.");
+    @Override
+    public void flipPages() {
+        System.out.println("Flip the pages.");
     }
 
-    public void draw() {
-        System.out.println("Drawing with the pen.");
+    @Override
+    public void markImportant() {
+        System.out.println("Mark important in the notebook.");
     }
 
-    public void changeColor() {
-        System.out.println("Changing the pen color.");
-    }
-
-    public void capPen() {
-        System.out.println("Putting the cap on the pen.");
-    }
 }

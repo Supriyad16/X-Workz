@@ -6,23 +6,28 @@ class Ghee extends Butter {
         System.out.println("Ghee class");
     }
 
-    public void clarifiedButter() {
-        System.out.println("Ghee is a form of clarified butter.");
+    @Override
+    public void madeFromMilk() {
+        System.out.println("Butter is made from milk and ghee is made of butter.");
     }
 
-    public void hasLongShelfLife() {
-        System.out.println("Ghee has a longer shelf life compared to butter.");
+    @Override
+    public void cooking() {
+        System.out.println("Ghee is commonly used in cooking and baking.");
     }
 
-    public void usedInTraditionalDishes() {
-        System.out.println("Ghee is widely used in traditional Indian and Ayurvedic dishes.");
+    @Override
+    public void texture() {
+        System.out.println("Ghee has a smooth texture.");
     }
 
-    public void goodForDigestion() {
-        System.out.println("Ghee is known to aid digestion.");
+    @Override
+    public void fat() {
+        System.out.println("Ghee is rich in fat and provides energy.");
     }
 
-    public void highSmokePoint() {
-        System.out.println("Ghee has a high smoke point, making it suitable for frying.");
+    @Override
+    public void flavour() {
+        System.out.println("Ghee enhances the flavor of food.");
     }
 }

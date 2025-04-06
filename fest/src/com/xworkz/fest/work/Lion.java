@@ -6,23 +6,28 @@ class Lion extends Forest {
         System.out.println("Lion class");
     }
 
-    public void kingOfJungle() {
-        System.out.println("Lion is known as the king of the jungle.");
+    @Override
+    public void providesOxygen() {
+        System.out.println("Forest provides oxygen to the Lion.");
     }
 
-    public void carnivorousAnimal() {
-        System.out.println("Lion is a carnivorous animal that preys on other animals.");
+    @Override
+    public void shelter() {
+        System.out.println("Forest is home to various wild animals.");
     }
 
-    public void livesInPride() {
-        System.out.println("Lions live in groups called prides.");
+    @Override
+    public void largeArea() {
+        System.out.println("Forests cover a significant portion.");
     }
 
-    public void hasLoudRoar() {
-        System.out.println("Lions have a loud roar that can be heard from miles away.");
+    @Override
+    public void ecosystem() {
+        System.out.println("Forests help maintain the ecological system.");
     }
 
-    public void strongHunter() {
-        System.out.println("Lions are strong hunters with great agility.");
+    @Override
+    public void resources() {
+        System.out.println("Forests provide resources.");
     }
 }

@@ -25,6 +25,7 @@ public class Bank {
         public void generateStatement() {
             System.out.println("Bank generates account statements");
         }
+
     }
 
 

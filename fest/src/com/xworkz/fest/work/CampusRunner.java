@@ -5,18 +5,18 @@ public class CampusRunner {
     public static void main(String[] args) {
 
         Campus campus = new Placement();
-        campus.conductClasses();
-        campus.provideFacilities();
+        campus.classes();
+        campus.facilities();
         campus.organizeEvents();
-        campus.encourageResearch();
-        campus.offerInternships();
+        campus.research();
+        campus.internships();
 
 
         Placement placement = new Placement();
-        placement.conductInterviews();
-        placement.inviteCompanies();
-        placement.provideTraining();
-        placement.assistInResumeBuilding();
-        placement.ensureJobOpportunities();
+        placement.classes();
+        placement.facilities();
+        placement.organizeEvents();
+        placement.research();
+        placement.internships();
     }
 }

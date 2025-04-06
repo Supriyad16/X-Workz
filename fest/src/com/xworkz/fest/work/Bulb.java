@@ -1,12 +1,11 @@
 package com.xworkz.fest.work;
 
-
 class Bulb {
     Bulb() {
         System.out.println("Bulb class");
     }
 
-    public void produceLight() {
+    public void light() {
         System.out.println("The bulb produces light when switched on.");
     }
 
@@ -14,15 +13,15 @@ class Bulb {
         System.out.println("Bulbs consume electricity to function.");
     }
 
-    public void availableInDifferentTypes() {
-        System.out.println("Bulbs are available in LED, CFL, and incandescent types.");
+    public void colours() {
+        System.out.println("Bed light bulbs are in different colours.");
     }
 
-    public void usedForIllumination() {
-        System.out.println("Bulbs are used for illumination in homes and offices.");
+    public void shapes() {
+        System.out.println("Bulbs are available in LED, CFL, and incandescent types..");
     }
 
-    public void differentBrightnessLevels() {
+    public void brightness() {
         System.out.println("Bulbs have different brightness levels based on wattage.");
     }
 }

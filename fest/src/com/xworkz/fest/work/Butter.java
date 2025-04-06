@@ -9,19 +9,19 @@ class Butter {
         System.out.println("Butter is made from milk.");
     }
 
-    public void usedInCooking() {
+    public void cooking() {
         System.out.println("Butter is commonly used in cooking and baking.");
     }
 
-    public void hasCreamyTexture() {
+    public void texture() {
         System.out.println("Butter has a smooth and creamy texture.");
     }
 
-    public void richInFat() {
+    public void fat() {
         System.out.println("Butter is rich in fat and provides energy.");
     }
 
-    public void enhancesFlavor() {
+    public void flavour() {
         System.out.println("Butter enhances the flavor of food.");
     }
 }

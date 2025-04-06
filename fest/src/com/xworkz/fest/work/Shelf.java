@@ -6,23 +6,23 @@ class Shelf {
         System.out.println("Shelf class");
     }
 
-    public void storeItems() {
+    public void store() {
         System.out.println("Shelf is used to store items.");
     }
 
-    public void madeOfWoodOrMetal() {
+    public void wood() {
         System.out.println("Shelf can be made of wood, metal, or plastic.");
     }
 
-    public void usedInHomesAndOffices() {
+    public void madeOf() {
         System.out.println("Shelves are commonly used in homes and offices.");
     }
 
-    public void availableInDifferentSizes() {
+    public void differentSizes() {
         System.out.println("Shelves come in different sizes and shapes.");
     }
 
-    public void helpsInOrganization() {
+    public void organization() {
         System.out.println("Shelf helps in organizing things properly.");
     }
 }

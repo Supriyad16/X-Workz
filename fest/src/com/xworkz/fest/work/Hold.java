@@ -6,23 +6,28 @@ class Hold extends Shelf {
         System.out.println("Hold class");
     }
 
-    public void supportsWeight() {
-        System.out.println("Hold function ensures that the shelf supports weight properly.");
+    @Override
+    public void store() {
+        System.out.println("Shelf is used to hold items.");
     }
 
-    public void securesItems() {
-        System.out.println("Hold keeps items secure and prevents them from falling.");
+    @Override
+    public void wood() {
+        System.out.println("Shelf can be made of wood.");
     }
 
-    public void maintainsBalance() {
-        System.out.println("Hold function maintains balance on the shelf.");
+    @Override
+    public void madeOf() {
+        System.out.println("Shelves are commonly used in homes.");
     }
 
-    public void dependsOnMaterial() {
-        System.out.println("Hold strength depends on the material used for the shelf.");
+    @Override
+    public void differentSizes() {
+        System.out.println("Shelves come in different sizes.");
     }
 
-    public void ensuresDurability() {
-        System.out.println("A good hold ensures durability and long-lasting use.");
+    @Override
+    public void organization() {
+        System.out.println("Shelf helps in organizing.");
     }
 }

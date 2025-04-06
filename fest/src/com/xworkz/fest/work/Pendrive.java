@@ -6,23 +6,29 @@ class Pendrive extends Storage {
         System.out.println("Pendrive class");
     }
 
-    public void plugAndPlay() {
-        System.out.println("Pendrive supports plug-and-play functionality.");
+    @Override
+    public void store() {
+        System.out.println("Pendrive is used to store data.");
     }
 
-    public void transferFiles() {
-        System.out.println("Pendrive allows quick file transfer.");
+    @Override
+    public void retrieve() {
+        System.out.println("Pendrive allows retrieval of data.");
     }
 
-    public void portableDevice() {
-        System.out.println("Pendrive is a portable storage device.");
+    @Override
+    public void secure() {
+        System.out.println("Pendrive provides data security.");
     }
 
-    public void supportUsbInterface() {
-        System.out.println("Pendrive supports USB interfaces.");
+    @Override
+    public void manageSpace() {
+        System.out.println("Pendrive manages available space efficiently.");
     }
 
-    public void provideBackup() {
-        System.out.println("Pendrive can be used to backup important files.");
+    @Override
+    public void supportDifferentFormats() {
+        System.out.println("Pendrive supports multiple file formats.");
     }
+
 }

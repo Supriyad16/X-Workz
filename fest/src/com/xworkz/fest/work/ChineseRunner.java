@@ -3,20 +3,18 @@ package com.xworkz.fest.work;
 public class ChineseRunner {
     public static void main(String[] args) {
 
-
         Chinese chinese = new Noodles();
         chinese.popularCuisine();
         chinese.richInFlavors();
-        chinese.usesChopsticks();
+        chinese.chopsticks();
         chinese.varietyOfDishes();
-        chinese.includesSpices();
-
+        chinese.spices();
 
         Noodles noodles = new Noodles();
-        noodles.madeFromWheatOrRice();
-        noodles.cookedInDifferentWays();
-        noodles.servedWithVegetablesOrMeat();
-        noodles.availableInDifferentTypes();
-        noodles.widelyLoved();
+        noodles.popularCuisine();
+        noodles.richInFlavors();
+        noodles.chopsticks();
+        noodles.varietyOfDishes();
+        noodles.spices();
     }
 }

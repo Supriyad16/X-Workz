@@ -1,6 +1,5 @@
 package com.xworkz.fest.work;
 
-
 public class MedicineRunner {
     public static void main(String[] args) {
 
@@ -9,15 +8,14 @@ public class MedicineRunner {
         medicine.dosage();
         medicine.sideEffects();
         medicine.expiryDate();
-        medicine.storageConditions();
-
-
+        medicine.taste();
 
         PainKiller painkiller = new PainKiller();
-        painkiller.relievePain();
-        painkiller.quickAction();
-        painkiller.overTheCounter();
-        painkiller.differentStrengths();
-        painkiller.suitableForHeadache();
+        painkiller.cureIllness();
+        painkiller.dosage();
+        painkiller.sideEffects();
+        painkiller.expiryDate();
+        painkiller.taste();
     }
+
 }

@@ -7,23 +7,28 @@ class Penguin extends Snow {
         System.out.println("Penguin class");
     }
 
-    public void livesInColdRegions() {
-        System.out.println("Penguins live in extremely cold regions.");
+    @Override
+    public void coldWeather() {
+        System.out.println("Snow forms in cold weather.");
     }
 
-    public void swimsInWater() {
-        System.out.println("Penguins are excellent swimmers.");
+    @Override
+    public void mountains() {
+        System.out.println("Snow covers mountains.");
     }
 
-    public void eatsFish() {
-        System.out.println("Penguins primarily eat fish and other seafood.");
+    @Override
+    public void melts() {
+        System.out.println("Snow melts during heat condition.");
     }
 
-    public void hasThickFeathers() {
-        System.out.println("Penguins have thick feathers to keep them warm in snow.");
+    @Override
+    public void usedForSports() {
+        System.out.println("Snow is used for winter sports.");
     }
 
-    public void waddlesOnIce() {
-        System.out.println("Penguins waddle when they walk on ice.");
+    @Override
+    public void reflectsSunlight() {
+        System.out.println("Snow reflects sunlight.");
     }
 }

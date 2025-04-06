@@ -4,17 +4,17 @@ public class BottleRunner {
     public static void main(String[] args) {
 
         Bottle bottle = new Steel();
-        bottle.storeLiquid();
+        bottle.store();
         bottle.reusable();
-        bottle.differentSizes();
+        bottle.shapes();
         bottle.portable();
-        bottle.madeOfDifferentMaterials();
+        bottle.materials();
 
         Steel steel = new Steel();
-        steel.durable();
-        steel.maintainsTemperature();
-        steel.ecoFriendly();
-        steel.rustResistant();
-        steel.hygienic();
+        steel.materials();
+        steel.reusable();
+        steel.shapes();
+        steel.portable();
+        steel.store();
     }
 }

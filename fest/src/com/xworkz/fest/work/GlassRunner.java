@@ -5,7 +5,6 @@ public class GlassRunner {
     public static void main(String[] args) {
 
         Glass glass = new Specs();
-
         glass.fragile();
         glass.heatResistance();
         glass.reflect();
@@ -13,12 +12,11 @@ public class GlassRunner {
         glass.transparency();
 
         Specs specs = new Specs();
-
-        specs.antiGlare();
-        specs.frameMaterial();
-        specs.lensType();
-        specs.stylish();
-        specs.uvProtection();
+        specs.fragile();
+        specs.heatResistance();
+        specs.reflect();
+        specs.material();
+        specs.transparency();
     }
 }
 

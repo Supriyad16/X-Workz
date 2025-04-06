@@ -5,17 +5,17 @@ public class ToysRunner {
 
 
         Toys toys = new Dolls();
-        toys.provideEntertainment();
-        toys.madeOfDifferentMaterials();
-        toys.availableInVariousTypes();
+        toys.learning();
+        toys.differentMaterials();
+        toys.variousTypes();
         toys.improveCreativity();
-        toys.usedForLearning();
+        toys.entertainment();
 
         Dolls dolls = new Dolls();
-        dolls.dressedInDifferentStyles();
-        dolls.popularAmongChildren();
-        dolls.availableInVariousSizes();
-        dolls.usedForRolePlaying();
-        dolls.collectibleItems();
+        dolls.learning();
+        dolls.differentMaterials();
+        dolls.variousTypes();
+        dolls.improveCreativity();
+        dolls.entertainment();
     }
 }

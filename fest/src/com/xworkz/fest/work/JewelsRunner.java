@@ -12,10 +12,10 @@ public class JewelsRunner {
 
 
         Bangles bangles = new Bangles();
-        bangles.wornOnWrist();
-        bangles.comeInPairs();
-        bangles.madeOfDifferentMaterials();
-        bangles.usedInTraditions();
-        bangles.availableInVariousDesigns();
+        bangles.shine();
+        bangles.madeOfGold();
+        bangles.enhanceBeauty();
+        bangles.symbolizeStatus();
+        bangles.giftedOnOccasions();
     }
 }

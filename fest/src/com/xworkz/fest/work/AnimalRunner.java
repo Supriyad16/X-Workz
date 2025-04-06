@@ -10,13 +10,12 @@ public class AnimalRunner {
         animal.move();
         animal.grow();
 
-        System.out.println("*****");
 
         Bird bird = new Bird();
-        bird.fly();
-        bird.sing();
-        bird.layEggs();
-        bird.buildNest();
-        bird.migrate();
+        bird.eat();
+        bird.sleep();
+        bird.breathe();
+        bird.move();
+        bird.grow();
     }
 }

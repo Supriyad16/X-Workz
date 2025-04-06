@@ -15,14 +15,14 @@ public class Time {
     }
 
     public void createTimeParadox() {
-        System.out.println("Oops! Created a time paradox");
+        System.out.println("Created a time paradox");
     }
 
-    public void meetHistoricalFigures() {
-        System.out.println("Meeting famous historical figures");
+    public void countDown() {
+        System.out.println("Countdown starts");
     }
 
-    public void breakLawsOfPhysics() {
-        System.out.println("Time Machine is breaking physics");
+    public void seconds() {
+        System.out.println("Time have seconds.");
     }
 }

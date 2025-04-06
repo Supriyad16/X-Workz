@@ -7,23 +7,28 @@ public class Spoon extends Plate {
         System.out.println("This is a spoon");
     }
 
-    public void scoop() {
-        System.out.println("Spoon is used to scoop food");
+    @Override
+    public void hold() {
+        System.out.println("Plate holds food and spoon.");
     }
 
-    public void stir() {
-        System.out.println("Spoon is used to stir liquids");
+    @Override
+    public void clean() {
+        System.out.println("Clean the plate.");
     }
 
-    public void design() {
-        System.out.println("Spoons can be made of metal, plastic, or wood");
+    @Override
+    public void material() {
+        System.out.println("Plates are made of materials");
     }
 
-    public void measure() {
-        System.out.println("Spoons come in different sizes to measure");
+    @Override
+    public void shape() {
+        System.out.println("Plates can be round.");
     }
 
-    public void eat() {
-        System.out.println("Spoon is used to eat food");
+    @Override
+    public void size() {
+        System.out.println("Plates come in sizes.");
     }
 }

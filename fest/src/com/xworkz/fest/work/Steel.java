@@ -6,23 +6,29 @@ class Steel extends Bottle {
         System.out.println("Steel class");
     }
 
-    public void durable() {
-        System.out.println("Steel bottles are durable and long-lasting.");
+    @Override
+    public void store() {
+        System.out.println("Bottles are used to store liquids.");
     }
 
-    public void maintainsTemperature() {
-        System.out.println("Steel bottles can keep liquids hot or cold for long hours.");
+    @Override
+    public void reusable() {
+        System.out.println("Many bottles are reusable.");
     }
 
-    public void ecoFriendly() {
-        System.out.println("Steel bottles are eco-friendly and reduce plastic waste.");
+    @Override
+    public void shapes() {
+        System.out.println("Bottles come in different shapes.");
     }
 
-    public void rustResistant() {
-        System.out.println("Steel bottles are resistant to rust and corrosion.");
+    @Override
+    public void portable() {
+        System.out.println("Bottles are easy to carry.");
     }
 
-    public void hygienic() {
-        System.out.println("Steel bottles are easy to clean and more hygienic than plastic bottles.");
+    @Override
+    public void materials() {
+        System.out.println("Bottles can be made of different materials.");
     }
+
 }

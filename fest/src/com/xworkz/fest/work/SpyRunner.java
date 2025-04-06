@@ -11,12 +11,11 @@ public class SpyRunner {
         spy.decodeMessage();
 
 
-
         Hacker hacker = new Hacker();
-        hacker.hackSecurity();
-        hacker.stealData();
-        hacker.writeVirus();
-        hacker.eraseEvidence();
-        hacker.takeControl();
+        hacker.gatherIntel();
+        hacker.disguise();
+        hacker.useGadgets();
+        hacker.escape();
+        hacker.decodeMessage();
     }
 }

@@ -5,17 +5,17 @@ public class SummerRunner {
 
         Summer summer = new Hot();
         summer.increaseTemperature();
-        summer.bringSunlight();
-        summer.causeDehydration();
-        summer.promoteVacation();
-        summer.supportMangoSeason();
+        summer.sunlight();
+        summer.dehydration();
+        summer.vacation();
+        summer.mangoSeason();
 
 
         Hot hot = new Hot();
-        hot.feelSweat();
-        hot.demandCoolDrinks();
-        hot.increaseElectricityUsage();
-        hot.causeHeatWaves();
-        hot.makeWaterBodiesEvaporate();
+        hot.increaseTemperature();
+        hot.sunlight();
+        hot.dehydration();
+        hot.vacation();
+        hot.mangoSeason();
     }
 }

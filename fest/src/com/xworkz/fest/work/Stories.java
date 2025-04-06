@@ -6,26 +6,29 @@ class Stories extends Author {
         System.out.println("Stories class");
     }
 
-    public void createPlot() {
-        System.out.println("Creating a new story plot.");
+    @Override
+    public void writeBook() {
+        System.out.println("Author is writing a Stories book.");
     }
 
-    public void writeShortStory() {
-        System.out.println("Writing a short story.");
+    @Override
+    public void editContent() {
+        System.out.println("Author is editing the Stories content.");
     }
 
-    public void addCharacters() {
-        System.out.println("Adding characters to the story.");
+    @Override
+    public void publishBook() {
+        System.out.println("Author is publishing Stories the book.");
     }
 
-    public void setStoryTheme() {
-        System.out.println("Setting the theme of the story.");
+    @Override
+    public void giveInterview() {
+        System.out.println("Author is giving the interview.");
     }
 
-    public void publishStory() {
-        System.out.println("Publishing the story in a magazine.");
+    @Override
+    public void bookLaunch() {
+        System.out.println("Author is attending the event.");
     }
 }
-
-
 

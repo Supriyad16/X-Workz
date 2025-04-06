@@ -6,23 +6,28 @@ class Talk extends Timepass {
         System.out.println("Talk class");
     }
 
-    public void chatWithFriends() {
-        System.out.println("Chatting with friends on WhatsApp.");
+    @Override
+    public void watchTV() {
+        System.out.println("Watching TV.");
     }
 
-    public void discussTopics() {
-        System.out.println("Discussing random topics with people.");
+    @Override
+    public void playGames() {
+        System.out.println("Playing mobile or video games.");
     }
 
-    public void gossip() {
-        System.out.println("Gossiping about things happening around.");
+    @Override
+    public void scrollSocialMedia() {
+        System.out.println("Scrolling through social media.");
     }
 
-    public void debate() {
-        System.out.println("Debating on trending topics.");
+    @Override
+    public void listenToMusic() {
+        System.out.println("Listening to music.");
     }
 
-    public void storytelling() {
-        System.out.println("Sharing interesting stories with others.");
+    @Override
+    public void readRandomStuff() {
+        System.out.println("Reading Novels.");
     }
 }

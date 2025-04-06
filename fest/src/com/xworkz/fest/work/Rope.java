@@ -6,23 +6,30 @@ class Rope extends Jute {
         System.out.println("Rope class");
     }
 
-    public void madeFromJuteFibers() {
-        System.out.println("Ropes can be made from jute fibers.");
+    @Override
+    public void naturalFiber() {
+        System.out.println("Jute is a natural fiber.");
     }
 
-    public void usedForBinding() {
-        System.out.println("Jute ropes are used for binding and packaging materials.");
+    @Override
+    public void biodegradable() {
+        System.out.println("Jute is biodegradable.");
     }
 
-    public void strongGrip() {
-        System.out.println("Jute ropes provide a strong grip and are commonly used in agriculture.");
+    @Override
+    public void bags() {
+        System.out.println("Jute is used to make bags.");
     }
 
-    public void lightweight() {
-        System.out.println("Jute ropes are lightweight yet sturdy.");
+    @Override
+    public void strongAndDurable() {
+        System.out.println("Jute fibers are strong.");
     }
 
-    public void ecoFriendlyAlternative() {
-        System.out.println("Jute ropes serve as an eco-friendly alternative to plastic ropes.");
+    @Override
+    public void textile() {
+        System.out.println("Jute is widely used in the textile.");
     }
+
+
 }

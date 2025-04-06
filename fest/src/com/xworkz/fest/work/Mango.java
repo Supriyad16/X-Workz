@@ -7,24 +7,29 @@ public class Mango extends Fruit {
         super();
         System.out.println("Mango is created");
     }
-    public void sweet() {
 
-        System.out.println("Mangoes are sweet");
+    @Override
+    public void taste() {
+        System.out.println("Mango have different tastes");
     }
-    public void yellowColor() {
 
-        System.out.println("Mangoes are usually yellow when ripe");
+    @Override
+    public void color() {
+        System.out.println("Mango come in various colors");
     }
-    public void types() {
 
-        System.out.println("Mango is known as the king of fruits");
+    @Override
+    public void vitamins() {
+        System.out.println("Mango provide essential vitamins");
     }
-    public void sour() {
 
-        System.out.println("Mango is a summer fruit");
+    @Override
+    public void grow() {
+        System.out.println("Mango grow on trees or plants");
     }
-    public void pickle() {
 
-        System.out.println("Mangoes are used to make juice");
+    @Override
+    public void seasonal() {
+        System.out.println("Mango fruits are seasonal");
     }
 }

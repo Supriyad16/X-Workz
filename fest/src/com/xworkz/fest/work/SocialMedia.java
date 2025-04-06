@@ -25,6 +25,7 @@ class SocialMedia {
     public void sendMessage() {
         System.out.println("Sending messages to friends.");
     }
+
 }
 
 

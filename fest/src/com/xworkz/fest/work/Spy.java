@@ -7,22 +7,22 @@ public class Spy {
     }
 
     public void gatherIntel() {
-        System.out.println("Spy is gathering secret information...");
+        System.out.println("Spy is gathering secret information.");
     }
 
     public void disguise() {
-        System.out.println("Spy is using a new disguise...");
+        System.out.println("Spy is using a new disguise.");
     }
 
     public void useGadgets() {
-        System.out.println("Spy is using high-tech gadgets...");
+        System.out.println("Spy is using high-tech gadgets.");
     }
 
     public void escape() {
-        System.out.println("Spy is making an escape...");
+        System.out.println("Spy is making an escape.");
     }
 
     public void decodeMessage() {
-        System.out.println("Spy is decoding secret messages...");
+        System.out.println("Spy is decoding secret messages.");
     }
 }

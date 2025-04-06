@@ -11,14 +11,11 @@ public class LockRunner {
         lock.rust();
         lock.breakLock();
 
-
-
-
         Key key = new Key();
-        key.insert();
-        key.rotate();
-        key.duplicate();
-        key.lost();
-        key.matchLock();
+        key.secure();
+        key.open();
+        key.close();
+        key.rust();
+        key.breakLock();
     }
 }

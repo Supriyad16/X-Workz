@@ -14,17 +14,18 @@ public class Ghost {
         System.out.println("The ghost vanishes into thin air");
     }
 
-    public void makeWeirdNoises() {
+    public void weirdNoises() {
         System.out.println("The ghost makes spooky noises at midnight");
     }
 
-    public void possessObjects() {
-        System.out.println("The ghost possesses a chair");
+    public void magic() {
+        System.out.println("The ghost do magic.");
     }
 
     public void floatAround() {
         System.out.println("The ghost is floating around aimlessly");
     }
+
 }
 
 

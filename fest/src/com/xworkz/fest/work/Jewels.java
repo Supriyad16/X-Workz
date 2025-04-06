@@ -10,7 +10,7 @@ class Jewels {
     }
 
     public void madeOfGold() {
-        System.out.println("Jewels are often made of gold or silver.");
+        System.out.println("Jewels are often made of gold .");
     }
 
     public void enhanceBeauty() {

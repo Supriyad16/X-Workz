@@ -1,6 +1,7 @@
 package com.xworkz.fest.work;
 
 public class InstrumentRunner {
+
     public static void main(String[] args) {
 
         Instrument instrument = new Piano();
@@ -11,12 +12,11 @@ public class InstrumentRunner {
         instrument.amplify();
 
 
-
         Piano piano = new Piano();
-        piano.strum();
-        piano.adjustStrings();
-        piano.changeTones();
-        piano.plugIn();
-        piano.fingerpicking();
+        piano.play();
+        piano.tune();
+        piano.repair();
+        piano.store();
+        piano.amplify();
     }
 }

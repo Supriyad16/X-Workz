@@ -14,10 +14,10 @@ public class FestivalRunner {
 
         Joy joy = new Joy();
 
-        joy.children();
-        joy.decorate();
-        joy.enjoy();
-        joy.games();
-        joy.smile();
+        joy.clothes();
+        joy.food();
+        joy.happy();
+        joy.share();
+        joy.sweets();
     }
 }

@@ -6,23 +6,29 @@ class Smile extends Emoji {
         System.out.println("Smile class");
     }
 
-    public void representsHappiness() {
-        System.out.println("A smile emoji represents happiness and joy.");
+    @Override
+    public void emotion() {
+        System.out.println("Emojis helps to express.");
     }
 
-    public void spreadsPositivity() {
-        System.out.println("Smiling emojis spread positivity in conversations.");
+    @Override
+    public void usedInChats() {
+        System.out.println("Emojis are commonly used in chats.");
     }
 
-    public void commonlyUsed() {
-        System.out.println("Smile emojis are one of the most commonly used emojis.");
+    @Override
+    public void differentTypes() {
+        System.out.println("There are various types of emojis.");
     }
 
-    public void usedToShowFriendliness() {
-        System.out.println("Smile emojis are often used to show friendliness and warmth.");
+    @Override
+    public void communication() {
+        System.out.println("Emojis enhance text communication.");
     }
 
-    public void makesMessagesLighter() {
-        System.out.println("A smile emoji can make a message feel lighter and more friendly.");
+    @Override
+    public void universalLanguage() {
+        System.out.println("Emojis are a universal language.");
     }
+
 }

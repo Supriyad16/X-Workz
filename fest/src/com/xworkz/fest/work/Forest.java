@@ -10,19 +10,19 @@ class Forest {
         System.out.println("Forest provides oxygen to the environment.");
     }
 
-    public void homeToWildlife() {
+    public void shelter() {
         System.out.println("Forest is home to various wildlife species.");
     }
 
-    public void coversLargeArea() {
+    public void largeArea() {
         System.out.println("Forests cover a significant portion of the Earth's surface.");
     }
 
-    public void maintainsEcosystem() {
+    public void ecosystem() {
         System.out.println("Forests help maintain the ecological balance.");
     }
 
-    public void sourceOfResources() {
+    public void resources() {
         System.out.println("Forests provide wood, medicinal plants, and other resources.");
     }
 }

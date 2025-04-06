@@ -7,23 +7,29 @@ public class Priest extends Ghost {
         System.out.println("A Poltergeist is causing chaos!");
     }
 
-    public void throwObjects() {
-        System.out.println("Poltergeist is throwing chairs around");
+    @Override
+    public void haunt() {
+        System.out.println("The ghost is haunting.");
     }
 
-    public void screamLoudly() {
-        System.out.println("Poltergeist screams in a terrifying voice");
+    @Override
+    public void disappear() {
+        System.out.println("The ghost disappear.");
     }
 
-    public void messWithElectronics() {
-        System.out.println("Poltergeist is turning lights on and off");
+    @Override
+    public void weirdNoises() {
+        System.out.println("The ghost makes noises at midnight");
     }
 
-    public void openDoorsRandomly() {
-        System.out.println("Poltergeist keeps opening doors at night");
+    @Override
+    public void magic() {
+        System.out.println("The ghost do magic at night.");
     }
 
-    public void terrorizePeople() {
-        System.out.println("Poltergeist is scaring the family away!");
+    @Override
+    public void floatAround() {
+        System.out.println("The ghost is floating around.");
     }
+
 }

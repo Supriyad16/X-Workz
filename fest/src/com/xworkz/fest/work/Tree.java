@@ -7,23 +7,28 @@ public class Tree extends Plant {
         System.out.println("Tree class");
     }
 
-    public void produceFruits() {
-        System.out.println("Tree produces fruits");
+    @Override
+    public void grow() {
+        System.out.println("Tree is growing.");
     }
 
-    public void strongRoots() {
-        System.out.println("Tree has strong roots");
+    @Override
+    public void absorbWater() {
+        System.out.println("Tree absorbs water.");
     }
 
-    public void provideWood() {
-        System.out.println("Tree provides wood");
+    @Override
+    public void photosynthesis() {
+        System.out.println("Tree performs photosynthesis.");
     }
 
-    public void habitatForAnimals() {
-        System.out.println("Tree is a habitat for animals");
+    @Override
+    public void oxygenRelease() {
+        System.out.println("Tree releases oxygen.");
     }
 
-    public void seasonalChanges() {
-        System.out.println("Tree experiences seasonal changes");
+    @Override
+    public void provideShade() {
+        System.out.println("Tree provides shade.");
     }
 }

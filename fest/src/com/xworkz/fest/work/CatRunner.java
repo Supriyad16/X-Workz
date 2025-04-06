@@ -11,12 +11,11 @@ public class CatRunner {
         cat.scratchFurniture();
 
 
-
         Kitten kitten = new Kitten();
-        kitten.hackWiFi();
-        kitten.stealPasswords();
-        kitten.writeCode();
-        kitten.bypassFirewall();
-        kitten.deleteInternet();
+        kitten.meow();
+        kitten.sleep();
+        kitten.play();
+        kitten.eat();
+        kitten.scratchFurniture();
     }
 }

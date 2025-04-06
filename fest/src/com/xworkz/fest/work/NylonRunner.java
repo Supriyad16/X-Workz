@@ -5,17 +5,18 @@ public class NylonRunner {
 
         Nylon nylon = new Shirt();
         nylon.syntheticFiber();
-        nylon.strongAndDurable();
+        nylon.durable();
         nylon.waterResistant();
         nylon.lightweight();
         nylon.widelyUsedInTextiles();
 
 
         Shirt shirt = new Shirt();
-        shirt.madeFromNylon();
-        shirt.comfortableToWear();
-        shirt.wrinkleResistant();
-        shirt.availableInVariousColors();
-        shirt.easyToWash();
+        shirt.syntheticFiber();
+        shirt.durable();
+        shirt.waterResistant();
+        shirt.lightweight();
+        shirt.waterResistant();
+
     }
 }

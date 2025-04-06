@@ -24,5 +24,6 @@ class Cotton {
     public void usedInTextiles() {
         System.out.println("Cotton is widely used in the textile industry.");
     }
+
 }
 

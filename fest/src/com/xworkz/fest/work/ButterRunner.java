@@ -5,17 +5,17 @@ public class ButterRunner {
 
         Butter butter = new Ghee();
         butter.madeFromMilk();
-        butter.usedInCooking();
-        butter.hasCreamyTexture();
-        butter.richInFat();
-        butter.enhancesFlavor();
+        butter.cooking();
+        butter.texture();
+        butter.fat();
+        butter.flavour();
 
 
         Ghee ghee = new Ghee();
-        ghee.clarifiedButter();
-        ghee.hasLongShelfLife();
-        ghee.usedInTraditionalDishes();
-        ghee.goodForDigestion();
-        ghee.highSmokePoint();
+        ghee.madeFromMilk();
+        ghee.cooking();
+        ghee.texture();
+        ghee.fat();
+        ghee.flavour();
     }
 }

@@ -1,31 +1,33 @@
 package com.xworkz.fest.work;
 
-
 class Smell extends Flower {
     Smell() {
         super();
         System.out.println("Smell class");
     }
 
-    public void releaseFragrance() {
-        System.out.println("Flower is releasing fragrance.");
+    @Override
+    public void bloom() {
+        System.out.println("Flower blooms.");
     }
 
-    public void attractPeople() {
-        System.out.println("Smell is attracting people.");
+    @Override
+    public void absorbSunlight() {
+        System.out.println("Flower absorbs sunlight.");
     }
 
-    public void changeIntensity() {
-        System.out.println("Smell intensity changes over time.");
+    @Override
+    public void attractBees() {
+        System.out.println("Flower attracts bees.");
     }
 
-    public void spreadThroughAir() {
-        System.out.println("Smell is spreading through the air.");
+    @Override
+    public void produceSeeds() {
+        System.out.println("Flower produces seeds.");
     }
 
-    public void combineWithOtherScents() {
-        System.out.println("Smell is combining with other scents in the environment.");
+    @Override
+    public void displayColor() {
+        System.out.println("Flower displays beautiful colors.");
     }
 }
-
-

@@ -6,23 +6,28 @@ class Poster extends Advertisement {
         System.out.println("Poster class");
     }
 
-    public void designPoster() {
-        System.out.println("Designing the poster layout.");
+    @Override
+    public void createAd() {
+        System.out.println("Creating an ads.");
     }
 
-    public void selectColors() {
-        System.out.println("Selecting colors for the poster.");
+    @Override
+    public void setTargetAudience() {
+        System.out.println("Setting the target audience.");
     }
 
-    public void addText() {
-        System.out.println("Adding text to the poster.");
+    @Override
+    public void choosePlatform() {
+        System.out.println("Choosing the platform for advertisement.");
     }
 
-    public void printPoster() {
-        System.out.println("Printing the poster for distribution.");
+    @Override
+    public void setBudget() {
+        System.out.println("Setting the budget.");
     }
 
-    public void displayPoster() {
-        System.out.println("Displaying the poster in public places.");
+    @Override
+    public void publishAd() {
+        System.out.println("Publishing the advertisement through Poster.");
     }
 }

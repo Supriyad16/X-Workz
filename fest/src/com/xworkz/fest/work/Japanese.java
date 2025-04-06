@@ -7,7 +7,7 @@ class Japanese {
     }
 
     public void uniqueLanguage() {
-        System.out.println("The Japanese language has three writing scripts: Kanji, Hiragana, and Katakana.");
+        System.out.println("The Japanese language has Kanji, Hiragana and Katakana.");
     }
 
     public void advancedTechnology() {
@@ -25,5 +25,6 @@ class Japanese {
     public void famousCuisine() {
         System.out.println("Japanese cuisine includes sushi, ramen, tempura, and other traditional dishes.");
     }
+
 }
 

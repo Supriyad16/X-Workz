@@ -5,17 +5,17 @@ public class FreedomRunner {
 
         Freedom freedom = new FreedomFighters();
         freedom.definesRights();
-        freedom.ensuresEquality();
-        freedom.bringsIndependence();
-        freedom.promotesDemocracy();
-        freedom.encouragesDevelopment();
+        freedom.equality();
+        freedom.independence();
+        freedom.democracy();
+        freedom.development();
 
 
         FreedomFighters fighters = new FreedomFighters();
-        fighters.foughtForIndependence();
-        fighters.sacrificedLives();
-        fighters.inspiredGenerations();
-        fighters.opposedColonialRule();
-        fighters.contributedToHistory();
+        fighters.definesRights();
+        fighters.equality();
+        fighters.independence();
+        fighters.democracy();
+        fighters.development();
     }
 }

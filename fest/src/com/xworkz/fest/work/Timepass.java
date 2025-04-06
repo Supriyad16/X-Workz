@@ -25,5 +25,6 @@ class Timepass {
     public void readRandomStuff() {
         System.out.println("Reading random articles online.");
     }
+
 }
 

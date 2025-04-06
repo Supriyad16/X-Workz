@@ -5,17 +5,17 @@ public class ForestRunner {
 
         Forest forest = new Lion();
         forest.providesOxygen();
-        forest.homeToWildlife();
-        forest.coversLargeArea();
-        forest.maintainsEcosystem();
-        forest.sourceOfResources();
+        forest.shelter();
+        forest.largeArea();
+        forest.ecosystem();
+        forest.resources();
 
 
         Lion lion = new Lion();
-        lion.kingOfJungle();
-        lion.carnivorousAnimal();
-        lion.livesInPride();
-        lion.hasLoudRoar();
-        lion.strongHunter();
+        lion.providesOxygen();
+        lion.shelter();
+        lion.largeArea();
+        lion.ecosystem();
+        lion.resources();
     }
 }

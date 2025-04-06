@@ -6,23 +6,24 @@ public class SmartDevice {
         System.out.println("Smart Device is activated");
     }
 
-    public void powerOn() {
-        System.out.println("Turning on the smart device...");
+    public void trackSteps() {
+        System.out.println("Track the steps.");
     }
 
-    public void powerOff() {
-        System.out.println("Turning off the smart device...");
+    public void measureHeartRate() {
+        System.out.println("Measure the heart rate.");
     }
 
-    public void connectToWiFi() {
-        System.out.println("Connecting to WiFi...");
+    public void displayNotifications() {
+        System.out.println("Display mobile notifications.");
     }
 
-    public void updateSoftware() {
-        System.out.println("Updating the software...");
+    public void setAlarm() {
+        System.out.println("Set an alarm.");
     }
 
-    public void showBatteryStatus() {
-        System.out.println("Displaying battery status...");
+    public void trackSleep() {
+        System.out.println("Track sleep patterns.");
+
     }
 }

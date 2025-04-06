@@ -10,15 +10,15 @@ public class ShapeRunner {
             shape.area();
             shape.perimeter();
             shape.resize();
-            shape.displayColor();
+            shape.dimension();
 
 
             Circle circle = new Circle();
-            circle.calculateDiameter();
-            circle.calculateCircumference();
-            circle.drawSmoothEdges();
-            circle.rotate();
-            circle.fillColor();
+            circle.draw();
+            circle.area();
+            circle.perimeter();
+            circle.resize();
+            circle.dimension();
         }
     }
 

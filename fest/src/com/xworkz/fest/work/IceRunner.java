@@ -7,15 +7,15 @@ public class IceRunner {
         ice.freeze();
         ice.melt();
         ice.floatOnWater();
-        ice.maintainTemperature();
-        ice.formCrystals();
+        ice.temperature();
+        ice.crystals();
 
 
         Cool cool = new Cool();
-        cool.refreshAir();
-        cool.lowerBodyTemperature();
-        cool.preserveFood();
-        cool.provideComfort();
-        cool.preventOverheating();
+        cool.freeze();
+        cool.melt();
+        cool.floatOnWater();
+        cool.temperature();
+        cool.crystals();
     }
 }

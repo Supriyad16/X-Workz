@@ -7,22 +7,22 @@ public class Electricity {
     }
 
     public void generate() {
-        System.out.println("Electricity is being generated from power plants...");
+        System.out.println("Electricity is being generated from power plants.");
     }
 
     public void transmit() {
-        System.out.println("Electricity is transmitted through high-voltage lines...");
+        System.out.println("Electricity is transmitted through high-voltage lines.");
     }
 
     public void store() {
-        System.out.println("Electricity is stored in batteries and power grids...");
+        System.out.println("Electricity is stored in batteries and power grids.");
     }
 
     public void shock() {
-        System.out.println("Be careful! Electricity can give a dangerous shock...");
+        System.out.println("Be careful! Electricity can give a dangerous shock.");
     }
 
     public void powerDevices() {
-        System.out.println("Electricity is powering all electronic devices...");
+        System.out.println("Electricity is powering all electronic devices.");
     }
 }

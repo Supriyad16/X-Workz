@@ -1,7 +1,6 @@
 package com.xworkz.fest.work;
 
 
-
     public class Human {
 
         Human() {

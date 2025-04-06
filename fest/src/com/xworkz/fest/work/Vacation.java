@@ -1,36 +1,34 @@
 package com.xworkz.fest.work;
 
-import com.xworkz.fest.work.Resort;
-
 public class Vacation extends Resort {
 
     Vacation() {
         super();
         System.out.println("Enjoy your vacation!");
     }
-    public void trip() {
 
-        System.out.println("Trip has been planned");
+    @Override
+    public void bookRoom() {
+        System.out.println("Room has booked");
     }
 
-    public void tourists() {
-
-        System.out.println("Visiting nearby attractions");
+    @Override
+    public void checkIn() {
+        System.out.println("Guests have checked in");
     }
 
-    public void relax() {
-
-        System.out.println("Relaxing at the beach");
+    @Override
+    public void checkOut() {
+        System.out.println("Guests have checked out");
     }
 
-    public void activities() {
-
-        System.out.println("Engaging in adventure activities");
+    @Override
+    public void orderFood() {
+        System.out.println("Food has ordered.");
     }
 
-    public void holiday () {
-
-        System.out.println("Capturing vacation memories");
+    @Override
+    public void enjoyFacilities() {
+        System.out.println("Enjoy the facilities");
     }
-
 }

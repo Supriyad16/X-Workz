@@ -12,10 +12,10 @@ public class CottonRunner {
 
 
         Dress dress = new Dress();
-        dress.stylish();
-        dress.comfortable();
-        dress.suitableForAllOccasions();
-        dress.availableInDifferentColors();
-        dress.easyToWash();
+        dress.softTexture();
+        dress.breathable();
+        dress.absorbsMoisture();
+        dress.ecoFriendly();
+        dress.usedInTextiles();
     }
 }

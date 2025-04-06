@@ -6,24 +6,29 @@ class Placement extends Campus {
         System.out.println("Placement class");
     }
 
-    public void conductInterviews() {
-        System.out.println("Placement department conducts job interviews.");
+    @Override
+    public void classes() {
+        System.out.println("Campus conducts classes .");
     }
 
-    public void inviteCompanies() {
-        System.out.println("Placement cell invites companies for recruitment.");
+    @Override
+    public void facilities() {
+        System.out.println("Campus provides various facilities.");
     }
 
-    public void provideTraining() {
-        System.out.println("Placement cell provides training for job preparation.");
+    @Override
+    public void organizeEvents() {
+        System.out.println("Campus organizes events.");
     }
 
-    public void assistInResumeBuilding() {
-        System.out.println("Placement department helps students build resumes.");
+    @Override
+    public void research() {
+        System.out.println("Campus encourages students to participate in activities.");
     }
 
-    public void ensureJobOpportunities() {
-        System.out.println("Placement cell ensures job opportunities for students.");
+    @Override
+    public void internships() {
+        System.out.println("Campus provides internship to students.");
     }
 }
 

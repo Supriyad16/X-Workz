@@ -4,19 +4,19 @@ public class CalendarRunner {
     public static void main(String[] args) {
 
         Calendar calendar = new Dates();
-        calendar.showMonth();
-        calendar.showYear();
-        calendar.markHoliday();
-        calendar.checkLeapYear();
-        calendar.displayWeekDays();
+        calendar.month();
+        calendar.year();
+        calendar.holiday();
+        calendar.leapYear();
+        calendar.weekDays();
 
 
         Dates dates = new Dates();
-        dates.showCurrentDate();
-        dates.addEvent();
-        dates.checkWeekend();
-        dates.countDaysBetween();
-        dates.setReminder();
+        dates.month();
+        dates.year();
+        dates.holiday();
+        dates.leapYear();
+        dates.weekDays();
     }
 }
 

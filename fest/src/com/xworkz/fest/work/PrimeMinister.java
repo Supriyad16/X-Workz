@@ -5,24 +5,29 @@ public class PrimeMinister extends Country {
         super();
         System.out.println("This is the Prime Minister");
     }
-    public void leaderName() {
 
-        System.out.println("Prime Minister: Narendra Modi");
+    @Override
+    public void name() {
+        System.out.println("Country name: Bharath");
     }
-    public void termYears() {
 
-        System.out.println("Serves for 5 years per term");
+    @Override
+    public void population() {
+        System.out.println("Population: 1.4B");
     }
-    public void responsibilities() {
 
-        System.out.println("Responsible for governing the country");
+    @Override
+    public void nationalAnthem() {
+        System.out.println("JanaGanaMana is the national anthem of our country.");
     }
-    public void policies() {
 
-        System.out.println("Introduces and implements policies");
+    @Override
+    public void independenceYear() {
+        System.out.println("Independence Year: 1947 of Aug 15");
     }
-    public void work() {
 
-        System.out.println("Maintains international relations");
+    @Override
+    public void currency() {
+        System.out.println("Indian Rupee is the Currency of India.");
     }
 }

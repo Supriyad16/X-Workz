@@ -25,4 +25,5 @@ public class Instrument {
     public void amplify() {
         System.out.println("Amplifying the sound of the instrument");
     }
+
 }

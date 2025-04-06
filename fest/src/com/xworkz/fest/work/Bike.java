@@ -7,23 +7,28 @@ public class Bike extends TwoWheeler {
         System.out.println("Bike class");
     }
 
-    public void twoWheels() {
-        System.out.println("Bike has two wheels");
+    @Override
+    public void start() {
+        System.out.println("Bike get starts");
     }
 
-    public void handlebar() {
-        System.out.println("Bike has a handlebar for steering");
+    @Override
+    public void stop() {
+        System.out.println("Bike stops");
     }
 
-    public void kickStart() {
-        System.out.println("Bike can be started with a kick");
+    @Override
+    public void fuel() {
+        System.out.println("Bike needs fuel");
     }
 
-    public void fuelEfficiency() {
-        System.out.println("Bike has good fuel efficiency");
+    @Override
+    public void horn() {
+        System.out.println("Bike has a horn");
     }
 
-    public void lightweight() {
-        System.out.println("Bike is lightweight");
+    @Override
+    public void accelerate() {
+        System.out.println("Bike is accelerating");
     }
 }

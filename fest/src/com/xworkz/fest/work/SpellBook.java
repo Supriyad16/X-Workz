@@ -4,26 +4,31 @@ public class SpellBook extends Magic {
 
     SpellBook() {
         super();
-        System.out.println("Opening the ancient spell book...");
+        System.out.println("Opening the ancient spell book.");
     }
 
-    public void readSpell() {
-        System.out.println("Reading a powerful spell...");
+    @Override
+    public void castSpell() {
+        System.out.println("Cast a spell.");
     }
 
-    public void storeMagic() {
-        System.out.println("Storing magical energy...");
+    @Override
+    public void disappear() {
+        System.out.println("Disappear in thin air.");
     }
 
-    public void unlockSecret() {
-        System.out.println("Unlocking a secret page...");
+    @Override
+    public void createIllusion() {
+        System.out.println("Create an illusion.");
     }
 
-    public void createPotion() {
-        System.out.println("Brewing a magical potion...");
+    @Override
+    public void summonCreature() {
+        System.out.println("Summon a magical creature.");
     }
 
-    public void enhancePower() {
-        System.out.println("Enhancing magical powers...");
+    @Override
+    public void controlElements() {
+        System.out.println("Control the elements.");
     }
 }

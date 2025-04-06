@@ -3,27 +3,31 @@ package com.xworkz.fest.work;
 class Hairband extends Hair {
     Hairband() {
         super();
-        System.out.println("Hairband class");
+        System.out.println("Hairband object created to manage and style hair.");
     }
 
-    public void holdHair() {
-        System.out.println("Hairband helps in holding the hair in place.");
+    @Override
+    public void grow() {
+        System.out.println("Initiating the process: hair starts to grow naturally.");
     }
 
-    public void differentStyles() {
-        System.out.println("Hairbands come in various styles and designs.");
+    @Override
+    public void style() {
+        System.out.println("Styling hair with the help of accessories like a hairband.");
     }
 
-    public void madeOfDifferentMaterials() {
-        System.out.println("Hairbands can be made of cloth, plastic, or metal.");
+    @Override
+    public void color() {
+        System.out.println("Applying color to enhance or change hair appearance.");
     }
 
-    public void usedForFashion() {
-        System.out.println("Hairbands are used as a fashion accessory.");
+    @Override
+    public void wash() {
+        System.out.println("Washing hair to maintain hygiene and freshness.");
     }
 
-    public void availableInVariousColors() {
-        System.out.println("Hairbands are available in different colors.");
+    @Override
+    public void protect() {
+        System.out.println("Protecting hair from damage using bands, scarves, or products.");
     }
 }
-

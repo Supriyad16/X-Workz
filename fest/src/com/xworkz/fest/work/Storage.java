@@ -6,15 +6,15 @@ class Storage {
         System.out.println("Storage class");
     }
 
-    public void storeData() {
+    public void store() {
         System.out.println("Storage is used to store data.");
     }
 
-    public void retrieveData() {
+    public void retrieve() {
         System.out.println("Storage allows retrieval of data.");
     }
 
-    public void secureData() {
+    public void secure() {
         System.out.println("Storage provides data security.");
     }
 
@@ -25,6 +25,7 @@ class Storage {
     public void supportDifferentFormats() {
         System.out.println("Storage supports multiple file formats.");
     }
+
 }
 
 

@@ -3,21 +3,19 @@ package com.xworkz.fest.work;
 public class FingerRunner {
     public static void main(String[] args) {
 
-
-
         Finger finger = new Nails();
-        finger.helpInHolding();
-        finger.usedForTyping();
-        finger.senseTouch();
-        finger.helpInWriting();
-        finger.supportGestures();
-
+        finger.hold();
+        finger.touch();
+        finger.type();
+        finger.write();
+        finger.gesture();
 
         Nails nails = new Nails();
-        nails.protectFingers();
-        nails.canBeColored();
-        nails.growOverTime();
-        nails.addBeauty();
-        nails.madeOfKeratin();
+        nails.hold();
+        nails.touch();
+        nails.type();
+        nails.write();
+        nails.gesture();
     }
+
 }

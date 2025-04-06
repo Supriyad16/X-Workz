@@ -5,17 +5,18 @@ public class OfficeRunner {
 
         Office office = new Room();
         office.work();
-        office.conductMeetings();
-        office.useComputers();
-        office.printDocuments();
-        office.takeBreaks();
+        office.meetings();
+        office.computers();
+        office.documents();
+        office.breaks();
 
 
         Room room = new Room();
-        room.openDoor();
-        room.closeDoor();
-        room.turnOnLights();
-        room.arrangeFurniture();
-        room.cleanRoom();
+        room.work();
+        room.meetings();
+        room.computers();
+        room.documents();
+        room.breaks();
     }
+
 }

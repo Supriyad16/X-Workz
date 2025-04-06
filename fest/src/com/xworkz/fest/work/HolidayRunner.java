@@ -12,10 +12,10 @@ public class HolidayRunner {
 
 
         Party party = new Party();
-        party.dance();
-        party.eat();
-        party.playMusic();
-        party.memory();
-        party.fun();
+        party.relax();
+        party.travel();
+        party.spendTimeWithFamily();
+        party.enjoy();
+        party.happy();
     }
 }

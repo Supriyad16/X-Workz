@@ -7,23 +7,28 @@ public class Watch extends Time {
         System.out.println("Future Time Machine activated");
     }
 
-    public void seeTheEndOfTheUniverse() {
-        System.out.println("Viewing the end of the universe");
+    @Override
+    public void travelToPast() {
+        System.out.println("Travel to past.");
     }
 
-    public void glitchInTime() {
-        System.out.println("Time machine is stuck in a loop!");
+    @Override
+    public void travelToFuture() {
+        System.out.println("Travel to future");
     }
 
-    public void duplicateYourself() {
-        System.out.println("Now there are two of you!");
+    @Override
+    public void createTimeParadox() {
+        System.out.println("A time paradox");
     }
 
-    public void fixBrokenTimeline() {
-        System.out.println("Repairing the timeline...");
+    @Override
+    public void countDown() {
+        System.out.println("Countdown starts now.");
     }
 
-    public void talkToYourFutureSelf() {
-        System.out.println("Hello, future me!");
+    @Override
+    public void seconds() {
+        System.out.println("Time have seconds, minutes and hours.");
     }
 }

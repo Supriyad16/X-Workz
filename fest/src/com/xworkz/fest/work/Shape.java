@@ -22,8 +22,8 @@ public class Shape {
             System.out.println("Resizing the shape");
         }
 
-        public void displayColor() {
-            System.out.println("Displaying shape color");
+        public void dimension() {
+            System.out.println("calculate the dimension of shape.");
         }
     }
 

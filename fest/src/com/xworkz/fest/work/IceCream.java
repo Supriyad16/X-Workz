@@ -8,29 +8,33 @@ public class IceCream extends Dessert {
         System.out.println("Ice Cream is a frozen dessert");
     }
 
-    public void flavor() {
+    @Override
+    public void taste() {
 
-        System.out.println("Ice Cream comes in many flavors");
+        System.out.println("IceCream's are usually sweet");
     }
 
-    public void temperature() {
+    @Override
+    public void ingredients() {
 
-        System.out.println("Ice Cream is served cold");
+        System.out.println("IceCream are made with sugar, flour, and dairy");
     }
 
-    public void topping() {
+    @Override
+    public void serve() {
 
-        System.out.println("Ice Cream can have various toppings");
+        System.out.println("IceCream are served after meals");
     }
 
-    public void scoop() {
+    @Override
+    public void store() {
 
-        System.out.println("Ice Cream is often served in scoops");
+        System.out.println("IceCream should be stored properly");
     }
 
-    public void coneOrCup() {
+    @Override
+    public void enjoy() {
 
-        System.out.println("Ice Cream can be served in a cone or a cup");
+        System.out.println("Everyone enjoys IceCream");
     }
-
 }

@@ -5,18 +5,19 @@ public class StorageRunner {
 
 
         Storage storage = new Pendrive();
-        storage.storeData();
-        storage.retrieveData();
-        storage.secureData();
+        storage.secure();
+        storage.retrieve();
+        storage.store();
         storage.manageSpace();
         storage.supportDifferentFormats();
 
 
         Pendrive pendrive = new Pendrive();
-        pendrive.plugAndPlay();
-        pendrive.transferFiles();
-        pendrive.portableDevice();
-        pendrive.supportUsbInterface();
-        pendrive.provideBackup();
+        pendrive.secure();
+        pendrive.retrieve();
+        pendrive.store();
+        pendrive.manageSpace();
+        pendrive.supportDifferentFormats();
     }
+
 }

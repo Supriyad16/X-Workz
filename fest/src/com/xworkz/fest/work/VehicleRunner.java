@@ -5,12 +5,11 @@ public class VehicleRunner {
     public static void main(String[] args) {
 
         Vehicle vehicle = new Car();
-        vehicle.start();
-        vehicle.stop();
-        vehicle.fuel();
-        vehicle.moves();
-        vehicle.carry();
-
+        vehicle.accelerate();
+        vehicle.brake();
+        vehicle.airConditioning();
+        vehicle.musicSystem();
+        vehicle.sunroof();
 
 
         Car car = new Car();

@@ -5,7 +5,6 @@ public class PlateRunner {
     public static void main(String[] args) {
 
         Plate plate = new Spoon();
-
         plate.shape();
         plate.clean();
         plate.hold();
@@ -13,11 +12,11 @@ public class PlateRunner {
         plate.material();
 
         Spoon spoon = new Spoon();
+        spoon.shape();
+        spoon.clean();
+        spoon.hold();
+        spoon.size();
+        spoon.material();
 
-        spoon.eat();
-        spoon.design();
-        spoon.measure();
-        spoon.stir();
-        spoon.scoop();
     }
 }

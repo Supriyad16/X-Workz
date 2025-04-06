@@ -22,7 +22,7 @@ class Author {
         System.out.println("Author is giving an interview.");
     }
 
-    public void attendBookLaunch() {
+    public void bookLaunch() {
         System.out.println("Author is attending the book launch event.");
     }
 }

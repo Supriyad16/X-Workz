@@ -13,10 +13,10 @@ public class LiftRunner {
 
 
         Travel travel = new Travel();
-        travel.startJourney();
-        travel.reachDestination();
-        travel.exploreNewPlaces();
-        travel.requireTransport();
-        travel.createMemories();
+        travel.moveDown();
+        travel.moveUp();
+        travel.stop();
+        travel.carryPeople();
+        travel.indicateDirection();
     }
 }

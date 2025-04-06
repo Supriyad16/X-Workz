@@ -12,10 +12,11 @@ public class RestRunner {
 
 
         Sleep sleep = new Sleep();
-        sleep.deepSleep();
-        sleep.dream();
-        sleep.snore();
-        sleep.nap();
-        sleep.wakeUpFresh();
+        sleep.takeBreak();
+        sleep.meditate();
+        sleep.listenToMusic();
+        sleep.drinkTea();
+        sleep.sitQuietly();
     }
+
 }

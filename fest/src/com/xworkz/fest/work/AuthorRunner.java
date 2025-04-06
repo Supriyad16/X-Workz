@@ -8,14 +8,14 @@ public class AuthorRunner {
         author.editContent();
         author.publishBook();
         author.giveInterview();
-        author.attendBookLaunch();
+        author.bookLaunch();
 
 
         Stories story = new Stories();
-        story.createPlot();
-        story.writeShortStory();
-        story.addCharacters();
-        story.setStoryTheme();
-        story.publishStory();
+        story.writeBook();
+        story.editContent();
+        story.publishBook();
+        story.giveInterview();
+        story.bookLaunch();
     }
 }

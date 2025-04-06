@@ -5,6 +5,7 @@ public class Doctor {
     Doctor() {
         System.out.println("Doctor is available for consultation");
     }
+
     public void diagnose() {
 
         System.out.println("Doctor is diagnosing the patient");
@@ -25,5 +26,6 @@ public class Doctor {
 
         System.out.println("Doctor advises rest and recovery");
     }
+
 }
 

@@ -5,18 +5,18 @@ public class BulbRunner {
 
 
         Bulb bulb = new Dim();
-        bulb.produceLight();
+        bulb.light();
         bulb.consumeElectricity();
-        bulb.availableInDifferentTypes();
-        bulb.usedForIllumination();
-        bulb.differentBrightnessLevels();
+        bulb.shapes();
+        bulb.colours();
+        bulb.brightness();
 
 
         Dim dim = new Dim();
-        dim.reduceBrightness();
-        dim.savesEnergy();
-        dim.createsSoftAmbiance();
-        dim.usedForDecorativePurposes();
-        dim.preferredForRelaxation();
+        dim.light();
+        dim.colours();
+        dim.consumeElectricity();
+        dim.brightness();
+        dim.shapes();
     }
 }

@@ -7,23 +7,28 @@ public class VideoGame extends Game {
         System.out.println("VideoGame class");
     }
 
-    public void loadGraphics() {
-        System.out.println("Video game loads high-quality graphics");
+    @Override
+    public void start() {
+        System.out.println("VideoGame is starting");
     }
 
-    public void multiplayerMode() {
-        System.out.println("Video game has a multiplayer mode");
+    @Override
+    public void stop() {
+        System.out.println("VideoGame is stopping");
     }
 
-    public void saveProgress() {
-        System.out.println("Video game saves progress");
+    @Override
+    public void scorePoints() {
+        System.out.println("VideoGame allows scoring points");
     }
 
-    public void unlockLevels() {
-        System.out.println("Video game allows unlocking new levels");
+    @Override
+    public void difficulty() {
+        System.out.println("VideoGame has difficulty settings");
     }
 
-    public void playWithController() {
-        System.out.println("Video game can be played with a controller");
+    @Override
+    public void reset() {
+        System.out.println("VideoGame can be reset");
     }
 }

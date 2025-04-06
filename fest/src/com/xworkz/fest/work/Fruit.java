@@ -6,6 +6,7 @@ public class Fruit {
     Fruit() {
         System.out.println("A fruit is created");
     }
+
     public void taste() {
 
         System.out.println("Fruits have different tastes");

@@ -6,11 +6,11 @@ class Season {
         System.out.println("Season class");
     }
 
-    public void changeWeather() {
+    public void weather() {
         System.out.println("Season changes the weather.");
     }
 
-    public void affectTemperature() {
+    public void temperature() {
         System.out.println("Season affects the temperature.");
     }
 
@@ -22,10 +22,8 @@ class Season {
         System.out.println("Season brings different festivals.");
     }
 
-    public void influenceLifestyle() {
-        System.out.println("Season influences people's lifestyle.");
+    public void fruits() {
+        System.out.println("Season influences people's taste of fruit.");
     }
+
 }
-
-
-

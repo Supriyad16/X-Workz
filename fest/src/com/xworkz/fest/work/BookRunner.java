@@ -10,13 +10,12 @@ public class BookRunner {
         book.bookmark();
         book.turnPage();
 
-
-
         Novel novel = new Novel();
-        novel.genre();
-        novel.author();
-        novel.storyline();
-        novel.characters();
-        novel.chapters();
+        novel.read();
+        novel.open();
+        novel.close();
+        novel.bookmark();
+        novel.turnPage();
     }
+
 }

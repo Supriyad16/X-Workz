@@ -8,14 +8,14 @@ public class GroupRunner {
         group.addMembers();
         group.removeMember();
         group.changeGroupName();
-        group.setGroupPrivacy();
+        group.deleteGroup();
 
 
         Chat chat = new Chat();
-        chat.sendMessage();
-        chat.deleteMessage();
-        chat.pinMessage();
-        chat.muteChat();
-        chat.shareFile();
+        chat.changeGroupName();
+        chat.addMembers();
+        chat.removeMember();
+        chat.createGroup();
+        chat.deleteGroup();
     }
 }

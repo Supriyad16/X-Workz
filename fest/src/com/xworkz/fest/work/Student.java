@@ -8,24 +8,29 @@ package com.xworkz.fest.work;
             System.out.println("Student class");
         }
 
-        public void study() {
-            System.out.println("Student studies different subjects");
+        @Override
+        public void eat() {
+            System.out.println("Student eats food");
         }
 
-        public void attendClasses() {
-            System.out.println("Student attends classes");
+        @Override
+        public void sleep() {
+            System.out.println("Student sleeps");
         }
 
-        public void doHomework() {
-            System.out.println("Student completes homework");
+        @Override
+        public void walk() {
+            System.out.println("Student walks");
         }
 
-        public void giveExams() {
-            System.out.println("Student gives exams");
+        @Override
+        public void talk() {
+            System.out.println("Student talks");
         }
 
-        public void participateInActivities() {
-            System.out.println("Student participates in extracurricular activities");
+        @Override
+        public void think() {
+            System.out.println("Student thinks");
         }
     }
 

@@ -7,23 +7,28 @@ public class Martian extends Alien {
         System.out.println("Martian has arrived from Mars");
     }
 
-    public void growTentacles() {
-        System.out.println("Martian grows extra tentacles");
+    @Override
+    public void communicate() {
+        System.out.println("Martian communicates using telepathy");
     }
 
-    public void camouflage() {
-        System.out.println("Martian changes skin color to blend in");
+    @Override
+    public void abductHumans() {
+        System.out.println("Martian abducts a human for experiments");
     }
 
-    public void terraformPlanet() {
-        System.out.println("Martian is terraforming Mars");
+    @Override
+    public void spaceship() {
+        System.out.println("Martian pilots a spaceship");
     }
 
-    public void summonUFO() {
-        System.out.println("Martian summons a UFO with a whistle");
+    @Override
+    public void regenerate() {
+        System.out.println("Martian regenerates lost limbs");
     }
 
-    public void danceToEarthMusic() {
-        System.out.println("Martian is dancing to Earth music");
+    @Override
+    public void eatRocks() {
+        System.out.println("Martian eats space rocks for energy");
     }
 }

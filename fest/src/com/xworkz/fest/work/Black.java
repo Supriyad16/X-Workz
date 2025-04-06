@@ -6,7 +6,7 @@ class Black {
         System.out.println("Black class");
     }
 
-    public void representsDarkness() {
+    public void dark() {
         System.out.println("Black represents darkness and mystery.");
     }
 
@@ -14,16 +14,15 @@ class Black {
         System.out.println("Black absorbs all light and does not reflect any.");
     }
 
-    public void usedInDesign() {
+    public void colour() {
         System.out.println("Black is often used in interior and fashion design.");
     }
 
-    public void symbolizesElegance() {
+    public void beauty() {
         System.out.println("Black symbolizes elegance and sophistication.");
     }
 
-    public void createsStrongContrast() {
+    public void attracts() {
         System.out.println("Black creates a strong contrast with lighter colors.");
     }
 }
-

@@ -6,23 +6,28 @@ class Shirt extends Nylon {
         System.out.println("Shirt class");
     }
 
-    public void madeFromNylon() {
-        System.out.println("This shirt is made from high-quality nylon fabric.");
+    @Override
+    public void syntheticFiber() {
+        System.out.println("Nylon is a synthetic fiber.");
     }
 
-    public void comfortableToWear() {
-        System.out.println("Nylon shirts are comfortable and soft on the skin.");
+    @Override
+    public void durable() {
+        System.out.println("Nylon is known for its durability.");
     }
 
-    public void wrinkleResistant() {
-        System.out.println("Nylon shirts do not wrinkle easily and require less ironing.");
+    @Override
+    public void waterResistant() {
+        System.out.println("Nylon is water-resistant.");
     }
 
-    public void availableInVariousColors() {
-        System.out.println("Nylon shirts come in various colors and styles.");
+    @Override
+    public void lightweight() {
+        System.out.println("Nylon is lightweight.");
     }
 
-    public void easyToWash() {
-        System.out.println("Nylon shirts are easy to wash and maintain.");
+    @Override
+    public void widelyUsedInTextiles() {
+        System.out.println("Nylon is widely used in the textile industry.");
     }
 }

@@ -5,19 +5,18 @@ public class ShelfRunner {
         public static void main(String[] args) {
 
             Shelf shelf = new Hold();
-            shelf.storeItems();
-            shelf.madeOfWoodOrMetal();
-            shelf.usedInHomesAndOffices();
-            shelf.availableInDifferentSizes();
-            shelf.helpsInOrganization();
-
+            shelf.store();
+            shelf.madeOf();
+            shelf.wood();
+            shelf.differentSizes();
+            shelf.organization();
 
             Hold hold = new Hold();
-            hold.supportsWeight();
-            hold.securesItems();
-            hold.maintainsBalance();
-            hold.dependsOnMaterial();
-            hold.ensuresDurability();
+            hold.store();
+            hold.madeOf();
+            hold.wood();
+            hold.differentSizes();
+            hold.organization();
         }
     }
 

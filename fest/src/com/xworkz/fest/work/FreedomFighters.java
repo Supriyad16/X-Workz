@@ -6,23 +6,28 @@ class FreedomFighters extends Freedom {
         System.out.println("FreedomFighters class");
     }
 
-    public void foughtForIndependence() {
-        System.out.println("Freedom fighters fought bravely for the independence of their country.");
+    @Override
+    public void definesRights() {
+        System.out.println("Defining individual rights is a core aspect of freedom.");
     }
 
-    public void sacrificedLives() {
-        System.out.println("Many freedom fighters sacrificed their lives for the nation's freedom.");
+    @Override
+    public void equality() {
+        System.out.println("Promoting equality by treating everyone fairly and without discrimination.");
     }
 
-    public void inspiredGenerations() {
-        System.out.println("Freedom fighters continue to inspire generations with their courage.");
+    @Override
+    public void independence() {
+        System.out.println("Achieving independence through the power of freedom.");
     }
 
-    public void opposedColonialRule() {
-        System.out.println("Freedom fighters strongly opposed colonial rule and oppression.");
+    @Override
+    public void democracy() {
+        System.out.println("Democracy thrives when freedom is upheld for all citizens.");
     }
 
-    public void contributedToHistory() {
-        System.out.println("Freedom fighters have played a major role in shaping the history of nations.");
+    @Override
+    public void development() {
+        System.out.println("Driving development by empowering people through freedom.");
     }
 }

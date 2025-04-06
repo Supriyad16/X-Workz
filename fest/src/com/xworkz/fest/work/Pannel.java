@@ -5,24 +5,30 @@ public class Pannel extends Projector {
         super();
         System.out.println("Panel is initializing");
     }
-    public void touchInput() {
 
-        System.out.println("Panel responding to touch input");
+    @Override
+    public void powerOn() {
+        System.out.println("Projector is on");
     }
-    public void displayMenu() {
 
-        System.out.println("Panel displaying menu options");
+    @Override
+    public void powerOff() {
+        System.out.println("Projector is off");
     }
-    public void adjustVolume() {
 
-        System.out.println("Panel adjusting volume");
+    @Override
+    public void focus() {
+        System.out.println("Adjusting projector focus by using pannel.");
     }
-    public void changeSource() {
 
-        System.out.println("Panel switching input source");
+    @Override
+    public void brightness() {
+        System.out.println("Change brightness level");
     }
-    public void enableSmartMode() {
 
-        System.out.println("Panel enabling smart mode");
+    @Override
+    public void displayResolution() {
+        System.out.println("Display resolution settings");
     }
+
 }

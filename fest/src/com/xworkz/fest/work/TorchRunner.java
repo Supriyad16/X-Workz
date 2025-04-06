@@ -11,14 +11,11 @@ public class TorchRunner {
         torch.portable();
         torch.batteryOperated();
 
-
-
-
         Light light = new Light();
-        light.illuminate();
-        light.differentColors();
-        light.usedInDecorations();
-        light.requiresElectricity();
-        light.enhancesVisibility();
+        light.turnOff();
+        light.turnOn();
+        light.adjustBrightness();
+        light.portable();
+        light.batteryOperated();
     }
 }

@@ -6,24 +6,29 @@ class Cosmetics extends Bag {
         System.out.println("Cosmetics class");
     }
 
-    public void applyMakeup() {
-        System.out.println("Applying makeup from the cosmetics bag.");
+    @Override
+    public void carryItems() {
+        System.out.println("Bag is used to carry cosmetics.");
     }
 
-    public void storeLipstick() {
-        System.out.println("Storing lipstick in the cosmetics bag.");
+    @Override
+    public void openBag() {
+        System.out.println("Open the bag.");
     }
 
-    public void carryPerfume() {
-        System.out.println("Carrying perfume in the cosmetics bag.");
+    @Override
+    public void closeBag() {
+        System.out.println("Close the bag.");
     }
 
-    public void organizeBrushes() {
-        System.out.println("Organizing makeup brushes.");
+    @Override
+    public void checkCapacity() {
+        System.out.println("Check the capacity of the bag.");
     }
 
-    public void checkMirror() {
-        System.out.println("Checking the mirror inside the cosmetics bag.");
+    @Override
+    public void adjustStrap() {
+        System.out.println("Adjust the bag strap.");
     }
 }
 

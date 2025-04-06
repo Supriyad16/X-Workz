@@ -10,13 +10,12 @@ public class MagicRunner {
         magic.controlElements();
         magic.disappear();
 
-
-
         SpellBook spellBook = new SpellBook();
-        spellBook.readSpell();
-        spellBook.storeMagic();
-        spellBook.unlockSecret();
-        spellBook.createPotion();
-        spellBook.enhancePower();
+        spellBook.castSpell();
+        spellBook.castSpell();
+        spellBook.summonCreature();
+        spellBook.controlElements();
+        spellBook.disappear();
+
     }
 }

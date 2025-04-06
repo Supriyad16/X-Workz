@@ -7,24 +7,34 @@ public class Guitar extends Music {
         super();
         System.out.println("Guitar is a string instrument");
     }
-    public void strum() {
 
-        System.out.println("Strumming the guitar");
+    @Override
+    public void play() {
+
+        System.out.println("Guitar plays music");
     }
-    public void pluck() {
 
-        System.out.println("Plucking the guitar strings");
+    @Override
+    public void stop() {
+
+        System.out.println("Stop the music");
     }
-    public void strings() {
 
-        System.out.println("Changing guitar strings");
+    @Override
+    public void pause() {
+
+        System.out.println("Pause the music");
     }
-    public void chord() {
 
-        System.out.println("Playing a guitar chord");
+    @Override
+    public void volume() {
+
+        System.out.println("Adjust the volume");
     }
-    public void sound() {
 
-        System.out.println("Amplifying the guitar sound");
+    @Override
+    public void instrument() {
+
+        System.out.println("Tuning the strings.");
     }
 }

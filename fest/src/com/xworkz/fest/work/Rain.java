@@ -6,23 +6,29 @@ class Rain extends Season {
         System.out.println("Rain class");
     }
 
-    public void pourWater() {
-        System.out.println("Rain pours water on the earth.");
+    @Override
+    public void weather() {
+        System.out.println("Season changes.");
     }
 
-    public void coolTheAir() {
-        System.out.println("Rain cools the air and refreshes the environment.");
+    @Override
+    public void temperature() {
+        System.out.println("Season changes the temperature.");
     }
 
-    public void nourishPlants() {
-        System.out.println("Rain provides water for plants and crops.");
+    @Override
+    public void impactNature() {
+        System.out.println("Season impacts nature.");
     }
 
-    public void createRivers() {
-        System.out.println("Rain contributes to the formation of rivers and lakes.");
+    @Override
+    public void bringFestivals() {
+        System.out.println("Season brings festivals.");
     }
 
-    public void bringRainbows() {
-        System.out.println("Rain brings beautiful rainbows after showers.");
+    @Override
+    public void fruits() {
+        System.out.println("Some fruits are seasonal.");
     }
+
 }

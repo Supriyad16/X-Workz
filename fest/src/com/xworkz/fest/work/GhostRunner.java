@@ -6,17 +6,15 @@ public class GhostRunner {
         Ghost ghost = new Priest();
         ghost.haunt();
         ghost.disappear();
-        ghost.makeWeirdNoises();
-        ghost.possessObjects();
+        ghost.weirdNoises();
+        ghost.magic();
         ghost.floatAround();
 
-
-
         Priest priest = new Priest();
-        priest.throwObjects();
-        priest.screamLoudly();
-        priest.messWithElectronics();
-        priest.openDoorsRandomly();
-        priest.terrorizePeople();
+        priest.haunt();
+        priest.disappear();
+        priest.weirdNoises();
+        priest.magic();
+        priest.floatAround();
     }
 }

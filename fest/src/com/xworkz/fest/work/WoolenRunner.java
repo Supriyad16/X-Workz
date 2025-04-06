@@ -4,18 +4,17 @@ public class WoolenRunner {
     public static void main(String[] args) {
 
         Woolen woolen = new Towel();
-        woolen.providesWarmth();
-        woolen.softTexture();
+        woolen.warmth();
+        woolen.soft();
         woolen.absorbsMoisture();
         woolen.durable();
         woolen.usedInClothing();
 
-
         Towel towel = new Towel();
-        towel.absorbsWater();
-        towel.usedAfterBathing();
-        towel.availableInVariousSizes();
-        towel.madeOfDifferentMaterials();
-        towel.easyToWash();
+        towel.warmth();
+        towel.soft();
+        towel.absorbsMoisture();
+        towel.durable();
+        towel.usedInClothing();
     }
 }

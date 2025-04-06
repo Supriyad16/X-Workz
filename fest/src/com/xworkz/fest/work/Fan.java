@@ -6,23 +6,28 @@ class Fan extends Air {
         System.out.println("Fan class");
     }
 
-    public void rotateBlades() {
-        System.out.println("Fan rotates its blades to move air.");
+    @Override
+    public void flow() {
+        System.out.println("Fan flows air");
     }
 
-    public void increaseSpeed() {
-        System.out.println("Fan speed can be increased.");
+    @Override
+    public void carryOxygen() {
+        System.out.println("Carrying oxygen through the air for respiration.");
     }
 
-    public void decreaseSpeed() {
-        System.out.println("Fan speed can be decreased.");
+    @Override
+    public void changeTemperature() {
+        System.out.println("Changing temperature as air heats up or cools down.");
     }
 
-    public void consumeElectricity() {
-        System.out.println("Fan consumes electricity to operate.");
+    @Override
+    public void spreadSmell() {
+        System.out.println("Spreading smells and scents through the air.");
     }
 
-    public void coolTheRoom() {
-        System.out.println("Fan helps cool the room.");
+    @Override
+    public void createWind() {
+        System.out.println("Creating wind through the movement of air.");
     }
 }

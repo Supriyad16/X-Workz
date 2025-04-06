@@ -13,10 +13,10 @@ public class ElectricityRunner {
 
 
         ElectricTrain electricTrain = new ElectricTrain();
-        electricTrain.startJourney();
-        electricTrain.increaseSpeed();
-        electricTrain.honk();
-        electricTrain.stop();
-        electricTrain.transportPeople();
+        electricTrain.generate();
+        electricTrain.transmit();
+        electricTrain.shock();
+        electricTrain.store();
+        electricTrain.powerDevices();
     }
 }

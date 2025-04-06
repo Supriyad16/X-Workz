@@ -6,15 +6,15 @@ class Notebook {
         System.out.println("Notebook class");
     }
 
-    public void openNotebook() {
+    public void open() {
         System.out.println("Opening the notebook.");
     }
 
-    public void closeNotebook() {
+    public void close() {
         System.out.println("Closing the notebook.");
     }
 
-    public void writeNotes() {
+    public void write() {
         System.out.println("Writing notes in the notebook.");
     }
 

@@ -12,11 +12,11 @@ public class MusicRunner {
         music.volume();
 
         Guitar guitar = new Guitar();
-        guitar.chord();
-        guitar.sound();
-        guitar.pluck();
-        guitar.strum();
-        guitar.strings();
+        guitar.instrument();
+        guitar.pause();
+        guitar.play();
+        guitar.stop();
+        guitar.volume();
 
     }
 }

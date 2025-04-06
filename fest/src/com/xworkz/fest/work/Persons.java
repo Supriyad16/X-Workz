@@ -6,24 +6,28 @@ public class Persons extends Family {
         super();
         System.out.println("Persons make up a family");
     }
-    public void profession() {
-
-        System.out.println("Each person in the family has a profession");
+    @Override
+    public void surname() {
+        System.out.println("Every family Persons has a surname");
     }
-    public void education() {
 
-        System.out.println("Education shapes a person");
+    @Override
+    public void values() {
+        System.out.println("Family Persons teaches moral values");
     }
-    public void hobbies() {
 
-        System.out.println("Each person has unique hobbies");
+    @Override
+    public void traditions() {
+        System.out.println("Family Persons follow traditions");
     }
-    public void responsibility() {
 
-        System.out.println("Every person has responsibilities");
+    @Override
+    public void bonding() {
+        System.out.println("Strong bonding among family Persons");
     }
-    public void socialLife() {
 
-        System.out.println("Persons engage in social activities");
+    @Override
+    public void support() {
+        System.out.println("Family Persons provides support in difficult times");
     }
 }

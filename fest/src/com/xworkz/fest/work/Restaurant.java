@@ -14,7 +14,7 @@ public class Restaurant {
         System.out.println("Taking customer order");
     }
 
-    public void acceptPayment() {
+    public void payment() {
         System.out.println("Accepting payment from customers");
     }
 
@@ -22,7 +22,7 @@ public class Restaurant {
         System.out.println("Cleaning tables after service");
     }
 
-    public void provideMenu() {
+    public void menu() {
         System.out.println("Providing menu to customers");
     }
 }

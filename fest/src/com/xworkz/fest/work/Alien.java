@@ -14,7 +14,7 @@ public class Alien {
         System.out.println("Alien abducts a human for experiments");
     }
 
-    public void controlSpaceship() {
+    public void spaceship() {
         System.out.println("Alien pilots a spaceship");
     }
 

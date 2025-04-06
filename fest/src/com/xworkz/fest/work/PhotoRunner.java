@@ -10,17 +10,11 @@ public class PhotoRunner {
         photo.phone();
         photo.safe();
 
-
-
         Camera camera = new Camera();
-        camera.capture();
-        camera.delete();
-        camera.focus();
-        camera.light();
-        camera.store();
-
-
-
-
+        camera.gallery();
+        camera.click();
+        camera.memories();
+        camera.phone();
+        camera.safe();
     }
 }

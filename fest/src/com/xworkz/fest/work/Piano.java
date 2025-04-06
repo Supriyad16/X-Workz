@@ -7,23 +7,28 @@ public class Piano extends Instrument {
         System.out.println("Guitar class");
     }
 
-    public void strum() {
-        System.out.println("Strumming the guitar");
+    @Override
+    public void play() {
+        System.out.println("Playing a Piano instrument");
     }
 
-    public void adjustStrings() {
-        System.out.println("Adjusting the strings of the guitar");
+    @Override
+    public void tune() {
+        System.out.println("Tuning the Piano instrument");
     }
 
-    public void changeTones() {
-        System.out.println("Changing guitar tones");
+    @Override
+    public void repair() {
+        System.out.println("Repairing the Piano instrument");
     }
 
-    public void plugIn() {
-        System.out.println("Plugging the electric guitar into an amplifier");
+    @Override
+    public void store() {
+        System.out.println("Storing the Piano instrument properly");
     }
 
-    public void fingerpicking() {
-        System.out.println("Using fingerpicking technique");
+    @Override
+    public void amplify() {
+        System.out.println("Amplifying the sound of the Piano instrument");
     }
 }

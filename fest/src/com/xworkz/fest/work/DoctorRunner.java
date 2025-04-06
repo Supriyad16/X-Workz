@@ -11,13 +11,13 @@ public class DoctorRunner {
         doctor.diagnose();
         doctor.medicine();
 
+        
         Patient patient = new Patient();
-
-        patient.disease();
-        patient.rest();
-        patient.takeMedicine();
-        patient.treatment();
-        patient.visitHospital();
+        patient.prescription();
+        patient.surgery();
+        patient.check();
+        patient.diagnose();
+        patient.medicine();
     }
 }
 

@@ -6,23 +6,23 @@ public class Job {
         System.out.println("Job class");
     }
 
-    public void work() {
-        System.out.println("Performing work tasks");
+    public void writeCode() {
+        System.out.println("Writing code for software development");
     }
 
-    public void attendMeetings() {
-        System.out.println("Attending job meetings");
+    public void debug() {
+        System.out.println("Debugging the software");
     }
 
-    public void receiveSalary() {
-        System.out.println("Receiving salary");
+    public void testSoftware() {
+        System.out.println("Testing the developed software");
     }
 
-    public void getPromotion() {
-        System.out.println("Getting job promotion");
+    public void deployApplication() {
+        System.out.println("Deploying the application");
     }
 
-    public void takeLeave() {
-        System.out.println("Taking job leave");
+    public void collaborateWithTeam() {
+        System.out.println("Collaborating with team members");
     }
 }

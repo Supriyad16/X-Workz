@@ -5,18 +5,18 @@ public class HospitalRunner {
 
         Hospital hospital = new Dentist();
         hospital.admitPatient();
-        hospital.provideTreatment();
-        hospital.performSurgery();
-        hospital.generateBill();
+        hospital.treatment();
+        hospital.surgery();
+        hospital.bill();
         hospital.dischargePatient();
 
 
 
         Dentist dentist = new Dentist();
-        dentist.cleanTeeth();
-        dentist.fillCavities();
-        dentist.extractTooth();
-        dentist.provideBraces();
-        dentist.performRootCanal();
+        dentist.admitPatient();
+        dentist.treatment();
+        dentist.bill();
+        dentist.surgery();
+        dentist.dischargePatient();
     }
 }

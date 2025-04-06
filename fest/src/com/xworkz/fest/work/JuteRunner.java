@@ -6,16 +6,17 @@ public class JuteRunner {
         Jute jute = new Rope();
         jute.naturalFiber();
         jute.biodegradable();
-        jute.widelyUsedInBags();
+        jute.bags();
         jute.strongAndDurable();
-        jute.usedInTextileIndustry();
-
+        jute.textile();
 
         Rope rope = new Rope();
-        rope.madeFromJuteFibers();
-        rope.usedForBinding();
-        rope.strongGrip();
-        rope.lightweight();
-        rope.ecoFriendlyAlternative();
+        rope.naturalFiber();
+        rope.biodegradable();
+        rope.bags();
+        rope.strongAndDurable();
+        rope.textile();
+
     }
+
 }

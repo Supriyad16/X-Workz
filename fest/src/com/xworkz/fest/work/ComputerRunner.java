@@ -8,16 +8,15 @@ public class ComputerRunner {
         computer.boot();
         computer.shutdown();
         computer.process();
-        computer.connectToInternet();
+        computer.ports();
         computer.storeData();
 
 
-
         Device device = new Device();
-        device.batteryBackup();
-        device.portability();
-        device.webcam();
-        device.touchpad();
-        device.keyboardLight();
+        device.boot();
+        device.shutdown();
+        device.process();
+        device.ports();
+        device.storeData();
     }
 }

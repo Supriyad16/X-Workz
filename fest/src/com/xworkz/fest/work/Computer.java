@@ -18,13 +18,11 @@ public class Computer {
         System.out.println("Computer is processing data");
     }
 
-    public void connectToInternet() {
-        System.out.println("Computer is connecting to the internet");
+    public void ports() {
+        System.out.println("Computer have many ports");
     }
 
     public void storeData() {
         System.out.println("Computer is storing data");
     }
 }
-
-

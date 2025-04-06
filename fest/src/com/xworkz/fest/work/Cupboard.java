@@ -6,23 +6,28 @@ class Cupboard extends Wood {
         System.out.println("Cupboard class");
     }
 
-    public void usedForStorage() {
-        System.out.println("Cupboards are used for storing items.");
+    @Override
+    public void strongMaterial() {
+        System.out.println("cupboard is made of wood.");
     }
 
-    public void availableInVariousSizes() {
-        System.out.println("Cupboards are available in different sizes and designs.");
+    @Override
+    public void furniture() {
+        System.out.println("cupboard is a furniture.");
     }
 
-    public void canHaveLocks() {
-        System.out.println("Cupboards often have locks for security.");
+    @Override
+    public void types() {
+        System.out.println("cupboard can be made of different types like teak, oak, and pine.");
     }
 
-    public void comesWithShelves() {
-        System.out.println("Cupboards come with multiple shelves for better organization.");
+    @Override
+    public void naturalResource() {
+        System.out.println("Cupboard is made of natural resource.");
     }
 
-    public void enhancesInterior() {
-        System.out.println("Wooden cupboards enhance the interior design of a room.");
+    @Override
+    public void polish() {
+        System.out.println("Cupboard can be polished for a better finish and durability.");
     }
 }

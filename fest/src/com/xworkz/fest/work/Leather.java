@@ -6,23 +6,28 @@ class Leather extends Slipper {
         System.out.println("Leather class");
     }
 
-    public void durable() {
-        System.out.println("Leather is a highly durable material.");
+    @Override
+    public void comfort() {
+        System.out.println("Leather Slippers provide comfort to the feet.");
     }
 
-    public void stylish() {
-        System.out.println("Leather products are considered stylish and premium.");
+    @Override
+    public void walk() {
+        System.out.println("Leather Slippers are commonly used for walking indoors and outdoors.");
     }
 
-    public void requiresMaintenance() {
-        System.out.println("Leather needs regular maintenance to last longer.");
+    @Override
+    public void variousSizes() {
+        System.out.println("Leather Slippers come in various sizes for different foot types.");
     }
 
-    public void waterResistant() {
-        System.out.println("Some leather types are water-resistant.");
+    @Override
+    public void differentMaterials() {
+        System.out.println("Slippers can be made of leather.");
     }
 
-    public void usedInFashion() {
-        System.out.println("Leather is widely used in the fashion industry.");
+    @Override
+    public void lightweight() {
+        System.out.println("Leather Slippers are designed to be lightweight and easy to wear.");
     }
 }

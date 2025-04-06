@@ -2,28 +2,33 @@ package com.xworkz.fest.work;
 
 public class Key extends Lock {
 
-    Key() {
+        Key() {
         super();
         System.out.println("A key is used to unlock a lock!");
     }
 
-    public void insert() {
-        System.out.println("The key is inserted into the lock...");
+    @Override
+    public void secure() {
+        System.out.println("The lock the doors.");
     }
 
-    public void rotate() {
-        System.out.println("The key is rotated to unlock...");
+    @Override
+    public void open() {
+        System.out.println("The lock opens with key.");
     }
 
-    public void duplicate() {
-        System.out.println("Keys can be duplicated...");
+    @Override
+    public void close() {
+        System.out.println("Close the lock");
     }
 
-    public void lost() {
-        System.out.println("If a key is lost, the lock remains locked...");
+    @Override
+    public void rust() {
+        System.out.println("Locks get rusted.");
     }
 
-    public void matchLock() {
-        System.out.println("The key must match the lock to work...");
+    @Override
+    public void breakLock() {
+        System.out.println("Break the lock if key is lost.");
     }
 }

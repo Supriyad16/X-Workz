@@ -6,24 +6,29 @@ class Dates extends Calendar {
         System.out.println("Dates class");
     }
 
-    public void showCurrentDate() {
-        System.out.println("Showing today's date.");
+    @Override
+    public void month() {
+        System.out.println("Displays the current month.");
     }
 
-    public void addEvent() {
-        System.out.println("Adding an event to a specific date.");
+    @Override
+    public void year() {
+        System.out.println("Displays the current year.");
     }
 
-    public void checkWeekend() {
-        System.out.println("Checking if the selected date is a weekend.");
+    @Override
+    public void holiday() {
+        System.out.println("Marking a holiday date.");
     }
 
-    public void countDaysBetween() {
-        System.out.println("Calculating the number of days between two dates.");
+    @Override
+    public void leapYear() {
+        System.out.println("This year is a leap year.");
     }
 
-    public void setReminder() {
-        System.out.println("Setting a reminder for a specific date.");
+    @Override
+    public void weekDays() {
+        System.out.println("Monday to friday are weekdays.");
     }
 }
 

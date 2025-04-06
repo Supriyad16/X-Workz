@@ -5,18 +5,17 @@ public class SuperheroRunner {
 
         Superhero superhero = new IronMan();
         superhero.fly();
-        superhero.fightVillains();
-        superhero.useSuperStrength();
+        superhero.fight();
+        superhero.superStrength();
         superhero.savePeople();
         superhero.disguiseIdentity();
 
 
-
         IronMan ironMan = new IronMan();
-        ironMan.activateSuit();
-        ironMan.launchMissiles();
-        ironMan.useArcReactor();
-        ironMan.scanForThreats();
-        ironMan.buildNewTechnology();
+        ironMan.fly();
+        ironMan.fight();
+        ironMan.superStrength();
+        ironMan.savePeople();
+        ironMan.disguiseIdentity();
     }
 }

@@ -6,23 +6,30 @@ class Room extends Office {
         System.out.println("Room class");
     }
 
-    public void openDoor() {
-        System.out.println("Opening the room door.");
+    @Override
+    public void work() {
+        System.out.println("People work in office.");
     }
 
-    public void closeDoor() {
-        System.out.println("Closing the room door.");
+    @Override
+    public void meetings() {
+        System.out.println("Meetings are conducted.");
     }
 
-    public void turnOnLights() {
-        System.out.println("Turning on the lights in the room.");
+    @Override
+    public void computers() {
+        System.out.println("Employees use computers.");
     }
 
-    public void arrangeFurniture() {
-        System.out.println("Arranging furniture in the room.");
+    @Override
+    public void documents() {
+        System.out.println("Printing documents.");
     }
 
-    public void cleanRoom() {
-        System.out.println("Cleaning the room.");
+    @Override
+    public void breaks() {
+        System.out.println("Employees take breaks.");
+
     }
+
 }

@@ -1,6 +1,6 @@
 package com.xworkz.fest.work;
 
-// Parent Class: Summer
+
 class Summer {
     Summer() {
         System.out.println("Summer class");
@@ -10,23 +10,19 @@ class Summer {
         System.out.println("Summer increases the temperature.");
     }
 
-    public void bringSunlight() {
+    public void sunlight() {
         System.out.println("Summer brings bright sunlight.");
     }
 
-    public void causeDehydration() {
+    public void dehydration() {
         System.out.println("Summer can cause dehydration.");
     }
 
-    public void promoteVacation() {
+    public void vacation() {
         System.out.println("Summer is the season for vacations and holidays.");
     }
 
-    public void supportMangoSeason() {
+    public void mangoSeason() {
         System.out.println("Summer is the best time for mangoes.");
     }
 }
-
-
-
-// Runner Class

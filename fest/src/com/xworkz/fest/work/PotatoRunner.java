@@ -5,17 +5,17 @@ public class PotatoRunner {
 
         Potato potato = new Veggies();
         potato.grow();
-        potato.beBoiled();
-        potato.beFried();
-        potato.beMashed();
-        potato.beEaten();
+        potato.boiled();
+        potato.fried();
+        potato.mashed();
+        potato.eaten();
 
-        Veggies smartPotato = new Veggies();
-        smartPotato.speak();
-        smartPotato.runAway();
-        smartPotato.startRebellion();
-        smartPotato.becomeKing();
-        smartPotato.takeOverTheWorld();
+        Veggies veggies = new Veggies();
+        veggies.grow();
+        veggies.boiled();
+        veggies.fried();
+        veggies.mashed();
+        veggies.eaten();
     }
 }
 

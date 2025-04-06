@@ -7,23 +7,29 @@ public class MathTeacher extends Teacher {
         System.out.println("A Math teacher is assigned");
     }
 
-    public void solveEquations() {
-        System.out.println("Math teacher is solving complex equations");
+    @Override
+    public void teach() {
+        System.out.println("Teacher is teaching.");
     }
 
-    public void teachAlgebra() {
-        System.out.println("Math teacher is explaining algebra");
+    @Override
+    public void giveAssignment() {
+        System.out.println("Teacher gives an assignment.");
     }
 
-    public void conductMathQuiz() {
-        System.out.println("Math teacher is conducting a quiz");
+    @Override
+    public void takeAttendance() {
+        System.out.println("Math Teacher is taking attendance");
     }
 
-    public void explainGeometry() {
-        System.out.println("Math teacher is explaining geometry");
+    @Override
+    public void evaluatePapers() {
+        System.out.println("Math Teacher is evaluating exam papers");
     }
 
-    public void checkHomework() {
-        System.out.println("Math teacher is checking math homework");
+    @Override
+    public void provideFeedback() {
+        System.out.println("Math Teacher is providing feedback to students");
     }
+
 }

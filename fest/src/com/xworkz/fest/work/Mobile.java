@@ -14,11 +14,11 @@ class Mobile {
         System.out.println("Sending a text message.");
     }
 
-    public void browseInternet() {
+    public void browse() {
         System.out.println("Browsing the internet.");
     }
 
-    public void takePhoto() {
+    public void apps() {
         System.out.println("Taking a photo with the mobile camera.");
     }
 

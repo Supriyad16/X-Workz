@@ -4,18 +4,18 @@ public class SeasonRunner {
     public static void main(String[] args) {
 
         Season season = new Rain();
-        season.changeWeather();
-        season.affectTemperature();
+        season.weather();
+        season.temperature();
         season.impactNature();
         season.bringFestivals();
-        season.influenceLifestyle();
-
+        season.fruits();
 
         Rain rain = new Rain();
-        rain.pourWater();
-        rain.coolTheAir();
-        rain.nourishPlants();
-        rain.createRivers();
-        rain.bringRainbows();
+        rain.weather();
+        rain.temperature();
+        rain.impactNature();
+        rain.bringFestivals();
+        rain.fruits();
     }
+
 }

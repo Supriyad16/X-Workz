@@ -13,10 +13,10 @@ public class JapaneseRunner {
 
 
         Culture culture = new Culture();
-        culture.teaCeremony();
-        culture.origamiArt();
-        culture.kimonoTradition();
-        culture.animeAndManga();
-        culture.cherryBlossomFestival();
+        culture.uniqueLanguage();
+        culture.advancedTechnology();
+        culture.richHistory();
+        culture.beautifulLandscapes();
+        culture.famousCuisine();
     }
 }

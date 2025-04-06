@@ -4,26 +4,31 @@ public class Hacker extends Spy {
 
     Hacker() {
         super();
-        System.out.println("A hacker has joined the mission!");
+        System.out.println("Hacker activated: Ready for the cyber mission!");
     }
 
-    public void hackSecurity() {
-        System.out.println("Hacker is breaking into security systems...");
+    @Override
+    public void gatherIntel() {
+        System.out.println("Gathering intel from digital sources and networks.");
     }
 
-    public void stealData() {
-        System.out.println("Hacker is stealing confidential data...");
+    @Override
+    public void disguise() {
+        System.out.println("Using digital and physical disguises to stay undercover.");
     }
 
-    public void writeVirus() {
-        System.out.println("Hacker is creating a computer virus...");
+    @Override
+    public void useGadgets() {
+        System.out.println("Using advanced tech gadgets for hacking and surveillance.");
     }
 
-    public void eraseEvidence() {
-        System.out.println("Hacker is erasing all traces...");
+    @Override
+    public void escape() {
+        System.out.println("Executing escape plan to avoid detection.");
     }
 
-    public void takeControl() {
-        System.out.println("Hacker has taken full control of the system...");
+    @Override
+    public void decodeMessage() {
+        System.out.println("Decoding encrypted messages and data.");
     }
 }

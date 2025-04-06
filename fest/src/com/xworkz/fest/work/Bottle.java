@@ -6,7 +6,7 @@ class Bottle {
         System.out.println("Bottle class");
     }
 
-    public void storeLiquid() {
+    public void store() {
         System.out.println("Bottles are used to store liquids like water, juice, and milk.");
     }
 
@@ -14,7 +14,7 @@ class Bottle {
         System.out.println("Many bottles are reusable and environmentally friendly.");
     }
 
-    public void differentSizes() {
+    public void shapes() {
         System.out.println("Bottles come in different sizes and shapes.");
     }
 
@@ -22,9 +22,10 @@ class Bottle {
         System.out.println("Bottles are easy to carry and convenient for travel.");
     }
 
-    public void madeOfDifferentMaterials() {
+    public void materials() {
         System.out.println("Bottles can be made of plastic, glass, or metal.");
     }
+
 }
 
 

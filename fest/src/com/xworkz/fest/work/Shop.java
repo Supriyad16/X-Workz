@@ -6,24 +6,30 @@ public class Shop extends Vegetable {
         super();
         System.out.println("Shop sells vegetables");
     }
-    public void display() {
 
-        System.out.println("Vegetables are displayed on shelves");
+    @Override
+    public void grow() {
+        System.out.println("Vegetables grows in soil");
     }
-    public void priceTag() {
 
-        System.out.println("Each vegetable has a price tag");
+    @Override
+    public void harvest() {
+        System.out.println("Vegetables are harvested.");
     }
-    public void weigh() {
 
-        System.out.println("Vegetables are weighed before selling");
+    @Override
+    public void sell() {
+        System.out.println("Vegetables are sold.");
     }
-    public void bill() {
 
-        System.out.println("Customers receive a bill after purchase");
+    @Override
+    public void cook() {
+        System.out.println("Vegetables are cooked.");
     }
-    public void customerService() {
 
-        System.out.println("Shop provides customer service");
+    @Override
+    public void nutrients() {
+        System.out.println("Vegetables provide nutrients.");
+
     }
 }

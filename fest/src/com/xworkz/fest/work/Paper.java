@@ -6,23 +6,29 @@ class Paper extends Kite {
         System.out.println("Paper class");
     }
 
-    public void usedForWriting() {
-        System.out.println("Paper is used for writing and printing.");
+    @Override
+    public void fly() {
+        System.out.println("The Paper kite flies high in the sky.");
     }
 
-    public void madeFromTrees() {
-        System.out.println("Paper is made from tree pulp.");
+    @Override
+    public void string() {
+        System.out.println("The Paper kite needs a string to be controlled.");
     }
 
-    public void canBeRecycled() {
-        System.out.println("Paper can be recycled and reused.");
+    @Override
+    public void shapes() {
+        System.out.println("Paper Kites come in different shapes and sizes.");
     }
 
-    public void comesInDifferentColors() {
-        System.out.println("Paper comes in different colors and textures.");
+    @Override
+    public void festivals() {
+        System.out.println("Paper Kites are flown during various festivals.");
     }
 
-    public void usedForOrigami() {
-        System.out.println("Paper is used for origami and crafts.");
+    @Override
+    public void lightMaterial() {
+        System.out.println("Kites are made of lightweight materials like paper.");
     }
+
 }

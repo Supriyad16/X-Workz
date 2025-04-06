@@ -12,10 +12,10 @@ public class HairRunner {
 
 
         Hairband hairband = new Hairband();
-        hairband.holdHair();
-        hairband.differentStyles();
-        hairband.madeOfDifferentMaterials();
-        hairband.usedForFashion();
-        hairband.availableInVariousColors();
+        hairband.grow();
+        hairband.style();
+        hairband.color();
+        hairband.wash();
+        hairband.protect();
     }
 }

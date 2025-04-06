@@ -7,23 +7,28 @@ public class Engineer extends Job {
         System.out.println("SoftwareEngineer class");
     }
 
+    @Override
     public void writeCode() {
-        System.out.println("Writing code for software development");
+        System.out.println("Software engineers write code.");
     }
 
+    @Override
     public void debug() {
-        System.out.println("Debugging the software");
+        System.out.println("Software engineers debugs the code.");
     }
 
+    @Override
     public void testSoftware() {
-        System.out.println("Testing the developed software");
+        System.out.println("Software engineers tests the code.");
     }
 
+    @Override
     public void deployApplication() {
-        System.out.println("Deploying the application");
+        System.out.println("Software engineers deploying the application");
     }
 
+    @Override
     public void collaborateWithTeam() {
-        System.out.println("Collaborating with team members");
+        System.out.println("Software engineers Collaborating with team members");
     }
 }

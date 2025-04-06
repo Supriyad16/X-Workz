@@ -14,12 +14,11 @@ public class DessertRunner {
 
         IceCream iceCream = new IceCream();
 
-        iceCream.coneOrCup();
-        iceCream.flavor();
-        iceCream.scoop();
-        iceCream.temperature();
-        iceCream.topping();
-
+        iceCream.enjoy();
+        iceCream.ingredients();
+        iceCream.serve();
+        iceCream.store();
+        iceCream.taste();
 
     }
 }

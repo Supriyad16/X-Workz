@@ -5,12 +5,11 @@ public class SmartDeviceRunner {
     public static void main(String[] args) {
 
         SmartDevice device = new SmartWatch();
-        device.powerOn();
-        device.connectToWiFi();
-        device.updateSoftware();
-        device.showBatteryStatus();
-        device.powerOff();
-
+        device.trackSleep();
+        device.measureHeartRate();
+        device.displayNotifications();
+        device.setAlarm();
+        device.trackSleep();
 
 
         SmartWatch watch = new SmartWatch();

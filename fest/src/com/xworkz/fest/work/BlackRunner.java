@@ -4,17 +4,17 @@ public class BlackRunner {
     public static void main(String[] args) {
 
         Black black = new Tile();
-        black.representsDarkness();
+        black.dark();
         black.absorbsLight();
-        black.usedInDesign();
-        black.symbolizesElegance();
-        black.createsStrongContrast();
+        black.colour();
+        black.beauty();
+        black.attracts();
 
         Tile tile = new Tile();
-        tile.usedForFlooring();
-        tile.availableInVariousMaterials();
-        tile.enhancesAesthetics();
-        tile.providesDurability();
-        tile.availableInDifferentColors();
+        tile.dark();
+        tile.absorbsLight();
+        tile.colour();
+        tile.beauty();
+        tile.attracts();
     }
 }

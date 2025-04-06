@@ -25,6 +25,7 @@ public class Plate {
     public void size() {
         System.out.println("Plates come in different sizes");
     }
+
 }
 
 

@@ -7,23 +7,28 @@ public class IronMan extends Superhero {
         System.out.println("Iron Man is ready for battle!");
     }
 
-    public void activateSuit() {
-        System.out.println("Activating Iron Man suit...");
+    @Override
+    public void fly() {
+        System.out.println("IronMan is flying.");
     }
 
-    public void launchMissiles() {
-        System.out.println("Launching missiles...");
+    @Override
+    public void fight() {
+        System.out.println("IronMan Fights with villains.");
     }
 
-    public void useArcReactor() {
-        System.out.println("Using arc reactor power...");
+    @Override
+    public void superStrength() {
+        System.out.println("IronMan uses super strength.");
     }
 
-    public void scanForThreats() {
-        System.out.println("Scanning for enemy threats...");
+    @Override
+    public void savePeople() {
+        System.out.println("IronMan saves innocent people.");
     }
 
-    public void buildNewTechnology() {
-        System.out.println("Inventing new technology...");
+    @Override
+    public void disguiseIdentity() {
+        System.out.println("IronMan Hides true identity.");
     }
 }

@@ -1,20 +1,19 @@
 package com.xworkz.fest.work;
 
-
 class Snow {
     Snow() {
         System.out.println("Snow class");
     }
 
-    public void formsInColdWeather() {
+    public void coldWeather() {
         System.out.println("Snow forms in extremely cold weather.");
     }
 
-    public void coversMountains() {
+    public void mountains() {
         System.out.println("Snow covers mountains and landscapes during winter.");
     }
 
-    public void meltsInHeat() {
+    public void melts() {
         System.out.println("Snow melts when the temperature rises.");
     }
 
@@ -25,6 +24,7 @@ class Snow {
     public void reflectsSunlight() {
         System.out.println("Snow reflects sunlight, making it appear bright.");
     }
+
 }
 
 

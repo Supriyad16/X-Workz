@@ -25,5 +25,6 @@ public class Plant {
     public void provideShade() {
         System.out.println("Plant provides shade");
     }
+
 }
 

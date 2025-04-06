@@ -7,23 +7,33 @@ public class Bus extends Transport {
         System.out.println("Bus class");
     }
 
-    public void collectFare() {
-        System.out.println("Bus collects fare from passengers");
+    @Override
+    public void move() {
+
+        System.out.println("Bus is moving");
     }
 
-    public void fixedStops() {
-        System.out.println("Bus has fixed stops");
+    @Override
+    public void stop() {
+
+        System.out.println("Bus is stopping");
     }
 
-    public void driverAndConductor() {
-        System.out.println("Bus has a driver and conductor");
+    @Override
+    public void fuel() {
+
+        System.out.println("Bus needs fuel");
     }
 
-    public void publicTransport() {
-        System.out.println("Bus is a public transport vehicle");
+    @Override
+    public void capacity() {
+
+        System.out.println("Bus has a capacity limit");
     }
 
-    public void luggageSpace() {
-        System.out.println("Bus has luggage storage space");
+    @Override
+    public void route() {
+
+        System.out.println("Bus follows a specific route");
     }
 }

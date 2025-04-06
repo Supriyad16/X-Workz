@@ -13,10 +13,10 @@ public class AdvertisementRunner {
 
 
         Poster poster = new Poster();
-        poster.designPoster();
-        poster.selectColors();
-        poster.addText();
-        poster.printPoster();
-        poster.displayPoster();
+        poster.choosePlatform();
+        poster.createAd();
+        poster.setBudget();
+        poster.publishAd();
+        poster.setTargetAudience();
     }
 }

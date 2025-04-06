@@ -12,7 +12,7 @@ public class Address {
         System.out.println("Deliver to this address");
     }
 
-    public void locationInfo() {
+    public void location() {
         System.out.println("This is a residential address.");
     }
 
@@ -21,11 +21,11 @@ public class Address {
     }
 
     public void validateAddress() {
-        System.out.println("Validating address details...");
+        System.out.println("Validating address details.");
     }
 
     public void getRegion() {
-        System.out.println("Region " );
+        System.out.println("Region" );
     }
 }
 

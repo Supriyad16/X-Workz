@@ -2,27 +2,32 @@ package com.xworkz.fest.work;
 
 class Cool extends Ice {
     Cool() {
-        super(); // Calls the parent class constructor
+        super();
         System.out.println("Cool class");
     }
 
-    public void refreshAir() {
-        System.out.println("Cool air is refreshing the environment.");
+    @Override
+    public void freeze() {
+        System.out.println("Ice is freezing when it is cool.");
     }
 
-    public void lowerBodyTemperature() {
-        System.out.println("Cool sensation helps lower body temperature.");
+    @Override
+    public void melt() {
+        System.out.println("Ice is melting when its hot.");
     }
 
-    public void preserveFood() {
-        System.out.println("Cool temperature helps preserve food.");
+    @Override
+    public void floatOnWater() {
+        System.out.println("Ice is floats on water.");
     }
 
-    public void provideComfort() {
-        System.out.println("Cool breeze provides comfort.");
+    @Override
+    public void temperature() {
+        System.out.println("Ice is maintaining a low temperature when its cool.");
     }
 
-    public void preventOverheating() {
-        System.out.println("Coolness helps prevent overheating of devices.");
+    @Override
+    public void crystals() {
+        System.out.println("Ice is forms a crystals when its cool.");
     }
 }

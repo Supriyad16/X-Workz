@@ -7,23 +7,30 @@ public class Items extends Stationery {
         System.out.println("Items are part of stationery and used in daily tasks!");
     }
 
-    public void listItems() {
-        System.out.println("Common stationery items include pens, pencils, erasers, and rulers...");
+    @Override
+    public void write() {
+        System.out.println("Pen help in writing.");
     }
 
-    public void sharpen() {
-        System.out.println("Pencil needs sharpening to write properly...");
+    @Override
+    public void draw() {
+        System.out.println("Colour pencil helps in drawing.");
     }
 
-    public void erase() {
-        System.out.println("Erasers help remove mistakes...");
+    @Override
+    public void store() {
+        System.out.println("Stationery items are stored in drawers.");
     }
 
-    public void measure() {
-        System.out.println("Rulers help in measuring...");
+    @Override
+    public void organize() {
+        System.out.println("Stationery items must be organized.");
     }
 
-    public void staple() {
-        System.out.println("Staplers help in binding pages together...");
+    @Override
+    public void use() {
+        System.out.println("Items are used for various purposes.");
     }
 }
+
+

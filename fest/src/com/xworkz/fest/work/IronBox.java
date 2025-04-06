@@ -17,11 +17,11 @@ class IronBox {
         System.out.println("IronBox allows adjusting temperature based on fabric type.");
     }
 
-    public void availableInDifferentTypes() {
+    public void differentTypes() {
         System.out.println("IronBoxes come in steam and dry types.");
     }
 
-    public void commonlyUsedInHomes() {
+    public void used() {
         System.out.println("IronBox is a common household appliance.");
     }
 }

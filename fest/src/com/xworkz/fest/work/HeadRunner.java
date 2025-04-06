@@ -11,10 +11,10 @@ public class HeadRunner {
         head.ensuresDiscipline();
 
         Principal principal = new Principal();
-        principal.managesSchool();
-        principal.guidesTeachers();
-        principal.maintainsSchoolRules();
-        principal.interactsWithStudents();
-        principal.overseesAcademics();
+        principal.leadsOrganization();
+        principal.makesDecisions();
+        principal.managesOperations();
+        principal.representsAuthority();
+        principal.ensuresDiscipline();
     }
 }

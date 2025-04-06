@@ -18,7 +18,7 @@ class Air {
     }
 
     public void spreadSmell() {
-        System.out.println("Air spreads different smells.");
+        System.out.println("Air spreads different smell.");
     }
 
     public void createWind() {

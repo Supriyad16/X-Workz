@@ -2,27 +2,32 @@ package com.xworkz.fest.work;
 
 class Charger extends Mobile {
     Charger() {
-        super(); // Calls the parent class constructor
+        super();
         System.out.println("Charger class");
     }
 
-    public void connectToMobile() {
-        System.out.println("Connecting the charger to the mobile.");
+    @Override
+    public void makeCall() {
+        System.out.println("Charger is needed to Making a phone call.");
     }
 
-    public void supplyPower() {
-        System.out.println("Supplying power to the mobile.");
+    @Override
+    public void sendText() {
+        System.out.println("Charger is needed to Sending a text message.");
     }
 
-    public void fastCharging() {
-        System.out.println("Fast charging the mobile.");
+    @Override
+    public void browse() {
+        System.out.println("Charger is needed to Browsing the internet.");
     }
 
-    public void stopCharging() {
-        System.out.println("Stopping the charging process.");
+    @Override
+    public void apps() {
+        System.out.println("Charger is needed to taking a photo with the mobile camera.");
     }
 
-    public void checkBatteryStatus() {
-        System.out.println("Checking the mobile battery percentage.");
+    @Override
+    public void playMusic() {
+        System.out.println("Charger is needed to Playing music on the mobile.");
     }
 }

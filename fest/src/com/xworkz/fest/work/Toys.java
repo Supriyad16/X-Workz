@@ -6,15 +6,15 @@ class Toys {
         System.out.println("Toys class");
     }
 
-    public void provideEntertainment() {
+    public void entertainment() {
         System.out.println("Toys provide entertainment for children.");
     }
 
-    public void madeOfDifferentMaterials() {
+    public void differentMaterials() {
         System.out.println("Toys can be made of plastic, wood, or fabric.");
     }
 
-    public void availableInVariousTypes() {
+    public void variousTypes() {
         System.out.println("Toys come in various types like action figures, puzzles, and stuffed animals.");
     }
 
@@ -22,7 +22,7 @@ class Toys {
         System.out.println("Playing with toys can improve children's creativity and imagination.");
     }
 
-    public void usedForLearning() {
+    public void learning() {
         System.out.println("Many toys are designed for educational purposes.");
     }
 }

@@ -7,24 +7,30 @@ public class Patient extends Doctor {
         super();
         System.out.println("Patient is consulting the doctor");
     }
-    public void disease() {
 
-        System.out.println("Patient describes symptoms");
+    @Override
+    public void diagnose() {
+        System.out.println("Diagnosing the patient");
     }
-    public void rest() {
 
-        System.out.println("Patient takes prescribed medicine");
+    @Override
+    public void prescription() {
+        System.out.println("Prescribing medicine");
     }
-    public void treatment() {
 
-        System.out.println("Patient follows doctor's instructions");
+    @Override
+    public void check() {
+        System.out.println("Checking vitals");
     }
-    public void takeMedicine() {
 
-        System.out.println("Patient is resting as advised");
+    @Override
+    public void surgery() {
+        System.out.println("Performing surgery");
     }
-    public void visitHospital() {
 
-        System.out.println("Patient attends follow-up appointment");
+    @Override
+    public void medicine() {
+
+        System.out.println("Patient must take medicine.");
     }
 }

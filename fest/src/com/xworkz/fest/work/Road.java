@@ -6,7 +6,7 @@ class Road {
         System.out.println("Road class");
     }
 
-    public void usedForVehicles() {
+    public void transportation() {
         System.out.println("Roads are mainly used for vehicle transportation.");
     }
 
@@ -14,15 +14,15 @@ class Road {
         System.out.println("Roads connect different cities, towns, and villages.");
     }
 
-    public void madeOfDifferentMaterials() {
-        System.out.println("Roads can be made of asphalt, concrete, or gravel.");
+    public void walk() {
+        System.out.println("Roads can be made of asphalt, concrete, or gravel to walk.");
     }
 
-    public void haveTrafficRules() {
+    public void traffic() {
         System.out.println("Roads have traffic rules to ensure smooth movement.");
     }
 
-    public void maintainedByGovernment() {
+    public void construct() {
         System.out.println("Roads are maintained by the government or local authorities.");
     }
 }

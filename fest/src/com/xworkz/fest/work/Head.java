@@ -25,6 +25,7 @@ class Head {
     public void ensuresDiscipline() {
         System.out.println("The head ensures discipline and order.");
     }
+
 }
 
 

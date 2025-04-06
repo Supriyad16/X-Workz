@@ -8,28 +8,33 @@ public class Camera extends Photo{
         System.out.println("Digital camera");
     }
 
-    public void store(){
+    @Override
+    public void gallery(){
 
-        System.out.println("camera stors photos");
+        System.out.println("Camera collects photos");
     }
 
-    public void delete(){
+    @Override
+    public void memories(){
 
-        System.out.println("delete the photos");
+        System.out.println("Camera collects memories");
     }
 
-    public void light(){
+    @Override
+    public void phone(){
 
-        System.out.println(" camera have light");
+        System.out.println("phone collects photos through camera");
     }
 
-    public void focus(){
+    @Override
+    public void safe(){
 
-        System.out.println("focus the light");
+        System.out.println("photos are safe when clicked through camera. ");
     }
 
-    public void capture(){
+    @Override
+    public void click(){
 
-        System.out.println("camera captures the moment");
+        System.out.println("Click the photos by camera.");
     }
 }

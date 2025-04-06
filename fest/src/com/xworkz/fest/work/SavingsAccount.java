@@ -7,24 +7,29 @@ public class SavingsAccount extends Bank {
         System.out.println("Savings Account class");
     }
 
-    public void earnInterest() {
-        System.out.println("Savings account earns interest");
+    @Override
+    public void openAccount() {
+        System.out.println("Opens an account");
     }
 
-    public void maintainMinimumBalance() {
-        System.out.println("Savings account requires minimum balance");
+    @Override
+    public void depositMoney() {
+        System.out.println("Deposit Money.");
     }
 
-    public void withdrawLimit() {
-        System.out.println("Savings account has a withdrawal limit");
+    @Override
+    public void withdrawMoney() {
+        System.out.println("Withdrawals Money");
     }
 
-    public void onlineBanking() {
-        System.out.println("Savings account supports online banking");
+    @Override
+    public void provideLoan() {
+        System.out.println("Bank gives loans");
     }
 
-    public void issueDebitCard() {
-        System.out.println("Savings account provides a debit card");
+    @Override
+    public void generateStatement() {
+        System.out.println("Bank generates account statements.");
     }
 }
 

@@ -1,11 +1,11 @@
 package com.xworkz.fest.work;
 
-
 public class Vegetable {
     Vegetable() {
 
         System.out.println("Vegetables are healthy");
     }
+
     public void grow() {
 
         System.out.println("Vegetables grow in soil");
@@ -26,6 +26,5 @@ public class Vegetable {
 
         System.out.println("Vegetables provide essential nutrients");
     }
+
 }
-
-

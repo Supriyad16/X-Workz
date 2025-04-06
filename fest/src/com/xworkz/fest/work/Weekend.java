@@ -1,8 +1,8 @@
 package com.xworkz.fest.work;
 
-
 class Weekend {
-    Weekend() {
+
+        Weekend() {
         System.out.println("Weekend class");
     }
 
@@ -25,6 +25,7 @@ class Weekend {
     public void readBook() {
         System.out.println("Reading a book to unwind.");
     }
+
 }
 
 

@@ -6,16 +6,16 @@ public class MobileRunner {
         Mobile mobile = new Charger();
         mobile.makeCall();
         mobile.sendText();
-        mobile.browseInternet();
-        mobile.takePhoto();
+        mobile.browse();
+        mobile.apps();
         mobile.playMusic();
 
 
         Charger charger = new Charger();
-        charger.connectToMobile();
-        charger.supplyPower();
-        charger.fastCharging();
-        charger.stopCharging();
-        charger.checkBatteryStatus();
+        charger.makeCall();
+        charger.sendText();
+        charger.browse();
+        charger.apps();
+        charger.playMusic();
     }
 }

@@ -6,23 +6,28 @@ class Dolls extends Toys {
         System.out.println("Dolls class");
     }
 
-    public void dressedInDifferentStyles() {
-        System.out.println("Dolls are dressed in different styles and outfits.");
+    @Override
+    public void entertainment() {
+        System.out.println("Dolls provide entertainment for children.");
     }
 
-    public void popularAmongChildren() {
-        System.out.println("Dolls are very popular among young children.");
+    @Override
+    public void differentMaterials() {
+        System.out.println("Dolls can be made of plastic, wood, or fabric.");
     }
 
-    public void availableInVariousSizes() {
-        System.out.println("Dolls come in different sizes, from small to life-sized.");
+    @Override
+    public void variousTypes() {
+        System.out.println("Dolls come in various types like action figures, puzzles, and stuffed animals.");
     }
 
-    public void usedForRolePlaying() {
-        System.out.println("Children use dolls for role-playing and storytelling.");
+    @Override
+    public void improveCreativity() {
+        System.out.println("Playing with dolls can improve children's creativity and imagination.");
     }
 
-    public void collectibleItems() {
-        System.out.println("Some dolls are collectible and have great value.");
+    @Override
+    public void learning() {
+        System.out.println("Many dolls are designed for educational purposes.");
     }
 }

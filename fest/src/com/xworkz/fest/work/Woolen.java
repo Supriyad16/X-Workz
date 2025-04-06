@@ -6,11 +6,11 @@ class Woolen {
         System.out.println("Woolen class");
     }
 
-    public void providesWarmth() {
+    public void warmth() {
         System.out.println("Woolen fabric provides warmth in cold weather.");
     }
 
-    public void softTexture() {
+    public void soft() {
         System.out.println("Woolen materials have a soft and cozy texture.");
     }
 

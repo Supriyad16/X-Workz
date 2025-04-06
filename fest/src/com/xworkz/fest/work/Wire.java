@@ -6,24 +6,30 @@ public class Wire extends Port {
         super();
         System.out.println("Wire connected");
     }
-    public void transmitSignal() {
 
-        System.out.println("Transmitting signals");
+    @Override
+    public void connect() {
+        System.out.println("Wire connected");
     }
-    public void shieldNoise() {
 
-        System.out.println("Shielding external noise");
+    @Override
+    public void disconnect() {
+        System.out.println("Wire disconnected");
     }
-    public void ensureDurability() {
 
-        System.out.println("Ensuring wire durability");
+    @Override
+    public void transferData() {
+        System.out.println("Data is transferred through Wire");
     }
-    public void flexibleUsage() {
 
-        System.out.println("Providing flexible usage");
+    @Override
+    public void checkStatus() {
+        System.out.println("Checking the status");
     }
-    public void secureConnection() {
 
-        System.out.println("Ensuring secure connection");
+    @Override
+    public void powerSupply() {
+        System.out.println("Providing power supply through Wire");
+
     }
 }

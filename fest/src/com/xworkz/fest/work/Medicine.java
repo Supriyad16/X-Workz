@@ -22,7 +22,8 @@ public class Medicine {
         System.out.println("Medicine has an expiry date");
     }
 
-    public void storageConditions() {
+    public void taste() {
         System.out.println("Medicine requires proper storage conditions");
     }
+
 }
