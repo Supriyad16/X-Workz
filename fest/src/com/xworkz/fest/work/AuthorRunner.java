@@ -11,11 +11,11 @@ public class AuthorRunner {
         author.bookLaunch();
 
 
-        Stories story = new Stories();
-        story.writeBook();
-        story.editContent();
-        story.publishBook();
-        story.giveInterview();
-        story.bookLaunch();
+        Stories stories = new Stories();
+        stories.writeBook();
+        stories.editContent();
+        stories.publishBook();
+        stories.giveInterview();
+        stories.bookLaunch();
     }
 }

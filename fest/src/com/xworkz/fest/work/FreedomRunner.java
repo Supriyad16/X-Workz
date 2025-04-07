@@ -11,11 +11,11 @@ public class FreedomRunner {
         freedom.development();
 
 
-        FreedomFighters fighters = new FreedomFighters();
-        fighters.definesRights();
-        fighters.equality();
-        fighters.independence();
-        fighters.democracy();
-        fighters.development();
+        FreedomFighters freedomFighters = new FreedomFighters();
+        freedomFighters.definesRights();
+        freedomFighters.equality();
+        freedomFighters.independence();
+        freedomFighters.democracy();
+        freedomFighters.development();
     }
 }

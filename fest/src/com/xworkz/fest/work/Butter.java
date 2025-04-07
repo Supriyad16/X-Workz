@@ -25,6 +25,3 @@ class Butter {
         System.out.println("Butter enhances the flavor of food.");
     }
 }
-
-
-

@@ -31,5 +31,3 @@ class Dates extends Calendar {
         System.out.println("Monday to friday are weekdays.");
     }
 }
-
-

@@ -25,3 +25,4 @@ class Air {
         System.out.println("Moving air creates wind.");
     }
 }
+
