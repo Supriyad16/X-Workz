@@ -11,6 +11,12 @@ public class Lock {
         this.isDigital = isDigital;
     }
 
+
+    @Override
+    public int hashCode() {
+        return 48;
+    }
+
     @Override
     public String toString() {
         return "[type=" + type + ", material=" + material + ", isDigital=" + isDigital + "]";

@@ -11,6 +11,12 @@ public class Straightner {
         this.brand = brand;
     }
 
+
+    @Override
+    public int hashCode() {
+        return 83;
+    }
+
     @Override
     public String toString() {
         return "[plateMaterial=" + plateMaterial + ", heatSetting=" + heatSetting + ", brand=" + brand + "]";

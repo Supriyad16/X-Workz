@@ -12,6 +12,12 @@ public class NailPolish {
         this.price = price;
     }
 
+
+    @Override
+    public int hashCode() {
+        return 55;
+    }
+
     @Override
     public String toString() {
         return "[shade=" + shade + ", brand=" + brand + ", price=" + price + "]";

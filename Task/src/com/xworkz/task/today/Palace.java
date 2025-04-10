@@ -12,6 +12,11 @@ public class Palace {
     }
 
     @Override
+    public int hashCode() {
+        return 61;
+    }
+
+    @Override
     public String toString() {
         return "[name=" + name + ", age=" + age + " years, city=" + city + "]";
     }

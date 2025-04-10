@@ -11,6 +11,12 @@ public class Toaster {
         this.hasTimer = hasTimer;
     }
 
+
+    @Override
+    public int hashCode() {
+        return 91;
+    }
+
     @Override
     public String toString() {
         return "[slots=" + slots + ", brand=" + brand + ", hasTimer=" + hasTimer + "]";

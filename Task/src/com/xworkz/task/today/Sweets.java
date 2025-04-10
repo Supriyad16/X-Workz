@@ -11,6 +11,12 @@ public class Sweets {
         this.isSugarFree = isSugarFree;
     }
 
+
+    @Override
+    public int hashCode() {
+        return 84;
+    }
+
     @Override
     public String toString() {
         return "[name=" + name + ", weight=" + weight + "g, isSugarFree=" + isSugarFree + "]";

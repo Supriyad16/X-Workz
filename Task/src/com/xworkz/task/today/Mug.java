@@ -11,6 +11,12 @@ public class Mug {
         this.volume = volume;
     }
 
+
+    @Override
+    public int hashCode() {
+        return 54;
+    }
+
     @Override
     public String toString() {
         return "[color=" + color + ", material=" + material + ", volume=" + volume + "ml]";

@@ -12,6 +12,11 @@ public class Bluetooth {
     }
 
     @Override
+    public int hashCode() {
+        return 11;
+    }
+
+    @Override
     public String toString() {
         return "[type=" + type + ", brand=" + brand + ", isAvailable=" + isAvailable + "]";
     }

@@ -12,6 +12,12 @@ public class Charger {
         this.fastCharging = fastCharging;
     }
 
+
+    @Override
+    public int hashCode() {
+        return 18;
+    }
+
     @Override
     public String toString() {
         return "[brand=" + brand + ", wattage=" + wattage + "W, fastCharging=" + fastCharging + "]";

@@ -12,6 +12,12 @@ public class Paint {
         this.price = price;
     }
 
+
+    @Override
+    public int hashCode() {
+        return 60;
+    }
+
     @Override
     public String toString() {
         return "[brand=" + brand + ", color=" + color + ", price=" + price + "]";

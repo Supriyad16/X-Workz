@@ -11,6 +11,12 @@ public class Walnut {
         this.weight = weight;
     }
 
+
+    @Override
+    public int hashCode() {
+        return 98;
+    }
+
     @Override
     public String toString() {
         return "[variety=" + variety + ", shelled=" + shelled + ", weight=" + weight + "g]";

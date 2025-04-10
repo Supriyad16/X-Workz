@@ -12,6 +12,12 @@ public class Mouse {
         this.price = price;
     }
 
+
+    @Override
+    public int hashCode() {
+        return 53;
+    }
+
     @Override
     public String toString() {
         return "[brand=" + brand + ", type=" + type + ", price=" + price + "]";

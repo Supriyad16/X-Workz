@@ -13,6 +13,11 @@ public class Cricket {
     }
 
     @Override
+    public int hashCode() {
+        return 24;
+    }
+
+    @Override
     public String toString() {
         return "[matchType=" + matchType + ", players=" + players + ", location=" + location + "]";
     }

@@ -12,6 +12,11 @@ public class Cashew {
     }
 
     @Override
+    public int hashCode() {
+        return 16;
+    }
+
+    @Override
     public String toString() {
         return "[quality=" + quality + ", weight=" + weight + "g, salted=" + salted + "]";
     }

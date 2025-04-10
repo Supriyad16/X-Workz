@@ -11,6 +11,12 @@ public class Umbrella {
         this.material = material;
     }
 
+
+    @Override
+    public int hashCode() {
+        return 96;
+    }
+
     @Override
     public String toString() {
         return "[color=" + color + ", isFoldable=" + isFoldable + ", material=" + material + "]";

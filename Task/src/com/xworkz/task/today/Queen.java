@@ -12,6 +12,11 @@ public class Queen {
     }
 
     @Override
+    public int hashCode() {
+        return 67;
+    }
+
+    @Override
     public String toString() {
         return "[name=" + name + ", kingdom=" + kingdom + ", isReigning=" + isReigning + "]";
     }

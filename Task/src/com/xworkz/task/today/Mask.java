@@ -12,6 +12,12 @@ public class Mask {
         this.price = price;
     }
 
+
+    @Override
+    public int hashCode() {
+        return 51;
+    }
+
     @Override
     public String toString() {
         return "[type=" + type + ", isReusable=" + isReusable + ", price=" + price + "]";

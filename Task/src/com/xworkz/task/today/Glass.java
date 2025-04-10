@@ -12,6 +12,11 @@ public class Glass {
     }
 
     @Override
+    public int hashCode() {
+        return 31;
+    }
+
+    @Override
     public String toString() {
         return "[type=" + type + ", volume=" + volume + "ml, isTransparent=" + isTransparent + "]";
     }

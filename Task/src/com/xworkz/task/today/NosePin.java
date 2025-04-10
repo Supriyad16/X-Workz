@@ -11,6 +11,12 @@ public class NosePin {
         this.shape = shape;
     }
 
+
+    @Override
+    public int hashCode() {
+        return 57;
+    }
+
     @Override
     public String toString() {
         return "[material=" + material + ", isStudded=" + isStudded + ", shape=" + shape + "]";

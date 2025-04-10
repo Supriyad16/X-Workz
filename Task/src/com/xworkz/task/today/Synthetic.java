@@ -12,6 +12,11 @@ public class Synthetic {
     }
 
     @Override
+    public int hashCode() {
+        return 85;
+    }
+
+    @Override
     public String toString() {
         return "[type=" + type + ", brand=" + brand + ", isAvailable=" + isAvailable + "]";
     }

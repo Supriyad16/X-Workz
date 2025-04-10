@@ -13,6 +13,11 @@ public class Clip {
     }
 
     @Override
+    public int hashCode() {
+        return 21;
+    }
+
+    @Override
     public String toString() {
         return "[type=" + type + ", color=" + color + ", quantity=" + quantity + "]";
     }

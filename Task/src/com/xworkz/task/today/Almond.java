@@ -12,6 +12,11 @@ public class Almond {
     }
 
     @Override
+    public int hashCode() {
+        return 3;
+    }
+
+    @Override
     public String toString() {
         return "[origin=" + origin + ", weight=" + weight + "g, isRoasted=" + isRoasted + "]";
     }

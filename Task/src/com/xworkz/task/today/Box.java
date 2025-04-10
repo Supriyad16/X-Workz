@@ -12,6 +12,11 @@ public class Box {
     }
 
     @Override
+    public int hashCode() {
+        return 13;
+    }
+
+    @Override
     public String toString() {
         return "[material=" + material + ", length=" + length + " cm, width=" + width + " cm]";
     }

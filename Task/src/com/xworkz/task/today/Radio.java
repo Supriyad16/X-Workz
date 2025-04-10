@@ -12,6 +12,12 @@ public class Radio {
         this.frequencyRange = frequencyRange;
     }
 
+
+    @Override
+    public int hashCode() {
+        return 68;
+    }
+
     @Override
     public String toString() {
         return "[brand=" + brand + ", isDigital=" + isDigital + ", frequencyRange=" + frequencyRange + "MHz]";

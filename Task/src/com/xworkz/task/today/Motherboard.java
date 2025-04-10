@@ -12,6 +12,12 @@ public class Motherboard {
         this.ramSlots = ramSlots;
     }
 
+
+    @Override
+    public int hashCode() {
+        return 52;
+    }
+
     @Override
     public String toString() {
         return "[model=" + model + ", socketType=" + socketType + ", ramSlots=" + ramSlots + "]";

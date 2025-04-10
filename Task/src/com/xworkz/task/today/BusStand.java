@@ -12,6 +12,12 @@ public class BusStand {
         this.hasParking = hasParking;
     }
 
+
+    @Override
+    public int hashCode() {
+        return 15;
+    }
+
     @Override
     public String toString() {
         return "[name=" + name + ", platforms=" + platforms + ", hasParking=" + hasParking + "]";

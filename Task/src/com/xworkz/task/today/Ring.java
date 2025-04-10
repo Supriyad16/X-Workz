@@ -11,6 +11,12 @@ public class Ring {
         this.hasStone = hasStone;
     }
 
+
+    @Override
+    public int hashCode() {
+        return 70;
+    }
+
     @Override
     public String toString() {
         return "[metal=" + metal + ", size=" + size + ", hasStone=" + hasStone + "]";

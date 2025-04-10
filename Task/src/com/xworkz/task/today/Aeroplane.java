@@ -13,6 +13,11 @@ public class Aeroplane {
     }
 
     @Override
+    public int hashCode() {
+        return 2;
+    }
+
+    @Override
     public String toString() {
         return "[model=" + model + ", capacity=" + capacity + ", airline=" + airline + "]";
     }

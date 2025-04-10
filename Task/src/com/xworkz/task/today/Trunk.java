@@ -12,6 +12,11 @@ public class Trunk {
     }
 
     @Override
+    public int hashCode() {
+        return 95;
+    }
+
+    @Override
     public String toString() {
         return "[type=" + type + ", brand=" + brand + ", isAvailable=" + isAvailable + "]";
     }

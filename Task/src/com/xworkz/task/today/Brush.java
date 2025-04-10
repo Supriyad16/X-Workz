@@ -12,6 +12,11 @@ public class Brush {
     }
 
     @Override
+    public int hashCode() {
+        return 14;
+    }
+
+    @Override
     public String toString() {
         return "[type=" + type + ", brand=" + brand + ", isElectric=" + isElectric + "]";
     }

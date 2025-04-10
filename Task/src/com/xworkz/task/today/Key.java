@@ -12,6 +12,11 @@ public class Key {
     }
 
     @Override
+    public int hashCode() {
+        return 41;
+    }
+
+    @Override
     public String toString() {
         return "[type=" + type + ", material=" + material + ", isDuplicate=" + isDuplicate + "]";
     }

@@ -13,6 +13,11 @@ public class Ball {
     }
 
     @Override
+    public int hashCode() {
+        return 6;
+    }
+
+    @Override
     public String toString() {
         return "[color=" + color + ", type=" + type + ", weight=" + weight + "g]";
     }

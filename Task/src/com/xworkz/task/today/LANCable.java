@@ -13,6 +13,11 @@ public class LANCable {
     }
 
     @Override
+    public int hashCode() {
+        return 44;
+    }
+
+    @Override
     public String toString() {
         return "[type=" + type + ", length=" + length + "m, isShielded=" + isShielded + "]";
     }

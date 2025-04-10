@@ -13,6 +13,11 @@ public class Tablet {
     }
 
     @Override
+    public int hashCode() {
+        return 87;
+    }
+
+    @Override
     public String toString() {
         return "[name=" + name + ", dosage=" + dosage + "mg, use=" + use + "]";
     }

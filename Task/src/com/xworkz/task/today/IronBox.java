@@ -12,6 +12,11 @@ public class IronBox {
     }
 
     @Override
+    public int hashCode() {
+        return 38;
+    }
+
+    @Override
     public String toString() {
         return "[brand=" + brand + ", power=" + power + "W, isSteam=" + isSteam + "]";
     }

@@ -12,6 +12,11 @@ public class House {
     }
 
     @Override
+    public int hashCode() {
+        return 37;
+    }
+
+    @Override
     public String toString() {
         return "[type=" + type + ", rooms=" + rooms + ", hasGarden=" + hasGarden + "]";
     }

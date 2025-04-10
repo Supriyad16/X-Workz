@@ -11,6 +11,12 @@ public class Platinum {
         this.price = price;
     }
 
+
+    @Override
+    public int hashCode() {
+        return 66;
+    }
+
     @Override
     public String toString() {
         return "[purity=" + purity + "%, weight=" + weight + "g, price=" + price + "]";

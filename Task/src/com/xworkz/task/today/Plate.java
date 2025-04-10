@@ -12,6 +12,12 @@ public class Plate {
     }
 
     @Override
+    public int hashCode() {
+        String value = "X-workz";
+        return 66;
+    }
+
+    @Override
     public String toString() {
         return "[material=" + material + ", shape=" + shape + ", isMicrowaveSafe=" + isMicrowaveSafe + "]";
     }

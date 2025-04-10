@@ -11,6 +11,12 @@ public class Silk {
         this.isAvailable = isAvailable;
     }
 
+
+    @Override
+    public int hashCode() {
+        return 76;
+    }
+
     @Override
     public String toString() {
         return "[type=" + type + ", brand=" + brand + ", isAvailable=" + isAvailable + "]";

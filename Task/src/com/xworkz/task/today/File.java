@@ -13,6 +13,11 @@ public class File {
     }
 
     @Override
+    public int hashCode() {
+        return 30;
+    }
+
+    @Override
     public String toString() {
         return "[type=" + type + ", size=" + size + "MB, name=" + name + "]";
     }

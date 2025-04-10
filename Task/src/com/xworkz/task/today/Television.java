@@ -12,6 +12,12 @@ public class Television {
         this.isSmart = isSmart;
     }
 
+
+    @Override
+    public int hashCode() {
+        return 89;
+    }
+
     @Override
     public String toString() {
         return "[brand=" + brand + ", size=" + size + "inch, isSmart=" + isSmart + "]";

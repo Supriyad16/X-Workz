@@ -12,6 +12,11 @@ public class King {
     }
 
     @Override
+    public int hashCode() {
+        return 43;
+    }
+
+    @Override
     public String toString() {
         return "[name=" + name + ", kingdom=" + kingdom + ", age=" + age + "]";
     }

@@ -13,6 +13,11 @@ public class Speaker {
     }
 
     @Override
+    public int hashCode() {
+        return 81;
+    }
+
+    @Override
     public String toString() {
         return "[brand=" + brand + ", power=" + power + "W, isBluetooth=" + isBluetooth + "]";
     }

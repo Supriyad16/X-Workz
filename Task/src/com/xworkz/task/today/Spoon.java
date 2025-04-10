@@ -12,6 +12,11 @@ public class Spoon {
     }
 
     @Override
+    public int hashCode() {
+        return 82;
+    }
+
+    @Override
     public String toString() {
         return "[size=" + size + ", material=" + material + ", isDisposable=" + isDisposable + "]";
     }

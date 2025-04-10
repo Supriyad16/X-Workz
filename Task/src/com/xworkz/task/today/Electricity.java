@@ -12,6 +12,12 @@ public class Electricity {
         this.isAvailable = isAvailable;
     }
 
+
+    @Override
+    public int hashCode() {
+        return 29;
+    }
+
     @Override
     public String toString() {
         return "[source=" + source + ", voltage=" + voltage + "V, isAvailable=" + isAvailable + "]";

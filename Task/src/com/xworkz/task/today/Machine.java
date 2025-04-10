@@ -11,6 +11,12 @@ public class Machine {
         this.power = power;
     }
 
+
+    @Override
+    public int hashCode() {
+        return 49;
+    }
+
     @Override
     public String toString() {
         return "[type=" + type + ", usage=" + usage + ", power=" + power + "W]";

@@ -13,6 +13,11 @@ public class Mall {
     }
 
     @Override
+    public int hashCode() {
+        return 50;
+    }
+
+    @Override
     public String toString() {
         return "[name=" + name + ", numberOfShops=" + numberOfShops + ", city=" + city + "]";
     }

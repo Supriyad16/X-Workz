@@ -13,6 +13,11 @@ public class Bandage {
     }
 
     @Override
+    public int hashCode() {
+        return 8;
+    }
+
+    @Override
     public String toString() {
         return "[size=" + size + ", material=" + material + ", isSterile=" + isSterile + "]";
     }

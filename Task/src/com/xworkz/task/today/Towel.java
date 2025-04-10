@@ -12,6 +12,11 @@ public class Towel {
     }
 
     @Override
+    public int hashCode() {
+       return 92;
+    }
+
+    @Override
     public String toString() {
         return "[color=" + color + ", size=" + size + ", isCotton=" + isCotton + "]";
     }

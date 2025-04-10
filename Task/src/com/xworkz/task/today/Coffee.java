@@ -12,6 +12,11 @@ public class Coffee {
     }
 
     @Override
+    public int hashCode() {
+        return 22;
+    }
+
+    @Override
     public String toString() {
         return "[type=" + type + ", hasMilk=" + hasMilk + ", sugarLevel=" + sugarLevel + "]";
     }

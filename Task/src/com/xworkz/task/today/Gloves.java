@@ -12,6 +12,12 @@ public class Gloves {
         this.isDisposable = isDisposable;
     }
 
+
+    @Override
+    public int hashCode() {
+        return 32;
+    }
+
     @Override
     public String toString() {
         return "[material=" + material + ", size=" + size + ", isDisposable=" + isDisposable + "]";

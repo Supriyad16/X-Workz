@@ -13,6 +13,11 @@ public class Cotton {
     }
 
     @Override
+    public int hashCode() {
+        return 23;
+    }
+
+    @Override
     public String toString() {
         return "[quality=" + quality + ", weight=" + weight + "kg, use=" + use + "]";
     }

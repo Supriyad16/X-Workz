@@ -11,6 +11,12 @@ public class Silver {
         this.price = price;
     }
 
+
+    @Override
+    public int hashCode() {
+        return 77;
+    }
+
     @Override
     public String toString() {
         return "[purity=" + purity + "%, weight=" + weight + "g, price=" + price + "]";

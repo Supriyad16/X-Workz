@@ -11,6 +11,12 @@ public class Slipper {
         this.isAvailable = isAvailable;
     }
 
+
+    @Override
+    public int hashCode() {
+        return 79;
+    }
+
     @Override
     public String toString() {
         return "[type=" + type + ", brand=" + brand + ", isAvailable=" + isAvailable + "]";

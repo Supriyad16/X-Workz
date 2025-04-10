@@ -12,6 +12,12 @@ public class Skirt {
         this.price = price;
     }
 
+
+    @Override
+    public int hashCode() {
+        return 78;
+    }
+
     @Override
     public String toString() {
         return "[size=" + size + ", color=" + color + ", price=" + price + "]";

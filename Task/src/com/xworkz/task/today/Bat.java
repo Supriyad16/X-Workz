@@ -13,6 +13,11 @@ public class Bat {
     }
 
     @Override
+    public int hashCode() {
+        return 9;
+    }
+
+    @Override
     public String toString() {
         return "[material=" + material + ", brand=" + brand + ", price=" + price + "]";
     }

@@ -12,6 +12,12 @@ public class Wall {
         this.color = color;
     }
 
+
+    @Override
+    public int hashCode() {
+        return 97;
+    }
+
     @Override
     public String toString() {
         return "[material=" + material + ", height=" + height + ", color=" + color + "]";

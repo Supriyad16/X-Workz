@@ -12,6 +12,11 @@ public class Bottle {
     }
 
     @Override
+    public int hashCode() {
+        return 12;
+    }
+
+    @Override
     public String toString() {
         return "[brand=" + brand + ", capacity=" + capacity + "L, isReusable=" + isReusable + "]";
     }

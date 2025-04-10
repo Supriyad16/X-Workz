@@ -11,6 +11,12 @@ public class Lead {
         this.isToxic = isToxic;
     }
 
+
+    @Override
+    public int hashCode() {
+        return 46;
+    }
+
     @Override
     public String toString() {
         return "[weight=" + weight + "g, form=" + form + ", isToxic=" + isToxic + "]";

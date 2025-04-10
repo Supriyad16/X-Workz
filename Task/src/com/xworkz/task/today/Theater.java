@@ -12,6 +12,12 @@ public class Theater {
         this.location = location;
     }
 
+
+    @Override
+    public int hashCode() {
+        return 90;
+    }
+
     @Override
     public String toString() {
         return "[name=" + name + ", capacity=" + capacity + ", location=" + location + "]";

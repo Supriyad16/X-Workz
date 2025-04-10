@@ -12,6 +12,11 @@ public class Pins {
     }
 
     @Override
+    public int hashCode() {
+        return 62;
+    }
+
+    @Override
     public String toString() {
         return "[type=" + type + ", brand=" + brand + ", isAvailable=" + isAvailable + "]";
     }

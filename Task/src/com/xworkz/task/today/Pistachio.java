@@ -11,6 +11,12 @@ public class Pistachio {
         this.price = price;
     }
 
+
+    @Override
+    public int hashCode() {
+        return 63;
+    }
+
     @Override
     public String toString() {
         return "[type=" + type + ", opened=" + opened + ", price=" + price + "]";

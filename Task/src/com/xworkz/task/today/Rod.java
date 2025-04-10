@@ -12,6 +12,12 @@ public class Rod {
         this.diameter = diameter;
     }
 
+
+    @Override
+    public int hashCode() {
+        return 72;
+    }
+
     @Override
     public String toString() {
         return "[material=" + material + ", length=" + length + "m, diameter=" + diameter + "cm]";

@@ -12,6 +12,11 @@ public class Apartment {
     }
 
     @Override
+    public int hashCode() {
+        return 4;
+    }
+
+    @Override
     public String toString() {
         return "[name=" + name + ", floors=" + floors + ", location=" + location + "]";
     }

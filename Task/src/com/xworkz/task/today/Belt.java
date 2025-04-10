@@ -12,6 +12,11 @@ public class Belt {
     }
 
     @Override
+    public int hashCode() {
+        return 10;
+    }
+
+    @Override
     public String toString() {
         return "[type=" + type + ", brand=" + brand + ", isAvailable=" + isAvailable + "]";
     }

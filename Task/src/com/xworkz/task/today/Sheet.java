@@ -12,6 +12,12 @@ public class Sheet {
         this.color = color;
     }
 
+
+    @Override
+    public int hashCode() {
+        return 73;
+    }
+
     @Override
     public String toString() {
         return "[material=" + material + ", size=" + size + ", color=" + color + "]";

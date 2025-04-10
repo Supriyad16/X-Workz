@@ -11,6 +11,12 @@ public class Office {
         this.employees = employees;
     }
 
+
+    @Override
+    public int hashCode() {
+        return 58;
+    }
+
     @Override
     public String toString() {
         return "[name=" + name + ", city=" + city + ", employees=" + employees + "]";

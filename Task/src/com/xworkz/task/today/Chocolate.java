@@ -13,6 +13,11 @@ public class Chocolate {
     }
 
     @Override
+    public int hashCode() {
+        return 20;
+    }
+
+    @Override
     public String toString() {
         return "[brand=" + brand + ", flavor=" + flavor + ", weight=" + weight + "g]";
     }

@@ -11,6 +11,12 @@ public class Toys {
         this.price = price;
     }
 
+
+    @Override
+    public int hashCode() {
+        return 93;
+    }
+
     @Override
     public String toString() {
         return "[name=" + name + ", ageGroup=" + ageGroup + ", price=" + price + "]";

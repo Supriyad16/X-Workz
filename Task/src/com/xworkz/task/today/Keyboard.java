@@ -13,6 +13,11 @@ public class Keyboard {
     }
 
     @Override
+    public int hashCode() {
+        return 42;
+    }
+
+    @Override
     public String toString() {
         return "[layout=" + layout + ", isMechanical=" + isMechanical + ", brand=" + brand + "]";
     }

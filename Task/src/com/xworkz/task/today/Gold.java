@@ -12,6 +12,11 @@ public class Gold {
     }
 
     @Override
+    public int hashCode() {
+        return 33;
+    }
+
+    @Override
     public String toString() {
         return "[purity=" + purity + "%, weight=" + weight + "g, price=" + price + "]";
     }

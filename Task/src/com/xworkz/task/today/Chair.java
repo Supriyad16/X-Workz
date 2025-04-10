@@ -13,6 +13,11 @@ public class Chair {
     }
 
     @Override
+    public int hashCode() {
+        return 17;
+    }
+
+    @Override
     public String toString() {
         return "[material=" + material + ", color=" + color + ", height=" + height + "]";
     }

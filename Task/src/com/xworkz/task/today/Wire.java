@@ -12,6 +12,12 @@ public class Wire {
         this.isInsulated = isInsulated;
     }
 
+
+    @Override
+    public int hashCode() {
+        return 99;
+    }
+
     @Override
     public String toString() {
         return "[material=" + material + ", length=" + length + "m, isInsulated=" + isInsulated + "]";

@@ -12,6 +12,11 @@ public class Tea {
     }
 
     @Override
+    public int hashCode() {
+        return 88;
+    }
+
+    @Override
     public String toString() {
         return "[flavor=" + flavor + ", isHot=" + isHot + ", strength=" + strength + "]";
     }

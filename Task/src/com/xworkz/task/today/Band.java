@@ -13,6 +13,11 @@ public class Band {
     }
 
     @Override
+    public int hashCode() {
+        return 7;
+    }
+
+    @Override
     public String toString() {
         return "[material=" + material + ", usage=" + usage + ", price=" + price + "]";
     }

@@ -12,6 +12,11 @@ public class Necklace {
     }
 
     @Override
+    public int hashCode() {
+        return 56;
+    }
+
+    @Override
     public String toString() {
         return "[type=" + type + ", metal=" + metal + ", weight=" + weight + "g]";
     }

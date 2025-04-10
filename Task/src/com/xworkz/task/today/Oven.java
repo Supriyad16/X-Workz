@@ -11,6 +11,12 @@ public class Oven {
         this.brand = brand;
     }
 
+
+    @Override
+    public int hashCode() {
+        return 59;
+    }
+
     @Override
     public String toString() {
         return "[capacity=" + capacity + "L, isMicrowave=" + isMicrowave + ", brand=" + brand + "]";

@@ -12,6 +12,11 @@ public class Leather {
     }
 
     @Override
+    public int hashCode() {
+        return 47;
+    }
+
+    @Override
     public String toString() {
         return "[type=" + type + ", brand=" + brand + ", isAvailable=" + isAvailable + "]";
     }

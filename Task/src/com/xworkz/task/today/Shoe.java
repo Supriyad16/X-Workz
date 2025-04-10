@@ -13,6 +13,11 @@ public class Shoe {
     }
 
     @Override
+    public int hashCode() {
+        return 74;
+    }
+
+    @Override
     public String toString() {
         return "[brand=" + brand + ", size=" + size + ", color=" + color + "]";
     }

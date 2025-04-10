@@ -11,6 +11,12 @@ public class Diamond {
         this.price = price;
     }
 
+
+    @Override
+    public int hashCode() {
+        return 26;
+    }
+
     @Override
     public String toString() {
         return "[carat=" + carat + ", clarity=" + clarity + ", price=" + price + "]";

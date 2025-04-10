@@ -12,6 +12,11 @@ public class Jeans {
     }
 
     @Override
+    public int hashCode() {
+        return 40;
+    }
+
+    @Override
     public String toString() {
         return "[type=" + type + ", brand=" + brand + ", isAvailable=" + isAvailable + "]";
     }

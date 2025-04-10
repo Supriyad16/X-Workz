@@ -12,6 +12,11 @@ public class Curler {
     }
 
     @Override
+    public int hashCode() {
+        return 25;
+    }
+
+    @Override
     public String toString() {
         return "[type=" + type + ", temperature=" + temperature + "°C, isAutomatic=" + isAutomatic + "]";
     }

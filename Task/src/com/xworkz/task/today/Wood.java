@@ -13,6 +13,11 @@ public class Wood {
     }
 
     @Override
+    public int hashCode() {
+        return 100;
+    }
+
+    @Override
     public String toString() {
         return "[type=" + type + ", weight=" + weight + "kg, color=" + color + "]";
     }

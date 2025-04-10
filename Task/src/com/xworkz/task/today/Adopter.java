@@ -13,6 +13,11 @@ public class Adopter {
     }
 
     @Override
+    public int hashCode() {
+        return 1;
+    }
+
+    @Override
     public String toString() {
         return "[inputType=" + inputType + ", outputType=" + outputType + ", price=" + price + "]";
     }

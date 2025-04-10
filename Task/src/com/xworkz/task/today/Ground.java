@@ -12,6 +12,11 @@ public class Ground {
     }
 
     @Override
+    public int hashCode() {
+        return 34;
+    }
+
+    @Override
     public String toString() {
         return "[name=" + name + ", type=" + type + ", area=" + area + " sq.m]";
     }

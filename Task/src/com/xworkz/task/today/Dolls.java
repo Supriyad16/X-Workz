@@ -11,6 +11,12 @@ public class Dolls {
         this.height = height;
     }
 
+
+    @Override
+    public int hashCode() {
+        return 27;
+    }
+
     @Override
     public String toString() {
         return "[type=" + type + ", material=" + material + ", height=" + height + " cm]";

@@ -12,6 +12,12 @@ public class SolarSystem {
         this.hasLife = hasLife;
     }
 
+
+    @Override
+    public int hashCode() {
+        return 80;
+    }
+
     @Override
     public String toString() {
         return "[numberOfPlanets=" + numberOfPlanets + ", starName=" + starName + ", hasLife=" + hasLife + "]";

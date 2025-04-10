@@ -13,6 +13,11 @@ public class Chip {
     }
 
     @Override
+    public int hashCode() {
+        return 19;
+    }
+
+    @Override
     public String toString() {
         return "[type=" + type + ", manufacturer=" + manufacturer + ", size=" + size + "nm]";
     }

@@ -13,6 +13,11 @@ public class Shop {
     }
 
     @Override
+    public int hashCode() {
+        return 75;
+    }
+
+    @Override
     public String toString() {
         return "[name=" + name + ", owner=" + owner + ", type=" + type + "]";
     }

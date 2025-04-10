@@ -12,7 +12,12 @@ public class Dress {
             this.price = price;
         }
 
-        @Override
+    @Override
+    public int hashCode() {
+        return 28;
+    }
+
+    @Override
         public String toString() {
             return "[material=" + material + ", color=" + color + ", price=" + price + "]";
         }

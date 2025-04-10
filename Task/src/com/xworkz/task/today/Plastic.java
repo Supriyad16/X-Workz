@@ -11,6 +11,12 @@ public class Plastic {
         this.color = color;
     }
 
+
+    @Override
+    public int hashCode() {
+        return 64;
+    }
+
     @Override
     public String toString() {
         return "[type=" + type + ", recyclable=" + recyclable + ", color=" + color + "]";

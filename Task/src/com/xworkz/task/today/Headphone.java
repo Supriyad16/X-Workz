@@ -12,6 +12,11 @@ public class Headphone {
     }
 
     @Override
+    public int hashCode() {
+        return 35;
+    }
+
+    @Override
     public String toString() {
         return "[type=" + type + ", brand=" + brand + ", isAvailable=" + isAvailable + "]";
     }

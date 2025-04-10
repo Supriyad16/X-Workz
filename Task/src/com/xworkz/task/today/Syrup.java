@@ -12,6 +12,12 @@ public class Syrup {
         this.volume = volume;
     }
 
+
+    @Override
+    public int hashCode() {
+        return 86;
+    }
+
     @Override
     public String toString() {
         return "[name=" + name + ", flavor=" + flavor + ", volume=" + volume + "ml]";
