@@ -12,6 +12,26 @@ public class Belt {
     }
 
     @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Belt belt = this;
+                Belt belt1 = (Belt) obj;
+                if (belt1.type.equals(belt1.type) && belt1.brand==belt1.brand) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    @Override
     public int hashCode() {
         return 10;
     }

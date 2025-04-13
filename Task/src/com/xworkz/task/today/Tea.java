@@ -12,6 +12,28 @@ public class Tea {
     }
 
     @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Tea tea = this;
+                Tea tea1 = (Tea) obj;
+                if (tea1.flavor.equals(tea.flavor) && tea1.strength==tea1.strength) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
+
+    @Override
     public int hashCode() {
         return 88;
     }

@@ -9,5 +9,9 @@ public class LockRunner {
         String value="room";
         System.out.println("Safer place:" + lock.hashCode());
         System.out.println("Safer place:" + value.hashCode());
+
+        Lock lock1 = new Lock("Smart lock", "Steel", true);
+        boolean equal= lock1.equals(lock1);
+        System.out.println("equal :"+ equal);
     }
 }

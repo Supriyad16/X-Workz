@@ -12,6 +12,29 @@ public class Almond {
     }
 
     @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Almond almond = this;
+                Almond almond1 = (Almond) obj;
+                if (almond1.origin.equals(almond1.origin) && almond1.weight==almond1.weight) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
+
+
+    @Override
     public int hashCode() {
         return 3;
     }

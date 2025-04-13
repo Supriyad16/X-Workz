@@ -10,5 +10,9 @@ public class WoodRunner {
         String value="names";
         System.out.println("Sandal Wood:" + wood.hashCode());
         System.out.println("Sandal Wood:" + value.hashCode());
+
+        Wood wood1 = new Wood("Sandal", 1.5, "Yellow");
+        boolean equal= wood1.equals(wood1);
+        System.out.println("equal :"+ equal);
     }
 }

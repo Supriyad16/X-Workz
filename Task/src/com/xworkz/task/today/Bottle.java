@@ -12,6 +12,28 @@ public class Bottle {
     }
 
     @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Bottle bottle = this;
+                Bottle bottle1 = (Bottle) obj;
+                if (bottle1.capacity==(bottle1.capacity) && bottle1.brand==bottle1.brand) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
+
+    @Override
     public int hashCode() {
         return 12;
     }

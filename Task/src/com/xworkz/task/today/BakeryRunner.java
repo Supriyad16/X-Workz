@@ -10,5 +10,9 @@ public class BakeryRunner {
         String value="sweets";
         System.out.println("Items:" + bakery.hashCode());
         System.out.println("Items:" + value.hashCode());
+
+        Bakery bakery1 = new Bakery("Iyengar", "Rajajinagar", 1980);
+        boolean equal= bakery1.equals(bakery1);
+        System.out.println("equal :"+ equal);
     }
 }

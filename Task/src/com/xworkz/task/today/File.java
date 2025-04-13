@@ -13,6 +13,28 @@ public class File {
     }
 
     @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                File file = this;
+                File file1 = (File) obj;
+                if (file1.name.equals(file1.name) && file1.type==file1.type) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
+
+    @Override
     public int hashCode() {
         return 30;
     }

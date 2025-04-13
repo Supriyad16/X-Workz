@@ -12,6 +12,27 @@ public class Skirt {
         this.price = price;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Skirt skirt = this;
+                Skirt skirt1 = (Skirt) obj;
+                if (skirt1.size.equals(skirt1.size) && skirt1.price==skirt1.price) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
 
     @Override
     public int hashCode() {

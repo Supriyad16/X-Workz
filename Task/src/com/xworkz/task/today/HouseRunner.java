@@ -9,5 +9,9 @@ public class HouseRunner {
         String value="home";
         System.out.println("Place:" + house.hashCode());
         System.out.println("Place:" + value.hashCode());
+
+        House house1 = new House("Pakka", 3, false);
+        boolean equal= house1.equals(house1);
+        System.out.println("equal :"+ equal);
     }
 }

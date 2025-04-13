@@ -10,5 +10,10 @@ public class BottleRunner {
         String value="design";
         System.out.println("Material:" + bottle.hashCode());
         System.out.println("Material:" + value.hashCode());
+
+
+        Bottle bottle1 = new Bottle("Wrogn", 0.5, true);
+        boolean equal= bottle1.equals(bottle1);
+        System.out.println("equal :"+ equal);
     }
 }

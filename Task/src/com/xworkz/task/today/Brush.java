@@ -2,13 +2,33 @@ package com.xworkz.task.today;
 
 public class Brush {
     private String type;
-    private String brand;
-    private boolean isElectric;
+    private int length;
+    private String colour;
 
-    public Brush(String type, String brand, boolean isElectric) {
+    public Brush(String type, int length, String colour) {
         this.type = type;
-        this.brand = brand;
-        this.isElectric = isElectric;
+        this.length = length;
+        this.colour = colour;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Brush brush = this;
+                Brush brush1 = (Brush) obj;
+                if (brush1.type.equals(brush1.type) && brush1.colour==brush1.colour) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 
     @Override
@@ -18,6 +38,6 @@ public class Brush {
 
     @Override
     public String toString() {
-        return "[type=" + type + ", brand=" + brand + ", isElectric=" + isElectric + "]";
+        return "[type=" + type + ", brand=" + length + ", isElectric=" + colour + "]";
     }
 }

@@ -10,6 +10,27 @@ public class Platinum {
         this.weight = weight;
         this.price = price;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Platinum platinum = this;
+                Platinum platinum1 = (Platinum) obj;
+                if (platinum1.purity==(platinum1.purity) && platinum1.weight==platinum1.weight) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
 
 
     @Override

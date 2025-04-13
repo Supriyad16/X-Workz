@@ -10,7 +10,27 @@ public class Ring {
         this.size = size;
         this.hasStone = hasStone;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
 
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Ring ring = this;
+                Ring ring1 = (Ring) obj;
+                if (ring1.metal.equals(ring1.metal) && ring1.size==ring1.size) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
 
     @Override
     public int hashCode() {

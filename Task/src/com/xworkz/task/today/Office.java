@@ -11,6 +11,27 @@ public class Office {
         this.employees = employees;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Office office = this;
+                Office office1 = (Office) obj;
+                if (office1.name.equals(office.name) && office1.employees==office.employees) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
 
     @Override
     public int hashCode() {

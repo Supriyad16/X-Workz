@@ -10,5 +10,9 @@ public class MaskRunner {
         String value="nose";
         System.out.println("Away fro disease:" + mask.hashCode());
         System.out.println("Away from disease:" + value.hashCode());
+
+        Mask mask1 = new Mask("Operation", false, 50);
+        boolean equal= mask1.equals(mask1);
+        System.out.println("equal :"+ equal);
     }
 }

@@ -12,6 +12,27 @@ public class Mask {
         this.price = price;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Mask mask = this;
+                Mask mask1 = (Mask) obj;
+                if (mask1.price==(mask.price) && mask1.type.equals(mask.type)) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
 
     @Override
     public int hashCode() {

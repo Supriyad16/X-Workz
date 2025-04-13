@@ -11,6 +11,10 @@ public class AlmondRunner {
         System.out.println("DryFruits:" + almond.hashCode());
         System.out.println("DryFruits:" + value.hashCode());
 
+        Almond almond1 = new Almond("India", 100, true);
+        boolean equal= almond.equals(almond);
+        System.out.println("equal :"+ equal);
+
 
     }
 }

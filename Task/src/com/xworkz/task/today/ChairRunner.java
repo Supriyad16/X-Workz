@@ -10,5 +10,9 @@ public class ChairRunner {
         String value="madeOf";
         System.out.println("Platic:" + chair.hashCode());
         System.out.println("Plastic:" + value.hashCode());
+
+        Chair chair1 = new Chair("Platic", "Black", 3.7);
+        boolean equal= chair1.equals(chair1);
+        System.out.println("equal :"+ equal);
     }
 }

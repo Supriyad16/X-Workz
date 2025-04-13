@@ -12,6 +12,27 @@ public class Pins {
     }
 
     @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Pins pins = this;
+                Pins pins1 = (Pins) obj;
+                if (pins1.type.equals(pins1.type) && pins1.brand==pins1.brand) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
+    @Override
     public int hashCode() {
         return 62;
     }

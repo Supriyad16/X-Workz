@@ -10,7 +10,27 @@ public class Lead {
         this.form = form;
         this.isToxic = isToxic;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
 
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Lead lead = this;
+                Lead lead1 = (Lead) obj;
+                if (lead1.weight==(lead.weight) && lead1.form.equals(lead.form)) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
 
     @Override
     public int hashCode() {

@@ -12,5 +12,9 @@ public class AeroplaneRunner {
         System.out.println("Wings:" + plane.hashCode());
         System.out.println("Wings:" + value.hashCode());
 
+        Aeroplane plane1 = new Aeroplane("Boeing 666", 100, "IndiGo");
+        boolean equal= plane1.equals(plane1);
+        System.out.println("equal :"+ equal);
+
     }
 }

@@ -13,6 +13,28 @@ public class Band {
     }
 
     @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Band band = this;
+                Band band1 = (Band) obj;
+                if (band1.material.equals(band1.material) && band1.usage==band1.usage) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
+
+    @Override
     public int hashCode() {
         return 7;
     }

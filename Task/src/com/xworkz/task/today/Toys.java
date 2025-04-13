@@ -11,6 +11,27 @@ public class Toys {
         this.price = price;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Toys toys = this;
+                Toys toys1 = (Toys) obj;
+                if (toys1.name.equals(toys1.name) && toys1.price==toys1.price) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
 
     @Override
     public int hashCode() {

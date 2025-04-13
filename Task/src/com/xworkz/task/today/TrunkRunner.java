@@ -9,5 +9,9 @@ public class TrunkRunner {
         String value="Bird";
         System.out.println("Wood Pecker:" + trunk.hashCode());
         System.out.println("Wood Pecker:" + value.hashCode());
+
+        Trunk trunk1 = new Trunk("Egyptian", "ABC", false);
+        boolean equal= trunk1.equals(trunk1);
+        System.out.println("equal :"+ equal);
     }
 }

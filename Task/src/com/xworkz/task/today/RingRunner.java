@@ -9,5 +9,9 @@ public class RingRunner {
         String value="size";
         System.out.println("Wedding:" + ring.hashCode());
         System.out.println("Wedding:" + value.hashCode());
+
+        Ring ring1 = new Ring("Silver", 5, false);
+        boolean equal= ring1.equals(ring1);
+        System.out.println("equal :"+ equal);
     }
 }

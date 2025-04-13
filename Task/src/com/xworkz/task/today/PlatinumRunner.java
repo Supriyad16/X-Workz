@@ -9,5 +9,9 @@ public class PlatinumRunner {
         String value="ornaments";
         System.out.println("Expensive:" + platinum.hashCode());
         System.out.println("Expensive:" + value.hashCode());
+
+        Platinum platinum1 = new Platinum(80.0, 8, 25000);
+        boolean equal= platinum1.equals(platinum1);
+        System.out.println("equal :"+ equal);
     }
 }

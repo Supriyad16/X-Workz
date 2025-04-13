@@ -12,6 +12,28 @@ public class Ground {
     }
 
     @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Ground ground = this;
+                Ground ground1 = (Ground) obj;
+                if (ground1.name.equals(ground1.name) && ground1.area==ground1.area) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
+
+    @Override
     public int hashCode() {
         return 34;
     }

@@ -12,6 +12,29 @@ public class Apartment {
     }
 
     @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Apartment apartment = this;
+                Apartment apartment1 = (Apartment) obj;
+                if (apartment1.floors==(apartment1.floors) && apartment1.name==apartment1.name) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
+
+
+    @Override
     public int hashCode() {
         return 4;
     }

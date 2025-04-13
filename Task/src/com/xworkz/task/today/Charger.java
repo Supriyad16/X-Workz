@@ -12,6 +12,27 @@ public class Charger {
         this.fastCharging = fastCharging;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Charger charger = this;
+                Charger charger1 = (Charger) obj;
+                if (charger1.brand.equals(charger1.brand) && charger1.wattage==charger1.wattage) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
 
     @Override
     public int hashCode() {

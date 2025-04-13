@@ -10,5 +10,8 @@ public class ApartmentRunner {
         String value="name";
         System.out.println("Block:" + apartment.hashCode());
         System.out.println("Block:" + value.hashCode());
-    }
+
+        Apartment apartment1 = new Apartment("Mahalakshmi Layout", 18, "Bangalore");
+        boolean equal= apartment.equals(apartment);
+        System.out.println("equal :"+ equal);    }
 }

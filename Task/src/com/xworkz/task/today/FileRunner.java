@@ -10,5 +10,9 @@ public class FileRunner {
         String value="save";
         System.out.println("Important:" + file.hashCode());
         System.out.println("Important:" + value.hashCode());
+
+        File file1 = new File("DOC", 100, "IEEE Paper");
+        boolean equal= file1.equals(file1);
+        System.out.println("equal :"+ equal);
     }
 }

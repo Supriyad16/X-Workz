@@ -9,5 +9,9 @@ public class SilverRunner {
         String value="ornaments";
         System.out.println("Anklets:" + silver.hashCode());
         System.out.println("Anklets:" + value.hashCode());
+
+        Silver silver1 = new Silver(93.0, 10, 800);
+        boolean equal= silver1.equals(silver1);
+        System.out.println("equal :"+ equal);
     }
 }

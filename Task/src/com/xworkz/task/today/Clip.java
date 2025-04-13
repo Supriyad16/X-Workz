@@ -13,6 +13,28 @@ public class Clip {
     }
 
     @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Clip clip = this;
+                Clip clip1 = (Clip) obj;
+                if (clip1.type.equals(clip1.type) && clip1.color==clip1.color) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
+
+    @Override
     public int hashCode() {
         return 21;
     }

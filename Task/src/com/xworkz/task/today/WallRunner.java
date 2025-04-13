@@ -10,5 +10,9 @@ public class WallRunner {
         String value = "design";
         System.out.println("Tiles:" + wall.hashCode());
         System.out.println("Tiles:" + value.hashCode());
+
+        Wall wall1 = new Wall("Brick", 1.5, "Brown");
+        boolean equal= wall1.equals(wall1);
+        System.out.println("equal :"+ equal);
     }
 }

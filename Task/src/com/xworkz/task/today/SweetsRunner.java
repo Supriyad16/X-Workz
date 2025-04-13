@@ -9,5 +9,9 @@ public class SweetsRunner {
         String value="melts";
         System.out.println("Melts:" + sweet.hashCode());
         System.out.println("Melts:" + value.hashCode());
+
+        Cotton cotton1 = new Cotton("Egyptian", 1.5, "Ear block");
+        boolean equal= cotton1.equals(cotton1);
+        System.out.println("equal :"+ equal);
     }
 }

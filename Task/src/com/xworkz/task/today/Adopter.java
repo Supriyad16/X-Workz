@@ -12,6 +12,38 @@ public class Adopter {
         this.price = price;
     }
 
+//    public void setPrice(double price) {
+//        this.price = price;
+//    }
+//
+//    public void setInputType(String inputType){
+//        this.inputType=inputType;
+//    }
+//
+//    public void setOutputType(String outputType) {
+//        this.outputType = outputType;
+//    }
+
+
+    @Override
+    public boolean equals(Object obj) {
+        if(obj!=null){
+            System.out.println("Reference is not null");
+
+            if(obj instanceof Adopter){
+                System.out.println("Reference is same");
+
+                Adopter adopter=this;
+                Adopter adopter1 = (Adopter) obj;
+                if (adopter1.inputType.equals(adopter1.inputType) && adopter1.inputType==adopter1.inputType) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
     @Override
     public int hashCode() {
         return 1;

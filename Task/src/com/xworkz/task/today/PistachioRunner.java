@@ -9,5 +9,9 @@ public class PistachioRunner {
         String value="Salted and non-salted";
         System.out.println("Magnesium:" + pistachio.hashCode());
         System.out.println("Magnesium:" + value.hashCode());
+
+        Pistachio pistachio1 = new Pistachio("Canadian", false, 500);
+        boolean equal= pistachio1.equals(pistachio1);
+        System.out.println("equal :"+ equal);
     }
 }

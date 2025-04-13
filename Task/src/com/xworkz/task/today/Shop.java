@@ -13,6 +13,27 @@ public class Shop {
     }
 
     @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Shop shop = this;
+                Shop shop1 = (Shop) obj;
+                if (shop1.name==(shop1.name) && shop1.type==shop1.type) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
+    @Override
     public int hashCode() {
         return 75;
     }

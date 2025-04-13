@@ -9,5 +9,9 @@ public class WalnutRunner {
         String value="fruits";
         System.out.println("Health:" + walnut.hashCode());
         System.out.println("Health:" + value.hashCode());
+
+        Walnut walnut1 = new Walnut("Egyptian", true, 250);
+        boolean equal= walnut1.equals(walnut1);
+        System.out.println("equal :"+ equal);
     }
 }

@@ -12,6 +12,27 @@ public class SolarSystem {
         this.hasLife = hasLife;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                SolarSystem solarSystem = this;
+                SolarSystem solarSystem1 = (SolarSystem) obj;
+                if (solarSystem1.starName.equals(solarSystem1.starName) && solarSystem1.numberOfPlanets==solarSystem1.numberOfPlanets) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
 
     @Override
     public int hashCode() {

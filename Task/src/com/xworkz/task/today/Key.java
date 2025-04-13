@@ -12,6 +12,28 @@ public class Key {
     }
 
     @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Key key = this;
+                Key key1 = (Key) obj;
+                if (key1.type.equals(key1.type) && key1.material==key1.material) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
+
+    @Override
     public int hashCode() {
         return 41;
     }

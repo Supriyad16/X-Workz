@@ -12,6 +12,28 @@ public class Trunk {
     }
 
     @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Trunk trunk = this;
+                Trunk trunk1 = (Trunk) obj;
+                if (trunk1.type.equals(trunk1.type) && trunk1.brand==trunk1.brand) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
+
+    @Override
     public int hashCode() {
         return 95;
     }

@@ -12,6 +12,28 @@ public class IronBox {
     }
 
     @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                IronBox ironBox = this;
+                IronBox ironBox1 = (IronBox) obj;
+                if (ironBox1.brand.equals(ironBox1.brand) && ironBox1.power==ironBox1.power) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
+
+    @Override
     public int hashCode() {
         return 38;
     }

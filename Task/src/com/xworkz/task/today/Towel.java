@@ -12,6 +12,28 @@ public class Towel {
     }
 
     @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Towel towel = this;
+                Towel towel1 = (Towel) obj;
+                if (towel1.color.equals(towel1.color) && towel1.isCotton==towel1.isCotton) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
+
+    @Override
     public int hashCode() {
        return 92;
     }

@@ -11,6 +11,27 @@ public class Walnut {
         this.weight = weight;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Walnut walnut = this;
+                Walnut walnut1 = (Walnut) obj;
+                if (walnut1.variety.equals(walnut1.variety) && walnut1.weight==walnut1.weight) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
 
     @Override
     public int hashCode() {

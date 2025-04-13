@@ -9,5 +9,9 @@ public class LeadRunner {
         String value="metal";
         System.out.println("Pencil:" + lead.hashCode());
         System.out.println("Pencil:" + value.hashCode());
+
+        Lead lead1 = new Lead(150, "Powder", true);
+        boolean equal= lead1.equals(lead1);
+        System.out.println("equal :"+ equal);
     }
 }

@@ -10,5 +10,9 @@ public class CottonRunner {
         String value="tree";
         System.out.println("Soft:" + cotton.hashCode());
         System.out.println("Soft:" + value.hashCode());
+
+        Cotton cotton1 = new Cotton("Egyptian", 1.5, "Ear block");
+        boolean equal= cotton1.equals(cotton1);
+        System.out.println("equal :"+ equal);
     }
 }

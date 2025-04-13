@@ -9,5 +9,9 @@ public class IronBoxRunner {
         String value="heat";
         System.out.println("Iron the Dress:" + ironBox.hashCode());
         System.out.println("Iron the Dress:" + value.hashCode());
+
+        IronBox ironBox1 = new IronBox("Samsung", 1000, false);
+        boolean equal= ironBox1.equals(ironBox1);
+        System.out.println("equal :"+ equal);
     }
 }

@@ -12,6 +12,27 @@ public class Palace {
     }
 
     @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Palace palace = this;
+                Palace palace1 = (Palace) obj;
+                if (palace1.name.equals(palace1.name) && palace1.age==palace1.age) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
+    @Override
     public int hashCode() {
         return 61;
     }

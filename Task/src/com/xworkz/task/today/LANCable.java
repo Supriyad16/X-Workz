@@ -13,6 +13,28 @@ public class LANCable {
     }
 
     @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                LANCable lanCable = this;
+                LANCable lanCable1 = (LANCable) obj;
+                if (lanCable1.type.equals(lanCable1.type) && lanCable1.length==lanCable1.length) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
+
+    @Override
     public int hashCode() {
         return 44;
     }

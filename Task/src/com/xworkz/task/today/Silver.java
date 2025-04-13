@@ -10,7 +10,27 @@ public class Silver {
         this.weight = weight;
         this.price = price;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
 
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Silver silver= this;
+                Silver silver1= (Silver) obj;
+                if (silver1.purity==(silver1.purity) && silver1.weight==silver1.weight) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
 
     @Override
     public int hashCode() {

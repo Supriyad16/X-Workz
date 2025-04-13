@@ -10,7 +10,27 @@ public class Silk {
         this.brand = brand;
         this.isAvailable = isAvailable;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
 
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Silk silk = this;
+                Silk silk1 = (Silk) obj;
+                if (silk1.type.equals(silk1.type) && silk1.brand==silk1.brand) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
 
     @Override
     public int hashCode() {

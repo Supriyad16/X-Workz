@@ -9,5 +9,9 @@ public class MugRunner {
         String value="creamic";
         System.out.println("Drink:" + mug.hashCode());
         System.out.println("Drink:" + value.hashCode());
+
+        Mug mug1 = new Mug("Grey", "Glass", 500);
+        boolean equal= mug1.equals(mug1);
+        System.out.println("equal :"+ equal);
     }
 }

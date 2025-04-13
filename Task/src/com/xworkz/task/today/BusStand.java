@@ -12,6 +12,28 @@ public class BusStand {
         this.hasParking = hasParking;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                BusStand busStand = this;
+                BusStand busStand1 = (BusStand) obj;
+                if (busStand1.name.equals(busStand1.name) && busStand1.platforms==busStand1.platforms) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
+
 
     @Override
     public int hashCode() {

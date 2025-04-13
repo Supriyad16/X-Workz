@@ -12,6 +12,27 @@ public class Radio {
         this.frequencyRange = frequencyRange;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Radio radio = this;
+                Radio radio1 = (Radio) obj;
+                if (radio1.brand.equals(radio1.brand) && radio1.isDigital==radio1.isDigital) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
 
     @Override
     public int hashCode() {

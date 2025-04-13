@@ -9,5 +9,9 @@ public class CoffeeRunner {
         String value="smell";
         System.out.println("Cold:" + coffee.hashCode());
         System.out.println("Cold:" + value.hashCode());
+
+        Coffee coffee1 = new Coffee("Cold Coffee", false, 1);
+        boolean equal= coffee1.equals(coffee1);
+        System.out.println("equal :"+ equal);
     }
 }

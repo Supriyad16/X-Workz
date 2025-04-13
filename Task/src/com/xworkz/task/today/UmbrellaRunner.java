@@ -9,5 +9,9 @@ public class UmbrellaRunner {
         String value="sun";
         System.out.println("Radiation:" + umbrella.hashCode());
         System.out.println("Radiation:" + value.hashCode());
+
+        Umbrella umbrella1 = new Umbrella("Blue", false, "Rayon");
+        boolean equal= umbrella1.equals(umbrella1);
+        System.out.println("equal :"+ equal);
     }
 }

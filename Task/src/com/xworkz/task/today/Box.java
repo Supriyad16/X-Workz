@@ -12,6 +12,26 @@ public class Box {
     }
 
     @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Box box = this;
+                Box box1 = (Box) obj;
+                if (box1.length==(box1.length) && box1.length==box1.length) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    @Override
     public int hashCode() {
         return 13;
     }

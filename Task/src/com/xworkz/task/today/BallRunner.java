@@ -11,5 +11,9 @@ public class BallRunner {
         String value="ball";
         System.out.println("Material:" + ball.hashCode());
         System.out.println("Material:" + value.hashCode());
+
+        Ball ball1 = new Ball("Purple", "Plastic", 5);
+        boolean equal= ball1.equals(ball1);
+        System.out.println("equal :"+ equal);
     }
 }

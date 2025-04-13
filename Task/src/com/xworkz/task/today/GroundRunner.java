@@ -9,5 +9,9 @@ public class GroundRunner {
         String value="soil";
         System.out.println("Field:" + ground.hashCode());
         System.out.println("Field:" + value.hashCode());
+
+        Ground ground1 = new Ground("Cultural","Dance" , 5000);
+        boolean equal= ground1.equals(ground1);
+        System.out.println("equal :"+ equal);
     }
 }

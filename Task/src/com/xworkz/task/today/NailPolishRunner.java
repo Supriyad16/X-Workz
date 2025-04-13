@@ -10,5 +10,9 @@ public class NailPolishRunner {
         String value="nails";
         System.out.println("Different colours:" + nailpolish.hashCode());
         System.out.println("Different Colours:" + value.hashCode());
+
+        NailPolish nailPolish = new NailPolish("Pink", "Ell 18", 180);
+        boolean equal= nailPolish.equals(nailPolish);
+        System.out.println("equal :"+ equal);
     }
 }

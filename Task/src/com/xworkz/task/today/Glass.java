@@ -12,6 +12,28 @@ public class Glass {
     }
 
     @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Glass glass = this;
+                Glass glass1 = (Glass) obj;
+                if (glass1.type.equals(glass1.type) && glass1.volume==glass1.volume) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
+
+    @Override
     public int hashCode() {
         return 31;
     }

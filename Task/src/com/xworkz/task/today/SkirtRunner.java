@@ -10,5 +10,9 @@ public class SkirtRunner {
         String value="long";
         System.out.println("Uniform:" + skirt.hashCode());
         System.out.println("Uniform:" + value.hashCode());
+
+        Skirt skirt1 = new Skirt("Large", "Red", 850);
+        boolean equal= skirt1.equals(skirt1);
+        System.out.println("equal :"+ equal);
     }
 }

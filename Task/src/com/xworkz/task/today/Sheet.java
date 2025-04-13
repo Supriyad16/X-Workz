@@ -11,7 +11,27 @@ public class Sheet {
         this.size = size;
         this.color = color;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
 
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Sheet sheet = this;
+                Sheet sheet1 = (Sheet) obj;
+                if (sheet1.material.equals(sheet1.material) && sheet1.size==sheet1.size) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
 
     @Override
     public int hashCode() {

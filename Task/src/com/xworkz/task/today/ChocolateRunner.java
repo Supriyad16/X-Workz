@@ -10,5 +10,9 @@ public class ChocolateRunner {
         String value="taste";
         System.out.println("Cocoa:" + chocolate.hashCode());
         System.out.println("Cocoa:" + value.hashCode());
+
+        Chocolate chocolate1 = new Chocolate("Milky Bar", "Strawberry", 10);
+        boolean equal= chocolate1.equals(chocolate1);
+        System.out.println("equal :"+ equal);
     }
 }

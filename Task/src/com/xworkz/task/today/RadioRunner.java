@@ -10,5 +10,9 @@ public class RadioRunner {
         String value="listen";
         System.out.println("Retro:" + radio.hashCode());
         System.out.println("Retro:" + value.hashCode());
+
+        Radio radio1 = new Radio("Samsung", true, 98.5);
+        boolean equal= radio1.equals(radio1);
+        System.out.println("equal :"+ equal);
     }
 }

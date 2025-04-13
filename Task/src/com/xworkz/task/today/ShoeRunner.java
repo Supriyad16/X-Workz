@@ -10,5 +10,9 @@ public class ShoeRunner {
         String value="sports";
         System.out.println("Volley Ball:" + shoe.hashCode());
         System.out.println("Volley Ball:" + value.hashCode());
+
+        Shoe shoe1 = new Shoe("Puma", 4, "White");
+        boolean equal= shoe1.equals(shoe1);
+        System.out.println("equal :"+ equal);
     }
 }

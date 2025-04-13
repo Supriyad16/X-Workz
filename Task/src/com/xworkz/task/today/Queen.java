@@ -10,6 +10,27 @@ public class Queen {
         this.kingdom = kingdom;
         this.isReigning = isReigning;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Queen queen = this;
+                Queen queen1 = (Queen) obj;
+                if (queen1.name.equals(queen1.name) && queen1.isReigning==queen1.isReigning) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
 
     @Override
     public int hashCode() {

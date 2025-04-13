@@ -13,6 +13,27 @@ public class Speaker {
     }
 
     @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Speaker speaker = this;
+                Speaker speaker1 = (Speaker) obj;
+                if (speaker1.brand.equals(speaker1.brand) && speaker1.power==speaker1.power) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
+    @Override
     public int hashCode() {
         return 81;
     }

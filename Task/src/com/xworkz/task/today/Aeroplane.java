@@ -13,6 +13,28 @@ public class Aeroplane {
     }
 
     @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Aeroplane aeroplane = this;
+                Aeroplane aeroplane1 = (Aeroplane) obj;
+                if (aeroplane1.model.equals(aeroplane1.model) && aeroplane1.capacity==aeroplane1.capacity) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
+
+    @Override
     public int hashCode() {
         return 2;
     }

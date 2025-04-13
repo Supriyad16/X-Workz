@@ -10,5 +10,9 @@ public class WireRunner {
         String value="types";
         System.out.println("RGB:" + wire.hashCode());
         System.out.println("RGB:" + value.hashCode());
+
+        Wire wire1 = new Wire("Silver", 15, false);
+        boolean equal= wire1.equals(wire1);
+        System.out.println("equal :"+ equal);
     }
 }

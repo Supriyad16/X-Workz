@@ -11,7 +11,27 @@ public class Mouse {
         this.type = type;
         this.price = price;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
 
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Mouse mouse = this;
+                Mouse mouse1 = (Mouse) obj;
+                if (mouse1.brand.equals(mouse.brand) && mouse1.price==mouse.price) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
 
     @Override
     public int hashCode() {

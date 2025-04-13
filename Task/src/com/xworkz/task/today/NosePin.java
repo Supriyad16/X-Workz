@@ -11,6 +11,27 @@ public class NosePin {
         this.shape = shape;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                NosePin nosePin = this;
+                NosePin nosePin1 = (NosePin) obj;
+                if (nosePin1.material.equals(nosePin1.material) && nosePin1.shape==nosePin1.shape) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
 
     @Override
     public int hashCode() {

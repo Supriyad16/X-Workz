@@ -12,6 +12,26 @@ public class Bluetooth {
     }
 
     @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Bluetooth bluetooth = this;
+                Bluetooth bluetooth1 = (Bluetooth) obj;
+                if (bluetooth1.type.equals(bluetooth1.type) && bluetooth1.brand==bluetooth1.brand) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    @Override
     public int hashCode() {
         return 11;
     }

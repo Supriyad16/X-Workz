@@ -13,6 +13,26 @@ public class Chocolate {
     }
 
     @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Chocolate chocolate = this;
+                Chocolate  chocolate1 = (Chocolate) obj;
+                if (chocolate1.brand.equals(chocolate1.brand) && chocolate1.weight==chocolate1.weight) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    @Override
     public int hashCode() {
         return 20;
     }

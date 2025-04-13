@@ -12,6 +12,27 @@ public class Television {
         this.isSmart = isSmart;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Television television = this;
+                Television television1 = (Television) obj;
+                if (television1.brand.equals(television1.brand) && television1.size==television1.size) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
 
     @Override
     public int hashCode() {

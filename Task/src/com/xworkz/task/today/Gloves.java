@@ -12,6 +12,27 @@ public class Gloves {
         this.isDisposable = isDisposable;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Gloves gloves = this;
+                Gloves gloves1 = (Gloves) obj;
+                if (gloves1.material.equals(gloves1.material) && gloves1.material==gloves1.material) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
 
     @Override
     public int hashCode() {

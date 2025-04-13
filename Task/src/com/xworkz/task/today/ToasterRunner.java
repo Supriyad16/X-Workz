@@ -9,5 +9,9 @@ public class ToasterRunner {
         String value="bread";
         System.out.println("Sandwich:" + toaster.hashCode());
         System.out.println("Sandwich:" + value.hashCode());
+
+        Toaster toaster1 = new Toaster(3, "Philips", true);
+        boolean equal= toaster1.equals(toaster1);
+        System.out.println("equal :"+ equal);
     }
 }

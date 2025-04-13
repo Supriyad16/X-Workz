@@ -13,6 +13,27 @@ public class Shoe {
     }
 
     @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Shoe shoe = this;
+                Shoe shoe1 = (Shoe) obj;
+                if (shoe1.brand.equals(shoe1.brand) && shoe1.size==shoe1.size) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
+    @Override
     public int hashCode() {
         return 74;
     }

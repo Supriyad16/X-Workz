@@ -9,5 +9,9 @@ public class PalaceRunner {
         String value="dynasty";
         System.out.println("Mysore:" + palace.hashCode());
         System.out.println("Mysore:" + value.hashCode());
+
+        Palace palace1 = new Palace("Banglore Palace", 138, "Banglore");
+        boolean equal= palace1.equals(palace1);
+        System.out.println("equal :"+ equal);
     }
 }

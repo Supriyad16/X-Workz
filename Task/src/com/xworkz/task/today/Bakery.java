@@ -11,6 +11,27 @@ public class Bakery {
         this.establishedYear = establishedYear;
     }
 
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Bakery bakery = this;
+                Bakery bakery1 = (Bakery) obj;
+                if (bakery.name.equals(bakery1.name) && bakery1.location==bakery1.location) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
     @Override
     public int hashCode() {
         return 5;

@@ -11,6 +11,27 @@ public class Lock {
         this.isDigital = isDigital;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Lock lock = this;
+                Lock lock1 = (Lock) obj;
+                if (lock1.type.equals(lock.type) && lock1.material.equals(lock.material) ){
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
 
     @Override
     public int hashCode() {

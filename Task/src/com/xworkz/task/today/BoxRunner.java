@@ -10,5 +10,10 @@ public class BoxRunner {
         String value="tiffin box";
         System.out.println("Lunch:" + box.hashCode());
         System.out.println("Lunch:" + value.hashCode());
+
+
+        Box box1 = new Box("Steel", 20, 30);
+        boolean equal= box1.equals(box1);
+        System.out.println("equal :"+ equal);
     }
 }

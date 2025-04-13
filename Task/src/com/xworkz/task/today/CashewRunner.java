@@ -10,5 +10,9 @@ public class CashewRunner {
         String value="dryfruits";
         System.out.println("Healthy:" + cashew.hashCode());
         System.out.println("Healthy:" + value.hashCode());
+
+        Cashew cashew1 = new Cashew("Premium", 150, true);
+        boolean equal= cashew1.equals(cashew1);
+        System.out.println("equal :"+ equal);
     }
 }

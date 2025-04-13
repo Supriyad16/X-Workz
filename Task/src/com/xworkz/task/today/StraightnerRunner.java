@@ -9,5 +9,9 @@ public class StraightnerRunner {
         String value="device";
         System.out.println("Straights the hair:" + straightner.hashCode());
         System.out.println("Straight the hair:" + value.hashCode());
+
+        Straightner straightner1 = new Straightner("Metal", 150, "Vega");
+        boolean equal= straightner1.equals(straightner1);
+        System.out.println("equal :"+ equal);
     }
 }

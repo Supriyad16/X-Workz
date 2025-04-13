@@ -11,6 +11,27 @@ public class Pistachio {
         this.price = price;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Pistachio pistachio = this;
+                Pistachio pistachio1 = (Pistachio) obj;
+                if (pistachio1.type==(pistachio1.type) && pistachio1.price==pistachio1.price) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
 
     @Override
     public int hashCode() {

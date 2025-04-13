@@ -12,6 +12,28 @@ public class Curler {
     }
 
     @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Curler curler= this;
+                Curler curler1 = (Curler) obj;
+                if (curler1.type.equals(curler1.type) && curler1.temperature==curler1.temperature) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
+
+    @Override
     public int hashCode() {
         return 25;
     }

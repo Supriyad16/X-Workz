@@ -9,5 +9,9 @@ public class GoldRunner {
         String value="costly";
         System.out.println("Ornaments:" + gold.hashCode());
         System.out.println("Ornaments:" + value.hashCode());
+
+        Gold gold1 = new Gold(90, 15, 100000 );
+        boolean equal= gold1.equals(gold1);
+        System.out.println("equal :"+ equal);
     }
 }

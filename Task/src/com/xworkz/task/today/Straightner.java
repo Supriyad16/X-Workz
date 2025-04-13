@@ -10,7 +10,27 @@ public class Straightner {
         this.heatSetting = heatSetting;
         this.brand = brand;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
 
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Straightner straightner = this;
+                Straightner  straightner1 = (Straightner) obj;
+                if (straightner1.plateMaterial.equals(straightner.plateMaterial) && straightner1.heatSetting==straightner.heatSetting) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
 
     @Override
     public int hashCode() {

@@ -12,6 +12,28 @@ public class Hoodie {
     }
 
     @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Hoodie hoodie = this;
+                Hoodie hoodie1 = (Hoodie) obj;
+                if (hoodie1.type.equals(hoodie1.type) && hoodie1.brand==hoodie1.brand) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
+
+    @Override
     public int hashCode() {
         return 36;
     }

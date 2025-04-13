@@ -10,5 +10,9 @@ public class CricketRunner {
         String value="wicket";
         System.out.println("Score:" + cricket.hashCode());
         System.out.println("Score:" + value.hashCode());
+
+        Cricket cricket1 = new Cricket("IPL", 11, "Chennai");
+        boolean equal= cricket1.equals(cricket1);
+        System.out.println("equal :"+ equal);
     }
 }

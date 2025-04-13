@@ -10,5 +10,9 @@ public class ChargerRunner {
         String value="device";
         System.out.println("Charges:" + charger.hashCode());
         System.out.println("Charges:" + value.hashCode());
+
+        Charger charger1 = new Charger("Vivo", 30, false);
+        boolean equal= charger1.equals(charger1);
+        System.out.println("equal :"+ equal);
     }
 }

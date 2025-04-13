@@ -9,5 +9,9 @@ public class TowelRunner {
         String value="colour";
         System.out.println("White:" + towel.hashCode());
         System.out.println("White:" + value.hashCode());
+
+        Towel towel1 = new Towel("Green", "Medium", true);
+        boolean equal= towel1.equals(towel1);
+        System.out.println("equal :"+ equal);
     }
 }

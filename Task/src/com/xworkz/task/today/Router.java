@@ -10,7 +10,27 @@ public class Router {
         this.brand = brand;
         this.isAvailable = isAvailable;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
 
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Router router = this;
+                Router router1 = (Router) obj;
+                if (router1.type.equals(router1.type) && router1.brand.equals(router1.brand)) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
 
     @Override
     public int hashCode() {

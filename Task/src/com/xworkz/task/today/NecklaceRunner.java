@@ -9,5 +9,9 @@ public class NecklaceRunner {
         String value="neck";
         System.out.println("Choker:" + necklace.hashCode());
         System.out.println("Choker:" + value.hashCode());
+
+        Necklace necklace1 = new Necklace("Garland", "Gold", 10);
+        boolean equal= necklace1.equals(necklace1);
+        System.out.println("equal :"+ equal);
     }
 }

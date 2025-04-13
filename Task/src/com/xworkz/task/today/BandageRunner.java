@@ -12,5 +12,9 @@ public class BandageRunner {
         System.out.println("Plaster:" + bandage.hashCode());
         System.out.println("Plaster:" + value.hashCode());
 
+        Bandage bandage1 = new Bandage("Small", "Synthetic", false);
+        boolean equal= bandage1.equals(bandage1);
+        System.out.println("equal :"+ equal);
+
     }
 }

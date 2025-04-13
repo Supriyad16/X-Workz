@@ -9,5 +9,9 @@ public class MachineRunner {
         String value="work";
         System.out.println("Made of metal:" + machine.hashCode());
         System.out.println("Made of Metal:" + value.hashCode());
+
+        Machine machine1 = new Machine("Grinder", "Mixing", 400);
+        boolean equal= machine1.equals(machine1);
+        System.out.println("equal :"+ equal);
     }
 }

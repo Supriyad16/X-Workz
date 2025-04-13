@@ -12,6 +12,27 @@ public class Syrup {
         this.volume = volume;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Syrup syrup = this;
+                Syrup syrup1 = (Syrup) obj;
+                if (syrup1.name.equals(syrup1.name) && syrup1.volume==syrup1.volume) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
 
     @Override
     public int hashCode() {

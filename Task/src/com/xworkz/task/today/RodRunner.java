@@ -10,5 +10,9 @@ public class RodRunner {
         String value="pole";
         System.out.println("Weight:" + rod.hashCode());
         System.out.println("Weight:" + value.hashCode());
+
+        Rod rod1 = new Rod("steel", 3.0, 2);
+        boolean equal= rod1.equals(rod1);
+        System.out.println("equal :"+ equal);
     }
 }

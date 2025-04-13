@@ -12,6 +12,28 @@ public class Gold {
     }
 
     @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Gold gold = this;
+                Gold gold1 = (Gold) obj;
+                if (gold1.purity==(gold1.purity) && gold1.weight==gold1.weight) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
+
+    @Override
     public int hashCode() {
         return 33;
     }

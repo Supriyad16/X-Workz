@@ -12,6 +12,28 @@ public class Spoon {
     }
 
     @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Spoon spoon = this;
+                Spoon spoon1 = (Spoon) obj;
+                if (spoon1.size==(spoon1.size) && spoon1.material==spoon1.material) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
+
+    @Override
     public int hashCode() {
         return 82;
     }

@@ -12,6 +12,28 @@ public class King {
     }
 
     @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                King king = this;
+                King king1 = (King) obj;
+                if (king1.name.equals(king.name) && king1.kingdom==king.kingdom) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
+
+    @Override
     public int hashCode() {
         return 43;
     }

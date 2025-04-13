@@ -10,5 +10,9 @@ public class SolarSystemRunner {
         String value="galaxy";
         System.out.println("Galaxy:" + solarSystem.hashCode());
         System.out.println("Galaxy:" + value.hashCode());
+
+        SolarSystem solarSystem1 = new SolarSystem(9, "Aquaries", false);
+        boolean equal= solarSystem1.equals(solarSystem1);
+        System.out.println("equal :"+ equal);
     }
 }

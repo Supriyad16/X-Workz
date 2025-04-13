@@ -10,7 +10,27 @@ public class Sweets {
         this.weight = weight;
         this.isSugarFree = isSugarFree;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
 
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Sweets sweets = this;
+                Sweets sweets1 = (Sweets) obj;
+                if (sweets1.name.equals(sweets1.name) && sweets1.weight==sweets1.weight) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
 
     @Override
     public int hashCode() {

@@ -11,6 +11,27 @@ public class Umbrella {
         this.material = material;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Umbrella umbrella = this;
+                Umbrella umbrella1 = (Umbrella) obj;
+                if (umbrella1.color==(umbrella1.color) && umbrella1.material==umbrella1.material) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
 
     @Override
     public int hashCode() {

@@ -11,6 +11,27 @@ public class Tree {
         this.isAvailable = isAvailable;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Tree tree = this;
+                Tree tree1 = (Tree) obj;
+                if (tree1.type.equals(tree1.type) && tree1.brand==tree1.brand) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
 
     @Override
     public int hashCode() {

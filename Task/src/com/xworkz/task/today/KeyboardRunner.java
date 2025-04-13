@@ -10,5 +10,9 @@ public class KeyboardRunner {
         String value="type";
         System.out.println("Computer:" + keyboard.hashCode());
         System.out.println("Computer:" + value.hashCode());
+
+        Keyboard keyboard1 = new Keyboard("ASDFGH", false, "HP");
+        boolean equal= keyboard1.equals(keyboard1);
+        System.out.println("equal :"+ equal);
     }
 }

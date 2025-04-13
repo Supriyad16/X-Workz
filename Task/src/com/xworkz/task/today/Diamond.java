@@ -11,6 +11,27 @@ public class Diamond {
         this.price = price;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Diamond diamond = this;
+                Diamond diamond1 = (Diamond) obj;
+                if (diamond1.price==(diamond1.price) && diamond1.carat==diamond1.carat) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
 
     @Override
     public int hashCode() {

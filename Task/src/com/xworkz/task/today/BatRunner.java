@@ -11,5 +11,9 @@ public class BatRunner {
         String value="strong";
         System.out.println("Wood:" + bat.hashCode());
         System.out.println("Wood:" + value.hashCode());
+
+        Bat bat1 = new Bat("Wood", "RR", 5000);
+        boolean equal= bat.equals(bat);
+        System.out.println("equal :"+ equal);
     }
 }

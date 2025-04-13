@@ -11,5 +11,9 @@ public class BusStandRunner {
         String value="stop";
         System.out.println("Bus:" + busstand.hashCode());
         System.out.println("Bus:" + value.hashCode());
+
+        BusStand busStand1 = new BusStand("Yelahanka", 15, true);
+        boolean equal= busStand1.equals(busStand1);
+        System.out.println("equal :"+ equal);
     }
 }

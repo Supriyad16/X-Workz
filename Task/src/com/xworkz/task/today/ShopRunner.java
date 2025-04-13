@@ -11,5 +11,9 @@ public class ShopRunner {
         String value="things";
         System.out.println("Super Mart:" + shop.hashCode());
         System.out.println("Super Mart:" + value.hashCode());
+
+        Shop shop1 = new Shop("Shoe Garden", "Ravi", "Shoe");
+        boolean equal= shop1.equals(shop1);
+        System.out.println("equal :"+ equal);
     }
 }

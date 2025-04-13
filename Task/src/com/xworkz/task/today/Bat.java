@@ -13,6 +13,26 @@ public class Bat {
     }
 
     @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Bat bat = this;
+                Bat bat1 = (Bat) obj;
+                if (bat.brand.equals(bat.brand) && bat.material==bat.material) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    @Override
     public int hashCode() {
         return 9;
     }

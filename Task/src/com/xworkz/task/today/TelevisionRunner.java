@@ -10,5 +10,9 @@ public class TelevisionRunner {
         String value="program";
         System.out.println("Entertainment:" + television.hashCode());
         System.out.println("Entertainment:" + value.hashCode());
+
+        Television television1 = new Television("LG", 55, false);
+        boolean equal= television1.equals(television1);
+        System.out.println("equal :"+ equal);
     }
 }

@@ -13,6 +13,28 @@ public class Bandage {
     }
 
     @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Bandage bandage = this;
+                Bandage bandage1 = (Bandage) obj;
+                if (bandage1.size.equals(bandage1.size) && bandage1.material==bandage1.material) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
+
+    @Override
     public int hashCode() {
         return 8;
     }

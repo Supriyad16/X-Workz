@@ -9,5 +9,9 @@ public class DiamondRunner {
         String value="hard";
         System.out.println("Precious:" + diamond.hashCode());
         System.out.println("Precious:" + value.hashCode());
+
+        Diamond diamond1 = new Diamond(2.0, "FL", 1000000);
+        boolean equal= diamond1.equals(diamond1);
+        System.out.println("equal :"+ equal);
     }
 }

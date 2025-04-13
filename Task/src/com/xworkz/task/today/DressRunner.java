@@ -10,5 +10,9 @@ public class DressRunner {
             String value="pant";
             System.out.println("Type:" + dress.hashCode());
             System.out.println("Type:" + value.hashCode());
+
+            Dress dress1 = new Dress("Cotton", "White", 650);
+            boolean equal= dress1.equals(dress1);
+            System.out.println("equal :"+ equal);
         }
     }

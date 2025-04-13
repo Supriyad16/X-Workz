@@ -13,6 +13,28 @@ public class Wood {
     }
 
     @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Wood wood = this;
+                Wood wood1 = (Wood) obj;
+                if (wood1.type.equals(wood1.type) && wood1.weight==wood1.weight) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
+
+    @Override
     public int hashCode() {
         return 100;
     }

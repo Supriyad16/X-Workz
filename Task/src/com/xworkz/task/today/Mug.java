@@ -11,6 +11,27 @@ public class Mug {
         this.volume = volume;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Mug mug = this;
+                Mug mug1 = (Mug) obj;
+                if (mug1.color.equals(mug.color) && mug1.volume==mug.volume) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
 
     @Override
     public int hashCode() {

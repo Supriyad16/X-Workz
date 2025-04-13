@@ -11,6 +11,27 @@ public class Rayon {
         this.isAvailable = isAvailable;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Rayon rayon = this;
+                Rayon rayon1 = (Rayon) obj;
+                if (rayon1.type.equals(rayon1.type) && rayon1.isAvailable==rayon1.isAvailable) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
 
     @Override
     public int hashCode() {

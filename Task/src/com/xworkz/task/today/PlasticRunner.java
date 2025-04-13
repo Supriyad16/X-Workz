@@ -9,5 +9,9 @@ public class PlasticRunner {
         String value="harmful";
         System.out.println("Banned:" + plastic.hashCode());
         System.out.println("Banned:" + value.hashCode());
+
+        Plastic plastic1 = new Plastic("Polyethylene Terephthalate ", false, "Transparent");
+        boolean equal= plastic1.equals(plastic1);
+        System.out.println("equal :"+ equal);
     }
 }

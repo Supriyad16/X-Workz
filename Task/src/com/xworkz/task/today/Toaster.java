@@ -11,6 +11,27 @@ public class Toaster {
         this.hasTimer = hasTimer;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Toaster toaster = this;
+                Toaster toaster1 = (Toaster) obj;
+                if (toaster1.brand.equals(toaster1.brand) && toaster1.slots==toaster1.slots) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
 
     @Override
     public int hashCode() {

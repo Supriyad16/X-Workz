@@ -10,5 +10,9 @@ public class ChipRunner {
         String value="size";
         System.out.println("Memory:" + chip.hashCode());
         System.out.println("Memory:" + value.hashCode());
+
+        Chip chip1 = new Chip("Processor", "Nvidia", 9);
+        boolean equal= chip1.equals(chip1);
+        System.out.println("equal :"+ equal);
     }
 }

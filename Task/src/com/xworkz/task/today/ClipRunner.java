@@ -10,5 +10,9 @@ public class ClipRunner {
         String value="tieHair";
         System.out.println("Claw:" + clip.hashCode());
         System.out.println("Claw:" + value.hashCode());
+
+        Clip clip1 = new Clip("Claw Clip", "Lavender", 2);
+        boolean equal= clip1.equals(clip1);
+        System.out.println("equal :"+ equal);
     }
 }

@@ -10,5 +10,9 @@ public class SyrupRunner {
         String value="medicine";
         System.out.println("Measurement:" + syrup.hashCode());
         System.out.println("Measurement:" + value.hashCode());
+
+        Syrup syrup1 = new Syrup("Benadryl", "Strawberry", 50);
+        boolean equal= syrup1.equals(syrup1);
+        System.out.println("equal :"+ equal);
     }
 }

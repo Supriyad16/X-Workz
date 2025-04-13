@@ -11,5 +11,9 @@ public class BandRunner {
         String value="hair";
         System.out.println("Hair:" + band.hashCode());
         System.out.println("Hair:" + value.hashCode());
+
+        Band band1 = new Band("Rubber", "Hand", 20);
+        boolean equal= band1.equals(band1);
+        System.out.println("equal :"+ equal);
     }
 }

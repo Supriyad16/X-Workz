@@ -9,5 +9,9 @@ public class OvenRunner {
         String value="bake";
         System.out.println("Cakes:" + oven.hashCode());
         System.out.println("Cakes:" + value.hashCode());
+
+        Oven oven1 = new Oven(30, true, "Preethi");
+        boolean equal= oven1.equals(oven1);
+        System.out.println("equal :"+ equal);
     }
 }

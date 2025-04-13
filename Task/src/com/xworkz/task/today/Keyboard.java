@@ -13,6 +13,28 @@ public class Keyboard {
     }
 
     @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+
+            if (obj instanceof Tshirt) {
+
+                System.out.println("reference is same");
+
+                Keyboard keyboard = this;
+                Keyboard keyboard1 = (Keyboard) obj;
+                if (keyboard1.layout.equals(keyboard1.layout) && keyboard1.brand==keyboard1.brand) {
+                    System.out.println("Both aare same");
+                    return true;
+                }
+
+            }
+
+        }
+        return false;
+    }
+
+    @Override
     public int hashCode() {
         return 42;
     }

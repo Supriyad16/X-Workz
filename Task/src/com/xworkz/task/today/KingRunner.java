@@ -9,5 +9,9 @@ public class KingRunner {
         String value="rule";
         System.out.println("Kingdom:" + king.hashCode());
         System.out.println("Kingdom:" + value.hashCode());
+
+        King King1 = new King("Krishnadevaraya", "Tuluva", 58);
+        boolean equal= king.equals(king);
+        System.out.println("equal :"+ equal);
     }
 }
