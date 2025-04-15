@@ -12,19 +12,6 @@ public class Adopter {
         this.price = price;
     }
 
-//    public void setPrice(double price) {
-//        this.price = price;
-//    }
-//
-//    public void setInputType(String inputType){
-//        this.inputType=inputType;
-//    }
-//
-//    public void setOutputType(String outputType) {
-//        this.outputType = outputType;
-//    }
-
-
     @Override
     public boolean equals(Object obj) {
         if(obj!=null){
@@ -35,7 +22,7 @@ public class Adopter {
 
                 Adopter adopter=this;
                 Adopter adopter1 = (Adopter) obj;
-                if (adopter1.inputType.equals(adopter1.inputType) && adopter1.inputType==adopter1.inputType) {
+                if (adopter1.inputType.equals(adopter.inputType) && adopter1.outputType==adopter.outputType) {
                     System.out.println("Both aare same");
                     return true;
                 }
