@@ -7,4 +7,8 @@ public interface Hat {
     void remove();
 
     void style();
+
+    default void protect(){
+        System.out.println("protect from sun ");
+    }
 }

@@ -7,4 +7,8 @@ public interface Stick {
     void hit();
 
     void breakStick();
+
+    default void join(){
+        System.out.println("join the stick");
+    }
 }

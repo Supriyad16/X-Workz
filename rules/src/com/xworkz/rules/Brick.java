@@ -7,4 +7,8 @@ public interface Brick {
     void breakBrick();
 
     void weigh();
+
+    default void strength (){
+        System.out.println("The strength of the brick");
+    }
 }

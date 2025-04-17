@@ -7,4 +7,8 @@ public interface Pencil {
     void sharpen();
 
     void breakTip();
+
+    default void lead(){
+        System.out.println("pencil has lead");
+    }
 }

@@ -7,4 +7,8 @@ public interface Lid {
     void open();
 
     void seal();
+
+    default void close(){
+        System.out.println("close the lid");
+    }
 }

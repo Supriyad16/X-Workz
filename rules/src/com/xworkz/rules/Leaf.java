@@ -7,4 +7,8 @@ public interface Leaf {
     void fall();
 
     void grow();
+
+    default void colour(){
+        System.out.println("Leaf has different colours");
+    }
 }

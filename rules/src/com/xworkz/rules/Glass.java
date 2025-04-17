@@ -7,4 +7,8 @@ public interface Glass {
     void drink();
 
     void empty();
+
+    default void refill(){
+        System.out.println("refill the glass");
+    }
 }

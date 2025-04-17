@@ -7,4 +7,8 @@ public interface Shelf {
     void organize();
 
     void clean();
+
+    default void arrange(){
+        System.out.println("arrange the items");
+    }
 }

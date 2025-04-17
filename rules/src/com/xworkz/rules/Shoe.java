@@ -7,4 +7,8 @@ public interface Shoe {
     void clean();
 
     void tie();
+
+    default void run(){
+        System.out.println("running shoes");
+    }
 }

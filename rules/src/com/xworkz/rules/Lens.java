@@ -7,4 +7,8 @@ public interface Lens {
     void zoom();
 
     void adjust();
+
+    default void point(){
+        System.out.println("lens has point");
+    }
 }

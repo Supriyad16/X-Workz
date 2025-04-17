@@ -7,4 +7,8 @@ public interface Cap {
     void adjust();
 
     void remove();
+
+    default void close(){
+        System.out.println("close the bottle");
+    }
 }

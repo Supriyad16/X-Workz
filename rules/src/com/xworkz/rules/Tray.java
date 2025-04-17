@@ -7,4 +7,8 @@ public interface Tray {
     void holdItems();
 
     void clean();
+
+    default void arrange(){
+        System.out.println("arrange items in tray ");
+    }
 }

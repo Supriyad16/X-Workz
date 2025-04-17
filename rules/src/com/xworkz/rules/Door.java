@@ -7,4 +7,8 @@ public interface Door {
     void close();
 
     void lock();
+
+    default void wood(){
+        System.out.println("door is made of wood");
+    }
 }

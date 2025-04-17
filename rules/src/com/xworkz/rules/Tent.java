@@ -7,4 +7,8 @@ public interface Tent {
     void fold();
 
     void shelter();
+
+    default void trip(){
+        System.out.println("tent used in trip");
+    }
 }

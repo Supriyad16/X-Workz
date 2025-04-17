@@ -7,4 +7,8 @@ public interface Lamp {
     void switchOff();
 
     void glow();
+
+    default void light(){
+        System.out.println("lamp give lamp");
+    }
 }

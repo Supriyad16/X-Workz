@@ -7,4 +7,8 @@ public interface Ring {
     void remove();
 
     void resize();
+
+    default void designs(){
+        System.out.println("rings have different designs");
+    }
 }

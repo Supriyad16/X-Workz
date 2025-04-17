@@ -7,4 +7,8 @@ public interface Paper {
     void tear();
 
     void fold();
+
+    default void craft(){
+        System.out.println("do crafts using paper");
+    }
 }

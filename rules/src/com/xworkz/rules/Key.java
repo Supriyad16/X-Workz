@@ -7,4 +7,8 @@ public interface Key {
     void turn();
 
     void remove();
+
+    default void twist(){
+        System.out.println("twist the key");
+    }
 }

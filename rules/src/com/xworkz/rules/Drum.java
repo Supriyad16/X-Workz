@@ -7,4 +7,8 @@ public interface Drum {
     void carry();
 
     void tune();
+
+    default void sound(){
+        System.out.println("sound from drum");
+    }
 }

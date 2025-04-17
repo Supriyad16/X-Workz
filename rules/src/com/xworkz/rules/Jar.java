@@ -7,4 +7,8 @@ public interface Jar {
     void store();
 
     void close();
+
+    default void container(){
+        System.out.println("jar is a container");
+    }
 }

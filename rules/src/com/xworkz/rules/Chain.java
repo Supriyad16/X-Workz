@@ -7,4 +7,8 @@ public interface Chain {
     void swing();
 
     void lock();
+
+    default void beauty(){
+        System.out.println("Chain is beautiful");
+    }
 }

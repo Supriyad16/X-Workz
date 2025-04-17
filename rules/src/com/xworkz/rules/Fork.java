@@ -7,4 +7,8 @@ public interface Fork {
     void lift();
 
     void wash();
+
+    default void eat(){
+        System.out.println("eat using fork");
+    }
 }

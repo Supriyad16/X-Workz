@@ -7,4 +7,8 @@ public interface Mirror {
     void hang();
 
     void clean();
+
+    default void refract(){
+        System.out.println("mirror refracts");
+    }
 }

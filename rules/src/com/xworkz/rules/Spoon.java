@@ -7,4 +7,8 @@ public interface Spoon {
     void scoop();
 
     void eat();
+
+    default void mix(){
+        System.out.println("mix the items");
+    }
 }

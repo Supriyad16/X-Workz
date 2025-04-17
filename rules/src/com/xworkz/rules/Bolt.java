@@ -7,4 +7,8 @@ public interface Bolt {
     void loosen();
 
     void rust();
+
+    default void stuck(){
+        System.out.println("bolt has stuck in the door");
+    }
 }

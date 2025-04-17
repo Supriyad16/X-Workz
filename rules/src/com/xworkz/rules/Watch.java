@@ -7,4 +7,8 @@ public interface Watch {
     void setAlarm();
 
     void tick();
+
+    default void showDate(){
+        System.out.println("watch shows date");
+    }
 }

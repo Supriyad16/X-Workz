@@ -7,4 +7,8 @@ public interface Globe {
     void point();
 
     void study();
+
+    default void mark(){
+        System.out.println("mark the location");
+    }
 }

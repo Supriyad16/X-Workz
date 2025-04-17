@@ -7,4 +7,8 @@ public interface Chair {
     void fold();
 
     void move();
+
+    default void relax(){
+        System.out.println("Relax on the chair");
+    }
 }

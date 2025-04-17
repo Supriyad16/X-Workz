@@ -7,4 +7,8 @@ public interface Mask {
     void protect();
 
     void dispose();
+
+    default void doctor(){
+        System.out.println("doctor wear mask");
+    }
 }

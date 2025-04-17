@@ -7,4 +7,8 @@ public interface Frame {
     void support();
 
     void display();
+
+    default void view(){
+        System.out.println("view the frame");
+    }
 }

@@ -7,4 +7,8 @@ public interface Pad {
     void tear();
 
     void bind();
+
+    default void support(){
+        System.out.println("pad gives support to write");
+    }
 }

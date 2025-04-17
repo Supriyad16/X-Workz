@@ -7,4 +7,8 @@ public interface Lock {
     void unlock();
 
     void test();
+
+    default void safety(){
+        System.out.println("Lock give safety");
+    }
 }

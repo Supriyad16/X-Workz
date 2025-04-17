@@ -7,4 +7,8 @@ public interface Can {
     void openLid();
 
     void refill();
+
+    default void spill(){
+        System.out.println("Oil spilled");
+    }
 }

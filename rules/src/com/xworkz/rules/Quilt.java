@@ -7,4 +7,8 @@ public interface Quilt {
     void warm();
 
     void clean();
+
+    default void winter(){
+        System.out.println("Quilt is used in winter");
+    }
 }

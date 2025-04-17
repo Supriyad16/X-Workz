@@ -7,4 +7,8 @@ public interface Nail {
     void pull();
 
     void rust();
+
+    default void hit(){
+        System.out.println("hit the nail");
+    }
 }

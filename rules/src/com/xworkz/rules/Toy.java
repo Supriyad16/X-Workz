@@ -7,4 +7,8 @@ public interface Toy {
     void makeSound();
 
     void move();
+
+    default void entertain(){
+        System.out.println("entertain the kid");
+    }
 }

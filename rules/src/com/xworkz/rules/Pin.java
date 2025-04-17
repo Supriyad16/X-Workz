@@ -7,4 +7,8 @@ public interface Pin {
     void remove();
 
     void bend();
+
+    default void pinch(){
+        System.out.println("pinch through pin");
+    }
 }

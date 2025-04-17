@@ -7,4 +7,8 @@ public interface Plate {
     void clean();
 
     void stack();
+
+    default void breakfast(){
+        System.out.println("eat breakfast in plate");
+    }
 }

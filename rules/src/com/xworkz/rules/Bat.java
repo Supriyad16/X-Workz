@@ -7,4 +7,8 @@ public interface Bat {
     void hit();
 
     void grip();
+
+    default void happy(){
+        System.out.println("BE happy whhile playing");
+    }
 }

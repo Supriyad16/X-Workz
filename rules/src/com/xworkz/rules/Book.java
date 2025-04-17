@@ -7,4 +7,8 @@ public interface Book {
     void read();
 
     void close();
+
+    default void wrote(){
+        System.out.println("wrote on the book");
+    }
 }

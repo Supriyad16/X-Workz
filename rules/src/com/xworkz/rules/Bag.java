@@ -7,4 +7,8 @@ public interface Bag {
     void hold();
 
     void store();
+
+    default void design(){
+        System.out.println("Bag has beautiful design");
+    }
 }

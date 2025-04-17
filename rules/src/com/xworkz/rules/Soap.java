@@ -7,4 +7,8 @@ public interface Soap {
     void wash();
 
     void dry();
+
+    default void clean(){
+        System.out.println("clean using soap");
+    }
 }

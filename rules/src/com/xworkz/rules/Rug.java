@@ -7,4 +7,8 @@ public interface Rug {
     void clean();
 
     void roll();
+
+    default void cover(){
+        System.out.println("cover the rug");
+    }
 }

@@ -7,4 +7,8 @@ public interface Pan {
     void cook();
 
     void clean();
+
+    default void fry(){
+        System.out.println("fry in pan");
+    }
 }

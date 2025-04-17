@@ -7,4 +7,8 @@ public interface Tub {
     void drain();
 
     void soak();
+
+    default void bath(){
+        System.out.println("bath in tub");
+    }
 }

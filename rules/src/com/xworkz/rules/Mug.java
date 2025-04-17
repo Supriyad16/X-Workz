@@ -7,4 +7,8 @@ public interface Mug {
     void sip();
 
     void wash();
+
+    default void drink(){
+        System.out.println("drink using mug");
+    }
 }

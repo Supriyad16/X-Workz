@@ -7,4 +7,8 @@ public interface Knife {
     void slice();
 
     void clean();
+
+    default void wipe(){
+        System.out.println("wipe the knife");
+    }
 }

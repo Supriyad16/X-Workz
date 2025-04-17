@@ -7,4 +7,8 @@ public interface Basket {
     void close();
 
     void carryItems();
+
+    default void hold(){
+        System.out.println("Hold the items");
+    }
 }

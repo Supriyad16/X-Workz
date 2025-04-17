@@ -7,4 +7,8 @@ public interface Tap {
     void close();
 
     void leak();
+
+    default void flow(){
+        System.out.println("water flows through tap");
+    }
 }

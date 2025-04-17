@@ -7,4 +7,8 @@ public interface Fan {
     void switchOn();
 
     void cleans();
+
+    default void switchOff(){
+        System.out.println("fan is off");
+    }
 }

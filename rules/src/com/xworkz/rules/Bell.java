@@ -7,4 +7,8 @@ public interface Bell {
     void hang();
 
     void sound();
+
+    default void inform(){
+        System.out.println("Inform to the owner");
+    }
 }

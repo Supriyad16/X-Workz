@@ -7,4 +7,8 @@ public interface File {
     void read();
 
     void close();
+
+    default void edit(){
+        System.out.println("edit the file");
+    }
 }

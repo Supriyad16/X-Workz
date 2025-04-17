@@ -7,4 +7,8 @@ public interface Wire {
     void transmit();
 
     void insulate();
+
+    default void tie(){
+        System.out.println("tie using wire");
+    }
 }

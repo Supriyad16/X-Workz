@@ -7,4 +7,8 @@ public interface Bottle {
     void pour();
 
     void closeCap();
+
+    default void drink(){
+        System.out.println("Drink the water");
+    }
 }

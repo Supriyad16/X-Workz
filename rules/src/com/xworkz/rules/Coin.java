@@ -7,4 +7,8 @@ public interface Coin {
     void toss();
 
     void shine();
+
+    default void faces(){
+        System.out.println("coin have two faces");
+    }
 }

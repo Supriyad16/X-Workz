@@ -7,4 +7,8 @@ public interface Table {
     void clean();
 
     void move();
+
+    default void study(){
+        System.out.println("study on table");
+    }
 }

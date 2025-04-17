@@ -7,4 +7,8 @@ public interface Box {
     void open();
 
     void seal();
+
+    default void closed(){
+        System.out.println("close the box");
+    }
 }

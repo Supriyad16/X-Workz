@@ -7,4 +7,8 @@ public interface Pipe {
     void bends();
 
     void cut();
+
+    default void connect(){
+        System.out.println("Connect the pipe");
+    }
 }

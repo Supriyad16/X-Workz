@@ -7,4 +7,10 @@ public interface Rod {
     void bend();
 
     void extend();
+
+    default void support(){
+        System.out.println("gives support");
+    }
+
+
 }

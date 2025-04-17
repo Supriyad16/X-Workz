@@ -7,4 +7,8 @@ public interface Clock {
     void tick();
 
     void alarm();
+
+    default void setTime(){
+        System.out.println("set the time");
+    }
 }

@@ -7,4 +7,8 @@ public interface Ball {
     void roll();
 
     void throwBall();
+
+    default void material(){
+        System.out.println("Ball is made of different material");
+    }
 }

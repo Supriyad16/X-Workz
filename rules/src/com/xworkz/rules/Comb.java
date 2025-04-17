@@ -7,4 +7,8 @@ public interface Comb {
     void clean();
 
     void hold();
+
+    default void frizz(){
+        System.out.println("Hair is so frizz");
+    }
 }

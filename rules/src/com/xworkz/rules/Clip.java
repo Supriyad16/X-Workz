@@ -7,4 +7,8 @@ public interface Clip {
     void release();
 
     void open();
+
+    default void wears(){
+        System.out.println("wear the clip");
+    }
 }

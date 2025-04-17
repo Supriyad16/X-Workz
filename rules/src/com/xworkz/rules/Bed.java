@@ -7,4 +7,8 @@ public interface Bed {
     void fold();
 
     void makeBed();
+
+    default void peace(){
+        System.out.println("have peace in life");
+    }
 }

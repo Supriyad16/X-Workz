@@ -7,4 +7,8 @@ public interface Ruler {
     void mark();
 
     void draw();
+
+    default void beat(){
+        System.out.println("beat through ruler");
+    }
 }
