@@ -22,7 +22,7 @@ public class Jeans {
 
                 Jeans jeans = this;
                 Jeans jeans1 = (Jeans) obj;
-                if (jeans1.type.equals(jeans1.type) && jeans1.brand==jeans1.brand) {
+                if (jeans1.type.equals(jeans.type) && jeans1.brand==jeans.brand) {
                     System.out.println("Both aare same");
                     return true;
                 }

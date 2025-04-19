@@ -22,7 +22,7 @@ public class King {
 
                 King king = this;
                 King king1 = (King) obj;
-                if (king1.name.equals(king.name) && king1.kingdom==king.kingdom) {
+                if (king1.name.equals(king.name) && king1.kingdom.equals(king.kingdom)) {
                     System.out.println("Both aare same");
                     return true;
                 }

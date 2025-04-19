@@ -22,7 +22,7 @@ public class Diamond {
 
                 Diamond diamond = this;
                 Diamond diamond1 = (Diamond) obj;
-                if (diamond1.price==(diamond1.price) && diamond1.carat==diamond1.carat) {
+                if (diamond1.price==(diamond.price) && diamond1.carat==diamond.carat) {
                     System.out.println("Both aare same");
                     return true;
                 }

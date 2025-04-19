@@ -22,7 +22,7 @@ public class Toaster {
 
                 Toaster toaster = this;
                 Toaster toaster1 = (Toaster) obj;
-                if (toaster1.brand.equals(toaster1.brand) && toaster1.slots==toaster1.slots) {
+                if (toaster1.brand.equals(toaster.brand) && toaster1.slots==toaster.slots) {
                     System.out.println("Both aare same");
                     return true;
                 }

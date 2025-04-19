@@ -22,7 +22,7 @@ public class Cashew {
 
                 Cashew cashew = this;
                 Cashew cashew1 = (Cashew) obj;
-                if (cashew1.quality.equals(cashew1.quality) && cashew1.weight==cashew1.weight) {
+                if (cashew1.quality.equals(cashew.quality) && cashew1.weight==cashew.weight) {
                     System.out.println("Both aare same");
                     return true;
                 }

@@ -22,7 +22,7 @@ public class Umbrella {
 
                 Umbrella umbrella = this;
                 Umbrella umbrella1 = (Umbrella) obj;
-                if (umbrella1.color==(umbrella1.color) && umbrella1.material==umbrella1.material) {
+                if (umbrella1.color.equals(umbrella.color) && umbrella1.material.equals(umbrella1.material)) {
                     System.out.println("Both aare same");
                     return true;
                 }

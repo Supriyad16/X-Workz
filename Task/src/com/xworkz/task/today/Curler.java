@@ -22,7 +22,7 @@ public class Curler {
 
                 Curler curler= this;
                 Curler curler1 = (Curler) obj;
-                if (curler1.type.equals(curler1.type) && curler1.temperature==curler1.temperature) {
+                if (curler1.type.equals(curler.type) && curler1.temperature==curler.temperature) {
                     System.out.println("Both aare same");
                     return true;
                 }

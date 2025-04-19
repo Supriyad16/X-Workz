@@ -23,7 +23,7 @@ public class Electricity {
 
                 Electricity electricity = this;
                 Electricity electricity1 = (Electricity) obj;
-                if (electricity1.source.equals(electricity1.source) && electricity1.voltage==electricity1.voltage) {
+                if (electricity1.source.equals(electricity.source) && electricity1.voltage==electricity.voltage) {
                     System.out.println("Both aare same");
                     return true;
                 }

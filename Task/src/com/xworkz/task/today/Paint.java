@@ -22,7 +22,7 @@ public class Paint {
 
                 Paint paint = this;
                 Paint paint1 = (Paint) obj;
-                if (paint1.brand.equals(paint1.brand) && paint1.price==paint1.price) {
+                if (paint1.brand.equals(paint.brand) && paint1.price==paint.price) {
                     System.out.println("Both aare same");
                     return true;
                 }

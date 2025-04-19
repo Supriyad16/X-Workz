@@ -23,7 +23,7 @@ public class Skirt {
 
                 Skirt skirt = this;
                 Skirt skirt1 = (Skirt) obj;
-                if (skirt1.size.equals(skirt1.size) && skirt1.price==skirt1.price) {
+                if (skirt1.size.equals(skirt.size) && skirt1.price==skirt.price) {
                     System.out.println("Both aare same");
                     return true;
                 }

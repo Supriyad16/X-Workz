@@ -22,7 +22,7 @@ public class Towel {
 
                 Towel towel = this;
                 Towel towel1 = (Towel) obj;
-                if (towel1.color.equals(towel1.color) && towel1.isCotton==towel1.isCotton) {
+                if (towel1.color.equals(towel.color) && towel1.isCotton==towel.isCotton) {
                     System.out.println("Both aare same");
                     return true;
                 }

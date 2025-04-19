@@ -22,7 +22,7 @@ public class Gold {
 
                 Gold gold = this;
                 Gold gold1 = (Gold) obj;
-                if (gold1.purity==(gold1.purity) && gold1.weight==gold1.weight) {
+                if (gold1.purity==(gold.purity) && gold1.weight==gold.weight) {
                     System.out.println("Both aare same");
                     return true;
                 }

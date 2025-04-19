@@ -23,7 +23,7 @@ public class Band {
 
                 Band band = this;
                 Band band1 = (Band) obj;
-                if (band1.material.equals(band1.material) && band1.usage==band1.usage) {
+                if (band1.material.equals(band.material) && band1.usage.equals(band.usage) ){
                     System.out.println("Both aare same");
                     return true;
                 }

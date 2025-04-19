@@ -23,7 +23,7 @@ public class File {
 
                 File file = this;
                 File file1 = (File) obj;
-                if (file1.name.equals(file1.name) && file1.type==file1.type) {
+                if (file1.name.equals(file.name) && file1.type.equals(file.type)) {
                     System.out.println("Both aare same");
                     return true;
                 }

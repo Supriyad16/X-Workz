@@ -22,7 +22,7 @@ public class Plate {
 
                 Plate plate = this;
                 Plate plate1 = (Plate) obj;
-                if (plate1.material.equals(plate1.material) && plate1.isMicrowaveSafe==plate1.isMicrowaveSafe) {
+                if (plate1.material.equals(plate.material) && plate1.isMicrowaveSafe==plate.isMicrowaveSafe) {
                     System.out.println("Both aare same");
                     return true;
                 }

@@ -23,7 +23,7 @@ public class Charger {
 
                 Charger charger = this;
                 Charger charger1 = (Charger) obj;
-                if (charger1.brand.equals(charger1.brand) && charger1.wattage==charger1.wattage) {
+                if (charger1.brand.equals(charger.brand) && charger1.wattage==charger.wattage) {
                     System.out.println("Both aare same");
                     return true;
                 }

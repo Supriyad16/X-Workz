@@ -22,7 +22,7 @@ public class Walnut {
 
                 Walnut walnut = this;
                 Walnut walnut1 = (Walnut) obj;
-                if (walnut1.variety.equals(walnut1.variety) && walnut1.weight==walnut1.weight) {
+                if (walnut1.variety.equals(walnut.variety) && walnut1.weight==walnut.weight) {
                     System.out.println("Both aare same");
                     return true;
                 }

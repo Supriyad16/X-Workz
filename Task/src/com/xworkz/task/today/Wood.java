@@ -23,7 +23,7 @@ public class Wood {
 
                 Wood wood = this;
                 Wood wood1 = (Wood) obj;
-                if (wood1.type.equals(wood1.type) && wood1.weight==wood1.weight) {
+                if (wood1.type.equals(wood.type) && wood1.weight==wood.weight) {
                     System.out.println("Both aare same");
                     return true;
                 }

@@ -23,7 +23,7 @@ public class Keyboard {
 
                 Keyboard keyboard = this;
                 Keyboard keyboard1 = (Keyboard) obj;
-                if (keyboard1.layout.equals(keyboard1.layout) && keyboard1.brand==keyboard1.brand) {
+                if (keyboard1.layout.equals(keyboard.layout) && keyboard1.brand==keyboard.brand) {
                     System.out.println("Both aare same");
                     return true;
                 }

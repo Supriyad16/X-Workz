@@ -22,7 +22,7 @@ public class Glass {
 
                 Glass glass = this;
                 Glass glass1 = (Glass) obj;
-                if (glass1.type.equals(glass1.type) && glass1.volume==glass1.volume) {
+                if (glass1.type.equals(glass.type) && glass1.volume==glass.volume) {
                     System.out.println("Both aare same");
                     return true;
                 }

@@ -23,7 +23,7 @@ public class Wire {
 
                 Wire wire = this;
                 Wire wire1 = (Wire) obj;
-                if (wire1.material.equals(wire1.material) && wire1.length==wire1.length) {
+                if (wire1.material.equals(wire.material) && wire1.length==wire.length) {
                     System.out.println("Both aare same");
                     return true;
                 }

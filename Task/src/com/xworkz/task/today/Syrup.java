@@ -23,7 +23,7 @@ public class Syrup {
 
                 Syrup syrup = this;
                 Syrup syrup1 = (Syrup) obj;
-                if (syrup1.name.equals(syrup1.name) && syrup1.volume==syrup1.volume) {
+                if (syrup1.name.equals(syrup.name) && syrup1.volume==syrup.volume) {
                     System.out.println("Both aare same");
                     return true;
                 }

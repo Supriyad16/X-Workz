@@ -22,7 +22,7 @@ public class Slipper {
 
                 Slipper slipper = this;
                 Slipper slipper1 = (Slipper) obj;
-                if (slipper1.type==(slipper1.type) && slipper1.brand==slipper1.brand) {
+                if (slipper1.type.equals(slipper.type) && slipper1.brand.equals(slipper1.brand) ){
                     System.out.println("Both aare same");
                     return true;
                 }

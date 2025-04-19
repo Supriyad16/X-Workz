@@ -23,7 +23,7 @@ public class Chocolate {
 
                 Chocolate chocolate = this;
                 Chocolate  chocolate1 = (Chocolate) obj;
-                if (chocolate1.brand.equals(chocolate1.brand) && chocolate1.weight==chocolate1.weight) {
+                if (chocolate1.brand.equals(chocolate.brand) && chocolate1.weight==chocolate.weight) {
                     System.out.println("Both aare same");
                     return true;
                 }

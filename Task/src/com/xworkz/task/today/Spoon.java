@@ -22,7 +22,7 @@ public class Spoon {
 
                 Spoon spoon = this;
                 Spoon spoon1 = (Spoon) obj;
-                if (spoon1.size==(spoon1.size) && spoon1.material==spoon1.material) {
+                if (spoon1.size==(spoon.size) && spoon1.material==spoon.material) {
                     System.out.println("Both aare same");
                     return true;
                 }

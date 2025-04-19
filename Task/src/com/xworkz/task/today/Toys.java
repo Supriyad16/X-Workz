@@ -22,7 +22,7 @@ public class Toys {
 
                 Toys toys = this;
                 Toys toys1 = (Toys) obj;
-                if (toys1.name.equals(toys1.name) && toys1.price==toys1.price) {
+                if (toys1.name.equals(toys.name) && toys1.price==toys.price) {
                     System.out.println("Both aare same");
                     return true;
                 }

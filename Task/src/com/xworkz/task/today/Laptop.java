@@ -22,7 +22,7 @@ public class Laptop {
 
                 Laptop laptop = this;
                 Laptop laptop1 = (Laptop) obj;
-                if (laptop1.brand.equals(laptop1.brand) && laptop1.ram==laptop1.ram) {
+                if (laptop1.brand.equals(laptop.brand) && laptop1.ram==laptop.ram) {
                     System.out.println("Both aare same");
                     return true;
                 }

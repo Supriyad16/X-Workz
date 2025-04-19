@@ -23,7 +23,7 @@ public class Television {
 
                 Television television = this;
                 Television television1 = (Television) obj;
-                if (television1.brand.equals(television1.brand) && television1.size==television1.size) {
+                if (television1.brand.equals(television.brand) && television1.size==television.size) {
                     System.out.println("Both aare same");
                     return true;
                 }

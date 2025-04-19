@@ -22,7 +22,7 @@ public class Box {
 
                 Box box = this;
                 Box box1 = (Box) obj;
-                if (box1.length==(box1.length) && box1.length==box1.length) {
+                if (box1.length==(box.length) && box1.width==box.width) {
                     System.out.println("Both aare same");
                     return true;
                 }

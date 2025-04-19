@@ -23,7 +23,7 @@ public class Chip {
 
                 Chip chip = this;
                 Chip chip1 = (Chip) obj;
-                if (chip1.type.equals(chip1.type) && chip1.manufacturer==chip1.manufacturer) {
+                if (chip1.type.equals(chip.type) && chip1.manufacturer.equals(chip.manufacturer)) {
                     System.out.println("Both aare same");
                     return true;
                 }

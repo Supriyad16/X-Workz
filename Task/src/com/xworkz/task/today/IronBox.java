@@ -22,7 +22,7 @@ public class IronBox {
 
                 IronBox ironBox = this;
                 IronBox ironBox1 = (IronBox) obj;
-                if (ironBox1.brand.equals(ironBox1.brand) && ironBox1.power==ironBox1.power) {
+                if (ironBox1.brand.equals(ironBox.brand) && ironBox1.power==ironBox.power) {
                     System.out.println("Both aare same");
                     return true;
                 }

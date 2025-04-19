@@ -23,7 +23,7 @@ public class LANCable {
 
                 LANCable lanCable = this;
                 LANCable lanCable1 = (LANCable) obj;
-                if (lanCable1.type.equals(lanCable1.type) && lanCable1.length==lanCable1.length) {
+                if (lanCable1.type.equals(lanCable.type) && lanCable1.length==lanCable.length) {
                     System.out.println("Both aare same");
                     return true;
                 }

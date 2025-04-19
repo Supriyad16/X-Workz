@@ -22,7 +22,7 @@ public class Rod {
 
                 Rod rod = this;
                 Rod rod1 = (Rod) obj;
-                if (rod1.material==(rod1.material) && rod1.length==rod1.length) {
+                if (rod1.material==(rod.material) && rod1.length==rod.length) {
                     System.out.println("Both aare same");
                     return true;
                 }

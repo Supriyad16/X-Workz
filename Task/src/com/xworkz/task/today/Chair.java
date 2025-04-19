@@ -23,7 +23,7 @@ public class Chair {
 
                 Chair chair = this;
                 Chair chair1 = (Chair) obj;
-                if (chair1.material.equals(chair1.material) && chair1.color==chair1.color) {
+                if (chair1.material.equals(chair.material) && chair1.color==chair.color) {
                     System.out.println("Both aare same");
                     return true;
                 }

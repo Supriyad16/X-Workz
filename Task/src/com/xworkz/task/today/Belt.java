@@ -22,7 +22,7 @@ public class Belt {
 
                 Belt belt = this;
                 Belt belt1 = (Belt) obj;
-                if (belt1.type.equals(belt1.type) && belt1.brand==belt1.brand) {
+                if (belt1.type.equals(belt.type) && belt1.brand==belt.brand) {
                     System.out.println("Both aare same");
                     return true;
                 }

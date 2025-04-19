@@ -21,7 +21,7 @@ public class Necklace {
 
                 Necklace necklace = this;
                 Necklace necklace1 = (Necklace) obj;
-                if (necklace1.type.equals(necklace.type) && necklace1.weight==necklace1.weight) {
+                if (necklace1.type.equals(necklace.type) && necklace1.weight==necklace.weight) {
                     System.out.println("Both aare same");
                     return true;
                 }

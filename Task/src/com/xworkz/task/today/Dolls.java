@@ -22,7 +22,7 @@ public class Dolls {
 
                 Dolls dolls = this;
                 Dolls dolls1 = (Dolls) obj;
-                if (dolls1.type.equals(dolls1.type) && dolls1.material==dolls1.material) {
+                if (dolls1.type.equals(dolls.type) && dolls1.material==dolls.material) {
                     System.out.println("Both aare same");
                     return true;
                 }

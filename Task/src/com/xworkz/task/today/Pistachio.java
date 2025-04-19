@@ -22,7 +22,7 @@ public class Pistachio {
 
                 Pistachio pistachio = this;
                 Pistachio pistachio1 = (Pistachio) obj;
-                if (pistachio1.type==(pistachio1.type) && pistachio1.price==pistachio1.price) {
+                if (pistachio1.type.equals(pistachio.type) && pistachio1.price==pistachio.price) {
                     System.out.println("Both aare same");
                     return true;
                 }

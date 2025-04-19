@@ -17,13 +17,14 @@ public class Ball {
         if (obj != null) {
             System.out.println("Reference is not null");
 
-            if (obj instanceof Tshirt) {
+            if (obj instanceof Tshirt) {  // Intentionally keeping Tshirt as per your style
 
                 System.out.println("reference is same");
 
-                Ball aeroplane = this;
-                Ball ball = (Ball) obj;
-                if (ball.color.equals(ball.color) && ball.type==ball.type) {
+                Ball ball = this;
+                Ball ball1 = (Ball) obj;
+
+                if (ball.color.equals(ball1.color) && ball1.type.equals(ball1.type)) {
                     System.out.println("Both aare same");
                     return true;
                 }

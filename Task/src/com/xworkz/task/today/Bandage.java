@@ -23,7 +23,7 @@ public class Bandage {
 
                 Bandage bandage = this;
                 Bandage bandage1 = (Bandage) obj;
-                if (bandage1.size.equals(bandage1.size) && bandage1.material==bandage1.material) {
+                if (bandage1.size.equals(bandage.size) && bandage1.material.equals(bandage.material) ){
                     System.out.println("Both aare same");
                     return true;
                 }

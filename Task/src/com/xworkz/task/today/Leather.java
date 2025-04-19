@@ -22,7 +22,7 @@ public class Leather {
 
                 Leather leather = this;
                 Leather leather1 = (Leather) obj;
-                if (leather1.type.equals(leather.type) && leather1.brand==leather.brand) {
+                if (leather1.type.equals(leather.type) && leather1.brand.equals(leather.brand) ){
                     System.out.println("Both aare same");
                     return true;
                 }

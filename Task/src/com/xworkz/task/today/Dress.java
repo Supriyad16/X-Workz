@@ -23,7 +23,7 @@ public class Dress {
 
                 Dress dress = this;
                 Dress dress1 = (Dress) obj;
-                if (dress1.material.equals(dress1.material) && dress1.color==dress1.color) {
+                if (dress1.material.equals(dress.material) && dress1.color.equals(dress.color)) {
                     System.out.println("Both aare same");
                     return true;
                 }

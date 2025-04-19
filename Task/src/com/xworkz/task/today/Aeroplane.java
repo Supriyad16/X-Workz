@@ -23,7 +23,7 @@ public class Aeroplane {
 
                 Aeroplane aeroplane = this;
                 Aeroplane aeroplane1 = (Aeroplane) obj;
-                if (aeroplane1.model.equals(aeroplane1.model) && aeroplane1.capacity==aeroplane1.capacity) {
+                if (aeroplane1.model.equals(aeroplane.model) && aeroplane1.capacity==aeroplane.capacity) {
                     System.out.println("Both aare same");
                     return true;
                 }

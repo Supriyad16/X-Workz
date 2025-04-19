@@ -22,7 +22,7 @@ public class House {
 
                 House house = this;
                 House house1 = (House) obj;
-                if (house1.type.equals(house1.type) && house1.rooms==house1.rooms) {
+                if (house1.type.equals(house.type) && house1.rooms==house.rooms) {
                     System.out.println("Both aare same");
                     return true;
                 }

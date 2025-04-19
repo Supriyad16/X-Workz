@@ -22,7 +22,7 @@ public class Rayon {
 
                 Rayon rayon = this;
                 Rayon rayon1 = (Rayon) obj;
-                if (rayon1.type.equals(rayon1.type) && rayon1.isAvailable==rayon1.isAvailable) {
+                if (rayon1.type.equals(rayon.type) && rayon1.isAvailable==rayon.isAvailable) {
                     System.out.println("Both aare same");
                     return true;
                 }

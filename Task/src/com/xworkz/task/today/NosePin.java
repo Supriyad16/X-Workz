@@ -22,7 +22,7 @@ public class NosePin {
 
                 NosePin nosePin = this;
                 NosePin nosePin1 = (NosePin) obj;
-                if (nosePin1.material.equals(nosePin1.material) && nosePin1.shape==nosePin1.shape) {
+                if (nosePin1.material.equals(nosePin.material) && nosePin1.shape.equals(nosePin.shape)) {
                     System.out.println("Both aare same");
                     return true;
                 }

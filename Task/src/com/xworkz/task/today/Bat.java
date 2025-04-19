@@ -23,7 +23,7 @@ public class Bat {
 
                 Bat bat = this;
                 Bat bat1 = (Bat) obj;
-                if (bat.brand.equals(bat.brand) && bat.material==bat.material) {
+                if (bat.brand.equals(bat1.brand) && bat.material==bat1.material) {
                     System.out.println("Both aare same");
                     return true;
                 }

@@ -23,7 +23,7 @@ public class NailPolish {
 
                 NailPolish nailPolish = this;
                 NailPolish nailPolish1 = (NailPolish) obj;
-                if (nailPolish1.shade.equals(nailPolish1.shade) && nailPolish1.price==nailPolish1.price) {
+                if (nailPolish1.shade.equals(nailPolish.shade) && nailPolish1.price==nailPolish.price) {
                     System.out.println("Both aare same");
                     return true;
                 }

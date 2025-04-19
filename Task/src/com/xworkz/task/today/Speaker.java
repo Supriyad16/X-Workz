@@ -23,7 +23,7 @@ public class Speaker {
 
                 Speaker speaker = this;
                 Speaker speaker1 = (Speaker) obj;
-                if (speaker1.brand.equals(speaker1.brand) && speaker1.power==speaker1.power) {
+                if (speaker1.brand.equals(speaker.brand) && speaker1.power==speaker.power) {
                     System.out.println("Both aare same");
                     return true;
                 }

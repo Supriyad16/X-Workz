@@ -22,7 +22,7 @@ public class Tree {
 
                 Tree tree = this;
                 Tree tree1 = (Tree) obj;
-                if (tree1.type.equals(tree1.type) && tree1.brand==tree1.brand) {
+                if (tree1.type.equals(tree.type) && tree1.brand==tree.brand) {
                     System.out.println("Both aare same");
                     return true;
                 }

@@ -22,7 +22,7 @@ public class Coffee {
 
                 Coffee coffee = this;
                 Coffee coffee1 = (Coffee) obj;
-                if (coffee1.type.equals(coffee1.type) && coffee1.sugarLevel==coffee1.sugarLevel) {
+                if (coffee1.type.equals(coffee.type) && coffee1.sugarLevel==coffee.sugarLevel) {
                     System.out.println("Both aare same");
                     return true;
                 }

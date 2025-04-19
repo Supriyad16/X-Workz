@@ -22,7 +22,7 @@ public class Ground {
 
                 Ground ground = this;
                 Ground ground1 = (Ground) obj;
-                if (ground1.name.equals(ground1.name) && ground1.area==ground1.area) {
+                if (ground1.name.equals(ground.name) && ground1.area==ground.area) {
                     System.out.println("Both aare same");
                     return true;
                 }

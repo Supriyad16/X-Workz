@@ -21,7 +21,7 @@ public class Sweets {
 
                 Sweets sweets = this;
                 Sweets sweets1 = (Sweets) obj;
-                if (sweets1.name.equals(sweets1.name) && sweets1.weight==sweets1.weight) {
+                if (sweets1.name.equals(sweets.name) && sweets1.weight==sweets.weight) {
                     System.out.println("Both aare same");
                     return true;
                 }

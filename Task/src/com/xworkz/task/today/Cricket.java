@@ -23,7 +23,7 @@ public class Cricket {
 
                 Cricket cricket = this;
                 Cricket cricket1 = (Cricket) obj;
-                if (cricket1.matchType.equals(cricket1.matchType) && cricket1.players==cricket1.players) {
+                if (cricket1.matchType.equals(cricket.matchType) && cricket1.players==cricket.players) {
                     System.out.println("Both aare same");
                     return true;
                 }

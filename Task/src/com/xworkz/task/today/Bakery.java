@@ -23,7 +23,7 @@ public class Bakery {
 
                 Bakery bakery = this;
                 Bakery bakery1 = (Bakery) obj;
-                if (bakery.name.equals(bakery1.name) && bakery1.location==bakery1.location) {
+                if (bakery.name.equals(bakery1.name) && bakery1.location.equals(bakery1.location)) {
                     System.out.println("Both aare same");
                     return true;
                 }

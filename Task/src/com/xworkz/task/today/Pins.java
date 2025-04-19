@@ -22,7 +22,7 @@ public class Pins {
 
                 Pins pins = this;
                 Pins pins1 = (Pins) obj;
-                if (pins1.type.equals(pins1.type) && pins1.brand==pins1.brand) {
+                if (pins1.type.equals(pins.type) && pins1.brand==pins.brand) {
                     System.out.println("Both aare same");
                     return true;
                 }

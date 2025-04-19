@@ -22,7 +22,7 @@ public class Trunk {
 
                 Trunk trunk = this;
                 Trunk trunk1 = (Trunk) obj;
-                if (trunk1.type.equals(trunk1.type) && trunk1.brand==trunk1.brand) {
+                if (trunk1.type.equals(trunk.type) && trunk1.brand==trunk.brand) {
                     System.out.println("Both aare same");
                     return true;
                 }

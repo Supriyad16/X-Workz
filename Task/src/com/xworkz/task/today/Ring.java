@@ -21,7 +21,7 @@ public class Ring {
 
                 Ring ring = this;
                 Ring ring1 = (Ring) obj;
-                if (ring1.metal.equals(ring1.metal) && ring1.size==ring1.size) {
+                if (ring1.metal.equals(ring.metal) && ring1.size==ring.size) {
                     System.out.println("Both aare same");
                     return true;
                 }

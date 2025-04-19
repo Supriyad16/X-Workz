@@ -22,7 +22,7 @@ public class Bottle {
 
                 Bottle bottle = this;
                 Bottle bottle1 = (Bottle) obj;
-                if (bottle1.capacity==(bottle1.capacity) && bottle1.brand==bottle1.brand) {
+                if (bottle1.capacity==(bottle.capacity) && bottle1.brand==bottle.brand) {
                     System.out.println("Both aare same");
                     return true;
                 }

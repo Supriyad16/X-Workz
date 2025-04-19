@@ -21,7 +21,7 @@ public class Silver {
 
                 Silver silver= this;
                 Silver silver1= (Silver) obj;
-                if (silver1.purity==(silver1.purity) && silver1.weight==silver1.weight) {
+                if (silver1.purity==(silver.purity) && silver1.weight==silver.weight) {
                     System.out.println("Both aare same");
                     return true;
                 }

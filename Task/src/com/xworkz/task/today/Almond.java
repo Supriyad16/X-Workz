@@ -22,7 +22,7 @@ public class Almond {
 
                 Almond almond = this;
                 Almond almond1 = (Almond) obj;
-                if (almond1.origin.equals(almond1.origin) && almond1.weight==almond1.weight) {
+                if (almond1.origin.equals(almond.origin) && almond1.weight==almond.weight) {
                     System.out.println("Both aare same");
                     return true;
                 }

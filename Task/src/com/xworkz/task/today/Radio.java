@@ -23,7 +23,7 @@ public class Radio {
 
                 Radio radio = this;
                 Radio radio1 = (Radio) obj;
-                if (radio1.brand.equals(radio1.brand) && radio1.isDigital==radio1.isDigital) {
+                if (radio1.brand.equals(radio.brand) && radio1.isDigital==radio.isDigital) {
                     System.out.println("Both aare same");
                     return true;
                 }

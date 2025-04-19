@@ -22,7 +22,7 @@ public class Sheet {
 
                 Sheet sheet = this;
                 Sheet sheet1 = (Sheet) obj;
-                if (sheet1.material.equals(sheet1.material) && sheet1.size==sheet1.size) {
+                if (sheet1.material.equals(sheet.material) && sheet1.size==sheet.size) {
                     System.out.println("Both aare same");
                     return true;
                 }

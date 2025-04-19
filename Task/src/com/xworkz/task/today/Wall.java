@@ -22,7 +22,7 @@ public class Wall {
 
                 Wall wall = this;
                 Wall wall1 = (Wall) obj;
-                if (wall1.material==(wall1.material) && wall1.height==wall1.height) {
+                if (wall1.material.equals(wall.material) && wall1.height==wall.height) {
                     System.out.println("Both aare same");
                     return true;
                 }

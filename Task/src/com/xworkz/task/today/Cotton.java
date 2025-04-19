@@ -23,7 +23,7 @@ public class Cotton {
 
                 Cotton cotton = this;
                 Cotton cotton1 = (Cotton) obj;
-                if (cotton1.quality.equals(cotton1.quality) && cotton1.weight==cotton1.weight) {
+                if (cotton1.quality.equals(cotton.quality) && cotton1.weight==cotton.weight) {
                     System.out.println("Both aare same");
                     return true;
                 }

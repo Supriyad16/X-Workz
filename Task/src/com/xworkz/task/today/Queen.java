@@ -21,7 +21,7 @@ public class Queen {
 
                 Queen queen = this;
                 Queen queen1 = (Queen) obj;
-                if (queen1.name.equals(queen1.name) && queen1.isReigning==queen1.isReigning) {
+                if (queen1.name.equals(queen.name) && queen1.isReigning==queen.isReigning) {
                     System.out.println("Both aare same");
                     return true;
                 }

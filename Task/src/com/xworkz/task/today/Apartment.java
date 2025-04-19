@@ -22,7 +22,7 @@ public class Apartment {
 
                 Apartment apartment = this;
                 Apartment apartment1 = (Apartment) obj;
-                if (apartment1.floors==(apartment1.floors) && apartment1.name==apartment1.name) {
+                if (apartment1.floors==(apartment.floors) && apartment1.name.equals(apartment1.name)) {
                     System.out.println("Both aare same");
                     return true;
                 }

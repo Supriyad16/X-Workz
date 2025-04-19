@@ -22,7 +22,7 @@ public class Headphone {
 
                 Headphone headphone = this;
                 Headphone headphone1 = (Headphone) obj;
-                if (headphone1.type.equals(headphone1.type) && headphone1.brand==headphone1.brand) {
+                if (headphone1.type.equals(headphone.type) && headphone1.brand==headphone.brand) {
                     System.out.println("Both aare same");
                     return true;
                 }

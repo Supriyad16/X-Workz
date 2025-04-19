@@ -22,7 +22,7 @@ public class Plastic {
 
                 Plastic plastic = this;
                 Plastic plastic1 = (Plastic) obj;
-                if (plastic1.type.equals(plastic1.type) && plastic1.color==plastic1.color) {
+                if (plastic1.type.equals(plastic.type) && plastic1.color==plastic.color) {
                     System.out.println("Both aare same");
                     return true;
                 }

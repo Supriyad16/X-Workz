@@ -21,7 +21,7 @@ public class Synthetic {
 
                 Synthetic synthetic = this;
                 Synthetic synthetic1 = (Synthetic) obj;
-                if (synthetic1.type.equals(synthetic1.type) && synthetic1.brand==synthetic1.brand) {
+                if (synthetic1.type.equals(synthetic.type) && synthetic1.brand==synthetic.brand) {
                     System.out.println("Both aare same");
                     return true;
                 }

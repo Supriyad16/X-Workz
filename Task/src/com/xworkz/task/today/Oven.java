@@ -21,7 +21,7 @@ public class Oven {
 
                 Oven oven = this;
                 Oven oven1 = (Oven) obj;
-                if (oven1.brand.equals(oven.brand) && oven1.capacity==oven1.capacity) {
+                if (oven1.brand.equals(oven.brand) && oven1.capacity==oven.capacity) {
                     System.out.println("Both aare same");
                     return true;
                 }

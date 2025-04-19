@@ -22,7 +22,7 @@ public class Brush {
 
                 Brush brush = this;
                 Brush brush1 = (Brush) obj;
-                if (brush1.type.equals(brush1.type) && brush1.colour==brush1.colour) {
+                if (brush1.type.equals(brush.type) && brush1.colour.equals(brush.colour) ){
                     System.out.println("Both aare same");
                     return true;
                 }

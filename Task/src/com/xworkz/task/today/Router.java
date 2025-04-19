@@ -21,7 +21,7 @@ public class Router {
 
                 Router router = this;
                 Router router1 = (Router) obj;
-                if (router1.type.equals(router1.type) && router1.brand.equals(router1.brand)) {
+                if (router1.type.equals(router.type) && router1.brand.equals(router.brand)) {
                     System.out.println("Both aare same");
                     return true;
                 }

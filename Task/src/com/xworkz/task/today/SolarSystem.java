@@ -23,7 +23,7 @@ public class SolarSystem {
 
                 SolarSystem solarSystem = this;
                 SolarSystem solarSystem1 = (SolarSystem) obj;
-                if (solarSystem1.starName.equals(solarSystem1.starName) && solarSystem1.numberOfPlanets==solarSystem1.numberOfPlanets) {
+                if (solarSystem1.starName.equals(solarSystem.starName) && solarSystem1.numberOfPlanets==solarSystem.numberOfPlanets) {
                     System.out.println("Both aare same");
                     return true;
                 }

@@ -23,7 +23,7 @@ public class Clip {
 
                 Clip clip = this;
                 Clip clip1 = (Clip) obj;
-                if (clip1.type.equals(clip1.type) && clip1.color==clip1.color) {
+                if (clip1.type.equals(clip.type) && clip1.color.equals(clip.color) ){
                     System.out.println("Both aare same");
                     return true;
                 }

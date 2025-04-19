@@ -23,7 +23,7 @@ public class BusStand {
 
                 BusStand busStand = this;
                 BusStand busStand1 = (BusStand) obj;
-                if (busStand1.name.equals(busStand1.name) && busStand1.platforms==busStand1.platforms) {
+                if (busStand1.name.equals(busStand.name) && busStand1.platforms==busStand.platforms) {
                     System.out.println("Both aare same");
                     return true;
                 }

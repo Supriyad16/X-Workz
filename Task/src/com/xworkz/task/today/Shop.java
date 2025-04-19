@@ -23,7 +23,7 @@ public class Shop {
 
                 Shop shop = this;
                 Shop shop1 = (Shop) obj;
-                if (shop1.name==(shop1.name) && shop1.type==shop1.type) {
+                if (shop1.name.equals(shop.name) && shop1.type.equals(shop1.type) ){
                     System.out.println("Both aare same");
                     return true;
                 }

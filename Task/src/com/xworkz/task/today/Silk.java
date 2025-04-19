@@ -21,7 +21,7 @@ public class Silk {
 
                 Silk silk = this;
                 Silk silk1 = (Silk) obj;
-                if (silk1.type.equals(silk1.type) && silk1.brand==silk1.brand) {
+                if (silk1.type.equals(silk.type) && silk1.brand==silk.brand) {
                     System.out.println("Both aare same");
                     return true;
                 }

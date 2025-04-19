@@ -22,7 +22,7 @@ public class Bluetooth {
 
                 Bluetooth bluetooth = this;
                 Bluetooth bluetooth1 = (Bluetooth) obj;
-                if (bluetooth1.type.equals(bluetooth1.type) && bluetooth1.brand==bluetooth1.brand) {
+                if (bluetooth1.type.equals(bluetooth.type) && bluetooth1.brand==bluetooth.brand) {
                     System.out.println("Both aare same");
                     return true;
                 }

@@ -23,7 +23,7 @@ public class Gloves {
 
                 Gloves gloves = this;
                 Gloves gloves1 = (Gloves) obj;
-                if (gloves1.material.equals(gloves1.material) && gloves1.material==gloves1.material) {
+                if (gloves1.material.equals(gloves.material) && gloves1.size.equals(gloves.size) ){
                     System.out.println("Both aare same");
                     return true;
                 }

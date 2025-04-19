@@ -23,7 +23,7 @@ public class Shoe {
 
                 Shoe shoe = this;
                 Shoe shoe1 = (Shoe) obj;
-                if (shoe1.brand.equals(shoe1.brand) && shoe1.size==shoe1.size) {
+                if (shoe1.brand.equals(shoe.brand) && shoe1.size==shoe.size) {
                     System.out.println("Both aare same");
                     return true;
                 }

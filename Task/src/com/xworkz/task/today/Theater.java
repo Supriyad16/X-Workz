@@ -23,7 +23,7 @@ public class Theater {
 
                 Theater theater = this;
                 Theater theater1 = (Theater) obj;
-                if (theater1.name.equals(theater1.name) && theater1.capacity==theater1.capacity) {
+                if (theater1.name.equals(theater.name) && theater1.capacity==theater.capacity) {
                     System.out.println("Both aare same");
                     return true;
                 }

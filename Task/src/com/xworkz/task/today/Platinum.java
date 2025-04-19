@@ -21,7 +21,7 @@ public class Platinum {
 
                 Platinum platinum = this;
                 Platinum platinum1 = (Platinum) obj;
-                if (platinum1.purity==(platinum1.purity) && platinum1.weight==platinum1.weight) {
+                if (platinum1.purity==(platinum.purity) && platinum1.weight==platinum.weight) {
                     System.out.println("Both aare same");
                     return true;
                 }

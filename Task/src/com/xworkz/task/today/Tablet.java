@@ -25,7 +25,7 @@ public class Tablet {
 
                 Tablet tablet = this;
                 Tablet tablet1 = (Tablet) obj;
-                if (tablet1.name.equals(tablet1.name) && tablet1.dosage==tablet1.dosage) {
+                if (tablet1.name.equals(tablet.name) && tablet1.dosage==tablet.dosage) {
                     System.out.println("Both aare same");
                     return true;
                 }
