@@ -5,18 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="733cc5a1-81ed-4e5b-9787-21cf3fef8f4f" name="Changes" comment="Classes with instance variables as Datatype">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thursday.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xworkz/Thursday/TicketType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Thursday/Clip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Thursday/Clip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Thursday/Cricket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Thursday/Cricket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Thursday/Pushpa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Thursday/Pushpa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Thursday/Runnermain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Thursday/Runnermain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xworkz/Thursday/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/Thursday/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Preparation/src/com/xworkz/preparation/Hostel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Preparation/src/com/xworkz/preparation/Pg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task/src/com/xworkz/task/today/Adopter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task/src/com/xworkz/task/today/Adopter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rules/src/com/xworkz/rules/CopperWire.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rules/src/com/xworkz/rules/Cover.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rules/src/com/xworkz/rules/CowboyHat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rules/src/com/xworkz/rules/Crate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rules/src/com/xworkz/rules/CurtainRod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rules/src/com/xworkz/rules/Cut.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rules/src/com/xworkz/rules/Cylinder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rules/src/com/xworkz/rules/DeskLamp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rules/src/com/xworkz/rules/DiningTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rules/src/com/xworkz/rules/DinnerFork.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rules/src/com/xworkz/rules/DinnerPlate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rules/src/com/xworkz/rules/Doll.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,12 +29,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -44,21 +48,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Runnermain.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Java_Internship/Thursday&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Ecapsulation.executor": "Run",
+    "Application.Inter2.executor": "Run",
+    "Application.Mock.executor": "Run",
+    "Application.Runnermain.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/Java_Internship/X-Work/Thursday"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;module&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "module"
     ]
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="Application.Inter2">
+    <configuration name="Ecapsulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xworkz.Thursday.Ecapsulation" />
+      <module name="Thursday" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xworkz.Thursday.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Inter2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xworkz.Thursday.Inter2" />
+      <module name="Thursday" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xworkz.Thursday.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Runnermain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xworkz.Thursday.Runnermain" />
       <module name="Thursday" />
@@ -74,6 +107,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Inter2" />
+        <item itemvalue="Application.Ecapsulation" />
         <item itemvalue="Application.Runnermain" />
       </list>
     </recent_temporary>

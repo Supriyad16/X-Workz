@@ -22,7 +22,7 @@ public class Adopter {
 
                 Adopter adopter=this;
                 Adopter adopter1 = (Adopter) obj;
-                if (adopter1.inputType.equals(adopter.inputType) && adopter1.outputType==adopter.outputType) {
+                if (adopter1.inputType.equals(adopter.inputType) && adopter1.outputType.equals(adopter.outputType) ){
                     System.out.println("Both aare same");
                     return true;
                 }
