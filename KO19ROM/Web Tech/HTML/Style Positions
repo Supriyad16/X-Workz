@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Assignment</title>
+
+    <style>
+
+      .relative {
+        position: relative;
+      }
+
+      .Relative {
+        position: relative;
+        top: 50%;
+      }
+
+      .virat {
+        color: white;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+      .patidar {
+        color: white;
+        position: absolute;
+        left: 0;
+        margin-left: 400px;
+      }
+
+      .salt {
+        color: white;
+        position: absolute;
+        bottom: 5px;
+        left: 0;
+        margin-right: 100px;
+      }
+
+      .living {
+        color: white;
+        position: absolute;
+        bottom: 5px;
+        margin-left: -80px;
+      }
+
+      .swasthik {
+        color: white;
+        position: absolute;
+        top: 0;
+        left: 220px;
+      }
+
+      .kumar {
+        color: white;
+        position: absolute;
+        bottom: 5px;
+        left: 220px;
+        margin-top: 100px;
+      }
+
+      .kyle {
+        color: white;
+        position: absolute;
+        bottom: 150px;
+        margin-left: -40px;
+      }
+
+      .padikkal {
+        color: white;
+        position: absolute;
+        bottom: 150px;
+        left: 0;
+        margin-right: 100px;
+      }
+
+      .jitesh {
+        color: white;
+        position: absolute;
+        bottom: 80px;
+        left: 0;
+        margin-right: 100px;
+      }
+
+      .tushara {
+        color: white;
+        position: absolute;
+        bottom: 220px;
+        left: 0;
+        margin-right: 100px;
+      }
+
+      .ngidi {
+        color: white;
+        position: absolute;
+        bottom: 220px;
+        margin-left: -40px;
+      }
+
+      .lockie {
+        color: white;
+        position: absolute;
+        bottom: 80px;
+        margin-left: -45px;
+      }
+
+      .mohith {
+        color: white;
+        position: absolute;
+        bottom: 150px;
+        left: 0;
+        margin-left: 230px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="fixed">CSS POSITION</div>
+
+    <div class="relative">RELATIVE</div>
+    <br />
+    <div class="Relative">
+      <img src="rcb2.jpg" width="500px" >
+      <span class="virat"> Swasthik </span>
+      <span class="patidar"> Rajath Patidar </span>
+      <span class="salt"> Phil Salt </span>
+      <span class="living"> LivingStone </span>
+      <span class="swasthik"> Virat Kohli </span>
+      <span class="kumar"> Bhuvaneshwar </span>
+      <span class="kyle"> Kyle </span>
+      <span class="padikkal"> Padikkal </span>
+      <span class="jitesh"> Jitesh </span>
+      <span class="tushara"> Tushara </span>
+      <span class="ngidi"> Ngidi </span>
+      <span class="lockie"> Lockie </span>
+      <span class="mohith"> Mohith </span>
+    </div>
+
+
+    <!--to make image transparent use opacity
+    
+    img{
+    opacity:0;
+    }
+    -->
+  </body>
+</html>

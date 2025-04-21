@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assign1</title>
+  </head>
+
+  <body>
+    <h1>Welcome to Assignment</h1>
+    <h1 class="welcome" id="idselector">CSS-Cascading Styling Sheet</h1>
+    <p>This is a simple web page to demonstrate basic HTML and CSS features.</p>
+    <h4>AfterNoon Class</h4>
+  </body>
+
+  <article>
+    <p>Dogs</p>
+        <details>
+          Dogs are in many breeds. Live upto 10-12 years. The dog is a
+          domesticated descendant of the gray wolf. Also called the domestic
+          dog, it was selectively bred from an extinct population
+        </details>
+    <img
+    src="puppy.jpeg"
+    height="100vh"
+    width="150vh"/>
+    <summary>Dogs are called as Loyal Animals</summary>
+  </article>
+  <br>
+  <br>
+
+
+  <table border="1">
+    <tr>
+      <th>SlNo</th>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Branch</th>
+    </tr>
+
+    <tr>
+      <td>1</td>
+      <td>Ram</td>
+      <td>20</td>
+      <td>CSE</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Sita</td>
+      <td>22</td>
+      <td>ECE</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Banu</td>
+      <td>21</td>
+      <td>AIML</td>
+    </tr>
+  </table>
+
+  <br>
+  <br>
+  <br>
+
+  <iframe
+      width="200"
+      height="200"
+      src="https://www.youtube.com/embed/tC5eMgePakk?si=xyQrnGI6epw8AgGg"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen>
+    </iframe>
+
+  <section>
+    <br>
+    <br>
+
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" required><br>
+    
+        <label for="age">Age:</label>
+        <input type="number" id="age" min="18" max="60" required><br>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" required><br>
+    
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="" >Select</option> 
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br>
+    
+        <label>Courses:</label><br>
+        
+        <input type="checkbox" id="course1" name="courses" value="Java">
+        <label for="course1">Java</label><br>
+        
+    
+        <input type="checkbox" id="course2" name="courses" value="Python">
+        <label for="course2">Python</label><br>
+    
+        <input type="checkbox" id="course3" name="courses" value="Data Science">
+        <label for="course3">Data Science</label><br>
+    
+        <input type="checkbox" id="course4" name="courses" value="Web Development">
+        <label for="course4">Web Development</label><br>
+    
+        <label>Branch:</label><br>
+        <input type="radio" id="ise" name="branch" value="ISE" required>
+        <label for="ise">ISE</label><br>
+    
+        <input type="radio" id="cse" name="branch" value="CSE" required>
+        <label for="cse">CSE</label><br>
+    
+        <input type="radio" id="ece" name="branch" value="ECE" required>
+        <label for="ece">ECE</label><br>
+    
+        <input type="radio" id="eee" name="branch" value="EEE" required>
+        <label for="eee">EEE</label><br>
+    
+        <input type="submit" value="Submit">
+    </form>
+
+  </section>
+
+
+  <style>
+    #idselector {
+    }
+
+    h1 {
+      color: gold;
+      text-transform: uppercase;
+    }
+
+    .welcome{
+        color:purple;
+      text-decoration: underline;
+    }
+
+    p {
+      color: green;
+    }
+
+    body {
+      background: beige;
+    }
+
+    table {
+      color: pink;
+    }
+
+    article {
+      color: turquoise;
+    }
+
+    h4{
+        color: red;
+    }
+
+    
+  </style>
+</html>
